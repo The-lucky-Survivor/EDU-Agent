@@ -1,0 +1,16 @@
+{
+  "multi_agent": {
+    "name": "Multi-Agent Systems",
+    "icon": "🤖",
+    "db_dir": "C:\\Newfolder\\python\\Agent\\edu-agent\\vector_db",
+    "pdfs_dir": "C:\\Newfolder\\python\\Agent\\edu-agent\\data\\raw_pdfs",
+    "use_legacy_path": true
+  },
+  "computer_fundamental": {
+    "name": "Computer Fundamental",
+    "icon": "💻",
+    "db_dir": "C:\\Newfolder\\python\\Agent\\edu-agent\\subjects\\computer_fundamental\\vector_db",
+    "pdfs_dir": "C:\\Newfolder\\python\\Agent\\edu-agent\\subjects\\computer_fundamental\\pdfs",
+    "use_legacy_path": false
+  }
+}

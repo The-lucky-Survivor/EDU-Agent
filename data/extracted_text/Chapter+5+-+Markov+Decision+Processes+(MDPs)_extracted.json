@@ -1,0 +1,339 @@
+[
+  {
+    "text": "Multi-Agents \n \nChapter 5 \nMarkov Decision Processes \n(MDPs) \nDr. Fatma M. Talaat",
+    "page_number": 1,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Multi-Agents \n \nChapter 5 \nMarkov Decision Processes \n(MDPs) \nDr. Fatma M. Talaat\n\nContents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 1,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "1-2"
+  },
+  {
+    "text": "Contents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 2,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments\n\nExample: Grid World \n▪\nA maze-like problem \n▪\nThe agent lives in a grid \n▪\nWalls block the agent’s path \n \n▪\nNoisy movement: actions do not always go as planned \n▪\n80% of the time, the action North takes the agent North \n▪\n10% of the time, North takes the agent West; 10% East \n▪\nIf there is a wall in the direction the agent would have \nbeen taken, the agent stays put \n \n▪\nThe agent receives rewards each time step \n▪\nSmall “living” reward each step (can be negative) \n▪\nBig rewards come at the end (good or bad) \n \n▪\nGoal: maximize sum of (discounted) rewards",
+    "page_number": 2,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-4"
+  },
+  {
+    "text": "Example: Grid World \n▪\nA maze-like problem \n▪\nThe agent lives in a grid \n▪\nWalls block the agent’s path \n \n▪\nNoisy movement: actions do not always go as planned \n▪\n80% of the time, the action North takes the agent North \n▪\n10% of the time, North takes the agent West; 10% East \n▪\nIf there is a wall in the direction the agent would have \nbeen taken, the agent stays put \n \n▪\nThe agent receives rewards each time step \n▪\nSmall “living” reward each step (can be negative) \n▪\nBig rewards come at the end (good or bad) \n \n▪\nGoal: maximize sum of (discounted) rewards",
+    "page_number": 4,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example: Grid World \n▪\nA maze-like problem \n▪\nThe agent lives in a grid \n▪\nWalls block the agent’s path \n \n▪\nNoisy movement: actions do not always go as planned \n▪\n80% of the time, the action North takes the agent North \n▪\n10% of the time, North takes the agent West; 10% East \n▪\nIf there is a wall in the direction the agent would have \nbeen taken, the agent stays put \n \n▪\nThe agent receives rewards each time step \n▪\nSmall “living” reward each step (can be negative) \n▪\nBig rewards come at the end (good or bad) \n \n▪\nGoal: maximize sum of (discounted) rewards\n\nRecap: MDPs \n▪Markov decision processes: \n▪States S \n▪Actions A \n▪Transitions P(s’|s,a) (or T(s,a,s’)) \n▪Rewards R(s,a,s’) (and discount γ) \n▪Start state s0 \n \n \n▪Quantities: \n▪Policy = map of states to actions \n▪Utility = sum of discounted rewards",
+    "page_number": 4,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "4-5"
+  },
+  {
+    "text": "Recap: MDPs \n▪Markov decision processes: \n▪States S \n▪Actions A \n▪Transitions P(s’|s,a) (or T(s,a,s’)) \n▪Rewards R(s,a,s’) (and discount γ) \n▪Start state s0 \n \n \n▪Quantities: \n▪Policy = map of states to actions \n▪Utility = sum of discounted rewards",
+    "page_number": 5,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Recap: MDPs \n▪Markov decision processes: \n▪States S \n▪Actions A \n▪Transitions P(s’|s,a) (or T(s,a,s’)) \n▪Rewards R(s,a,s’) (and discount γ) \n▪Start state s0 \n \n \n▪Quantities: \n▪Policy = map of states to actions \n▪Utility = sum of discounted rewards\n\nOptimal Quantities \n \n▪The value (utility) of a state s: \nV*(s) = expected utility starting in s and acting \noptimally \n \n▪The value (utility) of a q-state (s,a): \nQ*(s,a) = expected utility starting out having \ntaken action a from state s and (thereafter) \nacting optimally \n \n▪The optimal policy: \nπ*(s) = optimal action from state s \na \ns \ns’\n \ns, a \n(s,a,s’) is a \ntransition \ns,a,s’ \ns is a \nstate \n(s, a) is a \nq-state \n \nV* (Voptimal)\n :\n هً أكثرvalue\n \n نهـreward\n \n نى اتحركت فً أفضمpolicy\n \n مهstate\n معٍىح \nV\n :\n فٍها انـstate\n \n تس فكمstate\n \n فٍها قٍمح واحدج نهـV",
+    "page_number": 5,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "5-6"
+  },
+  {
+    "text": "Optimal Quantities \n \n▪The value (utility) of a state s: \nV*(s) = expected utility starting in s and acting \noptimally \n \n▪The value (utility) of a q-state (s,a): \nQ*(s,a) = expected utility starting out having \ntaken action a from state s and (thereafter) \nacting optimally \n \n▪The optimal policy: \nπ*(s) = optimal action from state s \na \ns \ns’\n \ns, a \n(s,a,s’) is a \ntransition \ns,a,s’ \ns is a \nstate \n(s, a) is a \nq-state \n \nV* (Voptimal)\n :\n هً أكثرvalue\n \n نهـreward\n \n نى اتحركت فً أفضمpolicy\n \n مهstate\n معٍىح \nV\n :\n فٍها انـstate\n \n تس فكمstate\n \n فٍها قٍمح واحدج نهـV",
+    "page_number": 6,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Optimal Quantities \n \n▪The value (utility) of a state s: \nV*(s) = expected utility starting in s and acting \noptimally \n \n▪The value (utility) of a q-state (s,a): \nQ*(s,a) = expected utility starting out having \ntaken action a from state s and (thereafter) \nacting optimally \n \n▪The optimal policy: \nπ*(s) = optimal action from state s \na \ns \ns’\n \ns, a \n(s,a,s’) is a \ntransition \ns,a,s’ \ns is a \nstate \n(s, a) is a \nq-state \n \nV* (Voptimal)\n :\n هً أكثرvalue\n \n نهـreward\n \n نى اتحركت فً أفضمpolicy\n \n مهstate\n معٍىح \nV\n :\n فٍها انـstate\n \n تس فكمstate\n \n فٍها قٍمح واحدج نهـV\n\nGridworld Values V* \n \nV* (Voptimal)\n :\n هً أكثرvalue\n \n نهـreward\n \n نى اتحركت فً أفضمpolicy\n \n مهstate\n معٍىح \nV\n :\n فيها الـstate\n \n بس فكلstate\n \n فيها قيمة واحدة للـV",
+    "page_number": 6,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "6-7"
+  },
+  {
+    "text": "Gridworld Values V* \n \nV* (Voptimal)\n :\n هً أكثرvalue\n \n نهـreward\n \n نى اتحركت فً أفضمpolicy\n \n مهstate\n معٍىح \nV\n :\n فيها الـstate\n \n بس فكلstate\n \n فيها قيمة واحدة للـV",
+    "page_number": 7,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Gridworld Values V* \n \nV* (Voptimal)\n :\n هً أكثرvalue\n \n نهـreward\n \n نى اتحركت فً أفضمpolicy\n \n مهstate\n معٍىح \nV\n :\n فيها الـstate\n \n بس فكلstate\n \n فيها قيمة واحدة للـV\n\nGridworld: Q* \nQ(state, action)\n :\n كمQ\n \n نٍها أرتع قٍم عهى حسة انـ4 actions\n \n انهً ممكه ٌحصهىا مه انـstate\n دي \n وقدر وقىل انV* = Max(Q*) \n \n عالقح انـV\n تال: Q\n \n انـV\n ًفstate\n \n معٍىح هً أكثر قٍمحQ\n \n فً انـstate\n دي",
+    "page_number": 7,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "7-8"
+  },
+  {
+    "text": "Gridworld: Q* \nQ(state, action)\n :\n كمQ\n \n نٍها أرتع قٍم عهى حسة انـ4 actions\n \n انهً ممكه ٌحصهىا مه انـstate\n دي \n وقدر وقىل انV* = Max(Q*) \n \n عالقح انـV\n تال: Q\n \n انـV\n ًفstate\n \n معٍىح هً أكثر قٍمحQ\n \n فً انـstate\n دي",
+    "page_number": 8,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Gridworld: Q* \nQ(state, action)\n :\n كمQ\n \n نٍها أرتع قٍم عهى حسة انـ4 actions\n \n انهً ممكه ٌحصهىا مه انـstate\n دي \n وقدر وقىل انV* = Max(Q*) \n \n عالقح انـV\n تال: Q\n \n انـV\n ًفstate\n \n معٍىح هً أكثر قٍمحQ\n \n فً انـstate\n دي\n\nSolving MDPs \n ازاي أحم(\n ازاي أوصم نهـpolicy\n (\n باستخدام طريقة الـvalue iteration\n \n باستخدام3\n \n معادالت)\nBellman equations\n(",
+    "page_number": 8,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "8-9"
+  },
+  {
+    "text": "Solving MDPs \n ازاي أحم(\n ازاي أوصم نهـpolicy\n (\n باستخدام طريقة الـvalue iteration\n \n باستخدام3\n \n معادالت)\nBellman equations\n(",
+    "page_number": 9,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Solving MDPs \n ازاي أحم(\n ازاي أوصم نهـpolicy\n (\n باستخدام طريقة الـvalue iteration\n \n باستخدام3\n \n معادالت)\nBellman equations\n(\n\nThe Bellman Equations \nHow to be optimal: \n \n Step 1: Take correct first action \n \n Step 2: Keep being optimal",
+    "page_number": 9,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "9-10"
+  },
+  {
+    "text": "The Bellman Equations \nHow to be optimal: \n \n Step 1: Take correct first action \n \n Step 2: Keep being optimal",
+    "page_number": 10,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "The Bellman Equations \nHow to be optimal: \n \n Step 1: Take correct first action \n \n Step 2: Keep being optimal\n\nThe Bellman Equations \n▪Definition of “optimal utility” via expect imax recurrence gives a \nsimple one-step look ahead relationship amongst optimal utility \nvalues \n \n \n \n \n \n \n▪These are the Bellman equations, and they characterize optimal \nvalues in a way we’ll use over and over \n \n \n \na \ns \ns, a \ns,a,s’ \ns’\n \nT: probability \nT(s,a,s’(\n \n :\n لو أنا عندstate s\n \n وأخدت أكشنa \n ايه الـprobability\n \n اني أوصل للـstate s’",
+    "page_number": 10,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "10-11"
+  },
+  {
+    "text": "The Bellman Equations \n▪Definition of “optimal utility” via expect imax recurrence gives a \nsimple one-step look ahead relationship amongst optimal utility \nvalues \n \n \n \n \n \n \n▪These are the Bellman equations, and they characterize optimal \nvalues in a way we’ll use over and over \n \n \n \na \ns \ns, a \ns,a,s’ \ns’\n \nT: probability \nT(s,a,s’(\n \n :\n لو أنا عندstate s\n \n وأخدت أكشنa \n ايه الـprobability\n \n اني أوصل للـstate s’",
+    "page_number": 11,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "The Bellman Equations \n▪Definition of “optimal utility” via expect imax recurrence gives a \nsimple one-step look ahead relationship amongst optimal utility \nvalues \n \n \n \n \n \n \n▪These are the Bellman equations, and they characterize optimal \nvalues in a way we’ll use over and over \n \n \n \na \ns \ns, a \ns,a,s’ \ns’\n \nT: probability \nT(s,a,s’(\n \n :\n لو أنا عندstate s\n \n وأخدت أكشنa \n ايه الـprobability\n \n اني أوصل للـstate s’\n\nValue Iteration \n▪Bellman equations characterize the optimal values: \n \n \n \n \n▪Value iteration computes them: \n \n \n \n \n▪Value iteration is just a fixed point solution method \n▪\n… though the Vk vectors are also interpretable as time-limited values \na \nV(s) \ns, a \ns,a,s’ \nV(s’)\n \n حساب قٍمحV\n \n ٌكىن تشكمrecursive\n \n عهىiterations",
+    "page_number": 11,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "11-12"
+  },
+  {
+    "text": "Value Iteration \n▪Bellman equations characterize the optimal values: \n \n \n \n \n▪Value iteration computes them: \n \n \n \n \n▪Value iteration is just a fixed point solution method \n▪\n… though the Vk vectors are also interpretable as time-limited values \na \nV(s) \ns, a \ns,a,s’ \nV(s’)\n \n حساب قٍمحV\n \n ٌكىن تشكمrecursive\n \n عهىiterations",
+    "page_number": 12,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Value Iteration \n▪Bellman equations characterize the optimal values: \n \n \n \n \n▪Value iteration computes them: \n \n \n \n \n▪Value iteration is just a fixed point solution method \n▪\n… though the Vk vectors are also interpretable as time-limited values \na \nV(s) \ns, a \ns,a,s’ \nV(s’)\n \n حساب قٍمحV\n \n ٌكىن تشكمrecursive\n \n عهىiterations\n\nk=10 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =",
+    "page_number": 12,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "12-23"
+  },
+  {
+    "text": "k=10 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =",
+    "page_number": 23,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "k=10 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =\n\nk=11 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =",
+    "page_number": 23,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "23-24"
+  },
+  {
+    "text": "k=11 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =",
+    "page_number": 24,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "k=11 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =\n\nk=12 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =",
+    "page_number": 24,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "24-25"
+  },
+  {
+    "text": "k=12 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =",
+    "page_number": 25,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "k=12 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =\n\nk=100 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =",
+    "page_number": 25,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "25-26"
+  },
+  {
+    "text": "k=100 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =",
+    "page_number": 26,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "k=100 \nNoise = 0.2 \nDiscount = 0.9 \nLiving reward =\n\nLet’s write some code \nGridworld Value Iteration Agent",
+    "page_number": 26,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "26-27"
+  },
+  {
+    "text": "Let’s write some code \nGridworld Value Iteration Agent",
+    "page_number": 27,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Let’s write some code \nGridworld Value Iteration Agent\n\nEX: Gridworld \n نى غٍروا انـliving reward\n \n وخهٍىاها2\n \n هىالقٍه تٍتحرك تسرعح واحٍح انـ-1\n \n عشان ٌىهً انـgame\n \n تسرعح",
+    "page_number": 27,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "27-34"
+  },
+  {
+    "text": "EX: Gridworld \n نى غٍروا انـliving reward\n \n وخهٍىاها2\n \n هىالقٍه تٍتحرك تسرعح واحٍح انـ-1\n \n عشان ٌىهً انـgame\n \n تسرعح",
+    "page_number": 34,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "EX: Gridworld \n نى غٍروا انـliving reward\n \n وخهٍىاها2\n \n هىالقٍه تٍتحرك تسرعح واحٍح انـ-1\n \n عشان ٌىهً انـgame\n \n تسرعح\n\nEX: Gridworld \n نى خهٍىاها+2\n \n هىالقٍه تٍهف أكتر وماتٍىصهش نهـexit (terminal) \n \n هى عاوز ٌطىل فً انـgame\n أكتر",
+    "page_number": 34,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "34-35"
+  },
+  {
+    "text": "EX: Gridworld \n نى خهٍىاها+2\n \n هىالقٍه تٍهف أكتر وماتٍىصهش نهـexit (terminal) \n \n هى عاوز ٌطىل فً انـgame\n أكتر",
+    "page_number": 35,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "EX: Gridworld \n نى خهٍىاها+2\n \n هىالقٍه تٍهف أكتر وماتٍىصهش نهـexit (terminal) \n \n هى عاوز ٌطىل فً انـgame\n أكتر\n\nMarkov Decision Process (MDP) \n• What is a Markov Decision Process (MDP) in Reinforcement Learning? \n \na) It is a mathematical framework for solving problems with a set of states, actions, and \nrewards. \nb) It is a neural network used for decision-making in RL. \nc) It is an algorithm used to train agents in RL. \nd) It is a type of optimization function used in RL. \n \n \nAnswer: A",
+    "page_number": 35,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "35-36"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What is a Markov Decision Process (MDP) in Reinforcement Learning? \n \na) It is a mathematical framework for solving problems with a set of states, actions, and \nrewards. \nb) It is a neural network used for decision-making in RL. \nc) It is an algorithm used to train agents in RL. \nd) It is a type of optimization function used in RL. \n \n \nAnswer: A",
+    "page_number": 36,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What is a Markov Decision Process (MDP) in Reinforcement Learning? \n \na) It is a mathematical framework for solving problems with a set of states, actions, and \nrewards. \nb) It is a neural network used for decision-making in RL. \nc) It is an algorithm used to train agents in RL. \nd) It is a type of optimization function used in RL. \n \n \nAnswer: A\n\nMarkov Decision Process (MDP) \n• What are the components of an MDP? \n \na) States, actions, observations. \nb) States, actions, rewards. \nc) Observations, actions, rewards. \nd) States, observations, rewards. \n \n \nAnswer: B",
+    "page_number": 36,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "36-37"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What are the components of an MDP? \n \na) States, actions, observations. \nb) States, actions, rewards. \nc) Observations, actions, rewards. \nd) States, observations, rewards. \n \n \nAnswer: B",
+    "page_number": 37,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What are the components of an MDP? \n \na) States, actions, observations. \nb) States, actions, rewards. \nc) Observations, actions, rewards. \nd) States, observations, rewards. \n \n \nAnswer: B\n\nMarkov Decision Process (MDP) \n• What is the purpose of a transition function in an MDP? \n \nA) It maps states and actions to rewards. \nB) It determines the probabilities of moving from one state to another after taking a \nparticular action. \nC) It determines the optimal policy for an agent in an environment. \nD) It calculates the expected value of future rewards. \n \n \nAnswer: B",
+    "page_number": 37,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "37-38"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What is the purpose of a transition function in an MDP? \n \nA) It maps states and actions to rewards. \nB) It determines the probabilities of moving from one state to another after taking a \nparticular action. \nC) It determines the optimal policy for an agent in an environment. \nD) It calculates the expected value of future rewards. \n \n \nAnswer: B",
+    "page_number": 38,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What is the purpose of a transition function in an MDP? \n \nA) It maps states and actions to rewards. \nB) It determines the probabilities of moving from one state to another after taking a \nparticular action. \nC) It determines the optimal policy for an agent in an environment. \nD) It calculates the expected value of future rewards. \n \n \nAnswer: B\n\nMarkov Decision Process (MDP) \n• What is the goal of an RL agent in an MDP? \n \nA) To maximize the immediate rewards received in each state. \nB) To minimize the immediate rewards received in each state. \nC) To maximize the discounted sum of future rewards. \nD) To minimize the discounted sum of future rewards. \n \n \nAnswer: C",
+    "page_number": 38,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "38-39"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What is the goal of an RL agent in an MDP? \n \nA) To maximize the immediate rewards received in each state. \nB) To minimize the immediate rewards received in each state. \nC) To maximize the discounted sum of future rewards. \nD) To minimize the discounted sum of future rewards. \n \n \nAnswer: C",
+    "page_number": 39,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What is the goal of an RL agent in an MDP? \n \nA) To maximize the immediate rewards received in each state. \nB) To minimize the immediate rewards received in each state. \nC) To maximize the discounted sum of future rewards. \nD) To minimize the discounted sum of future rewards. \n \n \nAnswer: C\n\nMarkov Decision Process (MDP) \n• What is the role of a policy in an MDP? \nA) It defines the mapping between states and actions. \nB) It determines the optimal value function for an agent. \nC) It calculates the expected value of future rewards. \nD) It maps states and actions to rewards. \n \n \nAnswer: A",
+    "page_number": 39,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "39-40"
+  },
+  {
+    "text": "Markov Decision Process (MDP) \n• What is the role of a policy in an MDP? \nA) It defines the mapping between states and actions. \nB) It determines the optimal value function for an agent. \nC) It calculates the expected value of future rewards. \nD) It maps states and actions to rewards. \n \n \nAnswer: A",
+    "page_number": 40,
+    "source_file": "Chapter+5+-+Markov+Decision+Processes+(MDPs)",
+    "total_pages": 41,
+    "extraction_method": "ocr_fallback"
+  }
+]

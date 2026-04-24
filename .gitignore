@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+edu_agent_env/
+venv_win/
+
+# Data files (raw PDFs only - extracted data stays for cloud)
+data/raw_pdfs/*.pdf
+# data/extracted_text/*.json  # Needed for cloud deployment
+# data/processed_chunks/*.json  # Needed for cloud deployment
+
+# Vector DB (kept for cloud deployment)
+# vector_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

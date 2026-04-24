@@ -1,0 +1,489 @@
+[
+  {
+    "text": "Multi-Agents\nChapter 3\nTypes of intelligent agents\nDr. Fatma M. Talaat",
+    "page_number": 1,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Multi-Agents\nChapter 3\nTypes of intelligent agents\nDr. Fatma M. Talaat\n\nContents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 1,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "1-2"
+  },
+  {
+    "text": "Contents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 2,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments\n\nContents\n1.\nHow do intelligent agents work?\n2.\nTypes of intelligent agents\n3.\nApplications of intelligent agents\n4.\nExamples of intelligent agents\n5.\nThe Wumpus World in Artificial intelligence",
+    "page_number": 2,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-4"
+  },
+  {
+    "text": "Contents\n1.\nHow do intelligent agents work?\n2.\nTypes of intelligent agents\n3.\nApplications of intelligent agents\n4.\nExamples of intelligent agents\n5.\nThe Wumpus World in Artificial intelligence",
+    "page_number": 4,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents\n1.\nHow do intelligent agents work?\n2.\nTypes of intelligent agents\n3.\nApplications of intelligent agents\n4.\nExamples of intelligent agents\n5.\nThe Wumpus World in Artificial intelligence\n\n. How do intelligent agents work?\nSensors, actuators, and effectors are the three main components the intelligent agents work\nthrough.\nBefore moving into a detailed discussion, we should first know about sensors,\neffectors, and actuators.\n•\nSensor: A device that detects environmental changes and sends the information to\nother devices. An agent observes the environment through sensors. E.g.: Camera,\nGPS, radar.\n•\nActuators: Machine components that convert energy into motion. Actuators are\nresponsible for moving and controlling a system. E.g.: electric motor, gears, rails, etc.\n•\nEffectors: Devices that affect the environment. E.g.: wheels, and display screen.",
+    "page_number": 4,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "4-5"
+  },
+  {
+    "text": ". How do intelligent agents work?\nSensors, actuators, and effectors are the three main components the intelligent agents work\nthrough.\nBefore moving into a detailed discussion, we should first know about sensors,\neffectors, and actuators.\n•\nSensor: A device that detects environmental changes and sends the information to\nother devices. An agent observes the environment through sensors. E.g.: Camera,\nGPS, radar.\n•\nActuators: Machine components that convert energy into motion. Actuators are\nresponsible for moving and controlling a system. E.g.: electric motor, gears, rails, etc.\n•\nEffectors: Devices that affect the environment. E.g.: wheels, and display screen.",
+    "page_number": 5,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". How do intelligent agents work?\nSensors, actuators, and effectors are the three main components the intelligent agents work\nthrough.\nBefore moving into a detailed discussion, we should first know about sensors,\neffectors, and actuators.\n•\nSensor: A device that detects environmental changes and sends the information to\nother devices. An agent observes the environment through sensors. E.g.: Camera,\nGPS, radar.\n•\nActuators: Machine components that convert energy into motion. Actuators are\nresponsible for moving and controlling a system. E.g.: electric motor, gears, rails, etc.\n•\nEffectors: Devices that affect the environment. E.g.: wheels, and display screen.\n\n. How do intelligent agents work?\n•\nThe above diagram shows how these components are positioned in the AI system.\n•\nPercepts or inputs from the environment are received through sensors by the intelligent\nagent.\n•\nUsing this acquired information or observations this agent uses artificial intelligence to\nmake decisions.\n•\nActuators will then trigger actions.\n•\nPercept history and past actions will influence future decisions.",
+    "page_number": 5,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "5-6"
+  },
+  {
+    "text": ". How do intelligent agents work?\n•\nThe above diagram shows how these components are positioned in the AI system.\n•\nPercepts or inputs from the environment are received through sensors by the intelligent\nagent.\n•\nUsing this acquired information or observations this agent uses artificial intelligence to\nmake decisions.\n•\nActuators will then trigger actions.\n•\nPercept history and past actions will influence future decisions.",
+    "page_number": 6,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". How do intelligent agents work?\n•\nThe above diagram shows how these components are positioned in the AI system.\n•\nPercepts or inputs from the environment are received through sensors by the intelligent\nagent.\n•\nUsing this acquired information or observations this agent uses artificial intelligence to\nmake decisions.\n•\nActuators will then trigger actions.\n•\nPercept history and past actions will influence future decisions.\n\n. Types of intelligent agents\n•\nTypes of intelligent agents are defined by their range of capabilities and degree of\nintelligence:\n•\n1) Simple Reflex Agents\n•\n2) Model-Based Reflex Agents\n•\n3) Goal-Based Agents\n•\n4) Utility-Based Agents\n•\n5) Learning Agent",
+    "page_number": 6,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "6-7"
+  },
+  {
+    "text": ". Types of intelligent agents\n•\nTypes of intelligent agents are defined by their range of capabilities and degree of\nintelligence:\n•\n1) Simple Reflex Agents\n•\n2) Model-Based Reflex Agents\n•\n3) Goal-Based Agents\n•\n4) Utility-Based Agents\n•\n5) Learning Agent",
+    "page_number": 7,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Types of intelligent agents\n•\nTypes of intelligent agents are defined by their range of capabilities and degree of\nintelligence:\n•\n1) Simple Reflex Agents\n•\n2) Model-Based Reflex Agents\n•\n3) Goal-Based Agents\n•\n4) Utility-Based Agents\n•\n5) Learning Agent\n\n) Simple Reflex Agents\n•\nSimple Reflex Agents: These agents function in a current state, ignoring past history.\nResponses are based on the Event-Condition-Action rule (ECA rule) where a user\ninitiates an event and the agent refers to a list of pre-set rules and pre-programmed\noutcomes.\n•\nThe Condition-action rule is a rule that maps a condition to an action. (e.g.: a room\ncleaner agent works only if there is dirt in the room).\n•\nThe challenges to the design approach of the simple reflex agent are:\n- No knowledge of Unrecognized parts of the current state.\n- Size is difficult to store.\n- Environmental changes are not adaptable.",
+    "page_number": 7,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "7-8"
+  },
+  {
+    "text": ") Simple Reflex Agents\n•\nSimple Reflex Agents: These agents function in a current state, ignoring past history.\nResponses are based on the Event-Condition-Action rule (ECA rule) where a user\ninitiates an event and the agent refers to a list of pre-set rules and pre-programmed\noutcomes.\n•\nThe Condition-action rule is a rule that maps a condition to an action. (e.g.: a room\ncleaner agent works only if there is dirt in the room).\n•\nThe challenges to the design approach of the simple reflex agent are:\n- No knowledge of Unrecognized parts of the current state.\n- Size is difficult to store.\n- Environmental changes are not adaptable.",
+    "page_number": 8,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ") Simple Reflex Agents\n•\nSimple Reflex Agents: These agents function in a current state, ignoring past history.\nResponses are based on the Event-Condition-Action rule (ECA rule) where a user\ninitiates an event and the agent refers to a list of pre-set rules and pre-programmed\noutcomes.\n•\nThe Condition-action rule is a rule that maps a condition to an action. (e.g.: a room\ncleaner agent works only if there is dirt in the room).\n•\nThe challenges to the design approach of the simple reflex agent are:\n- No knowledge of Unrecognized parts of the current state.\n- Size is difficult to store.\n- Environmental changes are not adaptable.\n\n) Model-based agents\n•\nModel-based agents: These agents choose an action in the same way as a reflex\nagent, but they have a more comprehensive view of the environment.\n•\nA model of the world is programmed into the internal system that incorporates the\nagent's history.\n•\nThe percept history is considered by Model-based reflex agents in their actions.\n•\nThey use a model of the world to choose respective actions and they maintain an\ninternal state.\nModel: understand How things are happening in the world, so it is called a model-based\nagent.\nInternal State: The unnoticed features of the current state is represented with the percept\nhistory.",
+    "page_number": 8,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "8-10"
+  },
+  {
+    "text": ") Model-based agents\n•\nModel-based agents: These agents choose an action in the same way as a reflex\nagent, but they have a more comprehensive view of the environment.\n•\nA model of the world is programmed into the internal system that incorporates the\nagent's history.\n•\nThe percept history is considered by Model-based reflex agents in their actions.\n•\nThey use a model of the world to choose respective actions and they maintain an\ninternal state.\nModel: understand How things are happening in the world, so it is called a model-based\nagent.\nInternal State: The unnoticed features of the current state is represented with the percept\nhistory.",
+    "page_number": 10,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ") Model-based agents\n•\nModel-based agents: These agents choose an action in the same way as a reflex\nagent, but they have a more comprehensive view of the environment.\n•\nA model of the world is programmed into the internal system that incorporates the\nagent's history.\n•\nThe percept history is considered by Model-based reflex agents in their actions.\n•\nThey use a model of the world to choose respective actions and they maintain an\ninternal state.\nModel: understand How things are happening in the world, so it is called a model-based\nagent.\nInternal State: The unnoticed features of the current state is represented with the percept\nhistory.\n\n) Model-based agents\nUpdating the agent state requires the information about\n•\nHow the world evolves.\n•\nHow the world is affected by the agent’s action.",
+    "page_number": 10,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "10-11"
+  },
+  {
+    "text": ") Model-based agents\nUpdating the agent state requires the information about\n•\nHow the world evolves.\n•\nHow the world is affected by the agent’s action.",
+    "page_number": 11,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ") Model-based agents\nUpdating the agent state requires the information about\n•\nHow the world evolves.\n•\nHow the world is affected by the agent’s action.\n\n) Goal-based agents\n•\nGoal-based agents: These agents expand upon the information model-based agents\nstore by also including goal information, or information about desirable situations.\n•\nThese agents have higher capabilities than model-based reflex agents since the\nknowledge supporting a decision is explicitly modeled and thereby modifications are\nallowed.\n•\nThe agent needs to know about this goal. The agents choose actions to achieve the\ngoal.",
+    "page_number": 11,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "11-12"
+  },
+  {
+    "text": ") Goal-based agents\n•\nGoal-based agents: These agents expand upon the information model-based agents\nstore by also including goal information, or information about desirable situations.\n•\nThese agents have higher capabilities than model-based reflex agents since the\nknowledge supporting a decision is explicitly modeled and thereby modifications are\nallowed.\n•\nThe agent needs to know about this goal. The agents choose actions to achieve the\ngoal.",
+    "page_number": 12,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ") Goal-based agents\n•\nGoal-based agents: These agents expand upon the information model-based agents\nstore by also including goal information, or information about desirable situations.\n•\nThese agents have higher capabilities than model-based reflex agents since the\nknowledge supporting a decision is explicitly modeled and thereby modifications are\nallowed.\n•\nThe agent needs to know about this goal. The agents choose actions to achieve the\ngoal.\n\n) Utility-based agents\n•\nUtility-based agents: These agents are similar to goal-based agents but provide an\nextra utility measurement which rates each possible scenario on its desired result and\nchooses the action that maximizes the outcome.\n•\nRating criteria examples could be the probability of success or the resources required.\n•\nChoices made by these agents are based on utility.\n•\nExtra components of utility measurement made them more advanced than goal-based\nagents. They act based not only on goals but also on the best way to achieve the goal.\n•\nThe utility-based agents are useful when the agent has to perform the best action from\nmultiple alternatives. The efficiency of each action to achieve the goal is checked by\nmapping each state to a real number.",
+    "page_number": 12,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "12-14"
+  },
+  {
+    "text": ") Utility-based agents\n•\nUtility-based agents: These agents are similar to goal-based agents but provide an\nextra utility measurement which rates each possible scenario on its desired result and\nchooses the action that maximizes the outcome.\n•\nRating criteria examples could be the probability of success or the resources required.\n•\nChoices made by these agents are based on utility.\n•\nExtra components of utility measurement made them more advanced than goal-based\nagents. They act based not only on goals but also on the best way to achieve the goal.\n•\nThe utility-based agents are useful when the agent has to perform the best action from\nmultiple alternatives. The efficiency of each action to achieve the goal is checked by\nmapping each state to a real number.",
+    "page_number": 14,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ") Utility-based agents\n•\nUtility-based agents: These agents are similar to goal-based agents but provide an\nextra utility measurement which rates each possible scenario on its desired result and\nchooses the action that maximizes the outcome.\n•\nRating criteria examples could be the probability of success or the resources required.\n•\nChoices made by these agents are based on utility.\n•\nExtra components of utility measurement made them more advanced than goal-based\nagents. They act based not only on goals but also on the best way to achieve the goal.\n•\nThe utility-based agents are useful when the agent has to perform the best action from\nmultiple alternatives. The efficiency of each action to achieve the goal is checked by\nmapping each state to a real number.\n\n) Learning agents\n•\nLearning agents: These agents have the ability to gradually improve and become more\nknowledgeable about an environment over time through an additional learning element.\n•\nThe learning element will use feedback to determine how performance elements should\nbe changed to improve gradually.\n•\nAgents with the capability of learning from their previous experience are learning\nagents.\n•\nThey start to act with their basic knowledge and then through learning they can act and\nadapt automatically.\n•\nLearning agents can learn, analyze the performance, and improve the performance.",
+    "page_number": 14,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "14-16"
+  },
+  {
+    "text": ") Learning agents\n•\nLearning agents: These agents have the ability to gradually improve and become more\nknowledgeable about an environment over time through an additional learning element.\n•\nThe learning element will use feedback to determine how performance elements should\nbe changed to improve gradually.\n•\nAgents with the capability of learning from their previous experience are learning\nagents.\n•\nThey start to act with their basic knowledge and then through learning they can act and\nadapt automatically.\n•\nLearning agents can learn, analyze the performance, and improve the performance.",
+    "page_number": 16,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ") Learning agents\n•\nLearning agents: These agents have the ability to gradually improve and become more\nknowledgeable about an environment over time through an additional learning element.\n•\nThe learning element will use feedback to determine how performance elements should\nbe changed to improve gradually.\n•\nAgents with the capability of learning from their previous experience are learning\nagents.\n•\nThey start to act with their basic knowledge and then through learning they can act and\nadapt automatically.\n•\nLearning agents can learn, analyze the performance, and improve the performance.\n\n) Learning agents\n•\nLearning agents have the following conceptual components:\n1) Learning element: Element enables learning from previous experience.\n2) Critic: Provides feedback on how well the agent is doing concerning a fixed performance\nstandard.\n3) Performance element: The actions to be performed are selected.\n4) Problem generator: Acts as a feedback agent that performs certain tasks such as making\nsuggestions that will lead to new and informative experiences.",
+    "page_number": 16,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "16-17"
+  },
+  {
+    "text": ") Learning agents\n•\nLearning agents have the following conceptual components:\n1) Learning element: Element enables learning from previous experience.\n2) Critic: Provides feedback on how well the agent is doing concerning a fixed performance\nstandard.\n3) Performance element: The actions to be performed are selected.\n4) Problem generator: Acts as a feedback agent that performs certain tasks such as making\nsuggestions that will lead to new and informative experiences.",
+    "page_number": 17,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ") Learning agents\n•\nLearning agents have the following conceptual components:\n1) Learning element: Element enables learning from previous experience.\n2) Critic: Provides feedback on how well the agent is doing concerning a fixed performance\nstandard.\n3) Performance element: The actions to be performed are selected.\n4) Problem generator: Acts as a feedback agent that performs certain tasks such as making\nsuggestions that will lead to new and informative experiences.\n\n. Applications of intelligent agents\nIn many real-life situations, intelligent agents in artificial intelligence have been applied.\n1) Information search, retrieval, and navigation\n•\nThrough the search of information using search engines, intelligent agents enhance the\naccess and navigation of information. Intelligent agents perform the task of searching\nfor a specific data object on behalf of users within a short time.",
+    "page_number": 17,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "17-19"
+  },
+  {
+    "text": ". Applications of intelligent agents\nIn many real-life situations, intelligent agents in artificial intelligence have been applied.\n1) Information search, retrieval, and navigation\n•\nThrough the search of information using search engines, intelligent agents enhance the\naccess and navigation of information. Intelligent agents perform the task of searching\nfor a specific data object on behalf of users within a short time.",
+    "page_number": 19,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Applications of intelligent agents\nIn many real-life situations, intelligent agents in artificial intelligence have been applied.\n1) Information search, retrieval, and navigation\n•\nThrough the search of information using search engines, intelligent agents enhance the\naccess and navigation of information. Intelligent agents perform the task of searching\nfor a specific data object on behalf of users within a short time.\n\n. Applications of intelligent agents\n2) Repetitive office activities\n•\nSome of the functional areas of some companies have automated to reduce operating\ncosts include customer support and sales.",
+    "page_number": 19,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "19-20"
+  },
+  {
+    "text": ". Applications of intelligent agents\n2) Repetitive office activities\n•\nSome of the functional areas of some companies have automated to reduce operating\ncosts include customer support and sales.",
+    "page_number": 20,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Applications of intelligent agents\n2) Repetitive office activities\n•\nSome of the functional areas of some companies have automated to reduce operating\ncosts include customer support and sales.\n\n. Applications of intelligent agents\n3) Medical diagnosis\n•\nThe patient is considered as the environment. Computer keyboard is used as the\nsensor that receives data on the symptoms of the patient and the intelligent agent uses\nthis information to decide the best course of action.\n•\nTests and treatments are given through actuators.",
+    "page_number": 20,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "20-21"
+  },
+  {
+    "text": ". Applications of intelligent agents\n3) Medical diagnosis\n•\nThe patient is considered as the environment. Computer keyboard is used as the\nsensor that receives data on the symptoms of the patient and the intelligent agent uses\nthis information to decide the best course of action.\n•\nTests and treatments are given through actuators.",
+    "page_number": 21,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Applications of intelligent agents\n3) Medical diagnosis\n•\nThe patient is considered as the environment. Computer keyboard is used as the\nsensor that receives data on the symptoms of the patient and the intelligent agent uses\nthis information to decide the best course of action.\n•\nTests and treatments are given through actuators.\n\n. Applications of intelligent agents\n4) Vacuum cleaning\n•\nFor a vacuum cleaner, the surface to be cleaned is the environment (e.g. Room, table,\ncarpet). Using sensors employed in vacuum cleaning (cameras, dirt detection sensors,\netc.) senses the environment condition. Actuators such as brushes, wheels, and\nvacuum extractors are used to perform actions.",
+    "page_number": 21,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "21-22"
+  },
+  {
+    "text": ". Applications of intelligent agents\n4) Vacuum cleaning\n•\nFor a vacuum cleaner, the surface to be cleaned is the environment (e.g. Room, table,\ncarpet). Using sensors employed in vacuum cleaning (cameras, dirt detection sensors,\netc.) senses the environment condition. Actuators such as brushes, wheels, and\nvacuum extractors are used to perform actions.",
+    "page_number": 22,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Applications of intelligent agents\n4) Vacuum cleaning\n•\nFor a vacuum cleaner, the surface to be cleaned is the environment (e.g. Room, table,\ncarpet). Using sensors employed in vacuum cleaning (cameras, dirt detection sensors,\netc.) senses the environment condition. Actuators such as brushes, wheels, and\nvacuum extractors are used to perform actions.\n\n. Applications of intelligent agents\n5) Autonomous driving\n•\nIn autonomous driving cameras, GPS, and radar are employed as sensors to collect\ninformation. Pedestrians, other vehicles, roads, or road signs are the environment.\nVarious actuators like brakes are used to initiate actions.",
+    "page_number": 22,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "22-23"
+  },
+  {
+    "text": ". Applications of intelligent agents\n5) Autonomous driving\n•\nIn autonomous driving cameras, GPS, and radar are employed as sensors to collect\ninformation. Pedestrians, other vehicles, roads, or road signs are the environment.\nVarious actuators like brakes are used to initiate actions.",
+    "page_number": 23,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Applications of intelligent agents\n5) Autonomous driving\n•\nIn autonomous driving cameras, GPS, and radar are employed as sensors to collect\ninformation. Pedestrians, other vehicles, roads, or road signs are the environment.\nVarious actuators like brakes are used to initiate actions.\n\n. Examples of intelligent agents\n•\nAI assistants, like Alexa and Siri, are examples of intelligent agents as they use sensors\nto perceive a request made by the user and they automatically collect data from the\ninternet without the user's help. They can be used to gather information about its\nperceived environment such as weather and time.",
+    "page_number": 23,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "23-24"
+  },
+  {
+    "text": ". Examples of intelligent agents\n•\nAI assistants, like Alexa and Siri, are examples of intelligent agents as they use sensors\nto perceive a request made by the user and they automatically collect data from the\ninternet without the user's help. They can be used to gather information about its\nperceived environment such as weather and time.",
+    "page_number": 24,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Examples of intelligent agents\n•\nAI assistants, like Alexa and Siri, are examples of intelligent agents as they use sensors\nto perceive a request made by the user and they automatically collect data from the\ninternet without the user's help. They can be used to gather information about its\nperceived environment such as weather and time.\n\n. Examples of intelligent agents\n•\nInfogate is another example of an intelligent agent, which alerts users about news\nbased on specified topics of interest.\n•\nAutonomous vehicles could also be considered intelligent agents as they use sensors,\nGPS and cameras to make reactive decisions based on the environment to maneuver\nthrough traffic.",
+    "page_number": 24,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "24-25"
+  },
+  {
+    "text": ". Examples of intelligent agents\n•\nInfogate is another example of an intelligent agent, which alerts users about news\nbased on specified topics of interest.\n•\nAutonomous vehicles could also be considered intelligent agents as they use sensors,\nGPS and cameras to make reactive decisions based on the environment to maneuver\nthrough traffic.",
+    "page_number": 25,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Examples of intelligent agents\n•\nInfogate is another example of an intelligent agent, which alerts users about news\nbased on specified topics of interest.\n•\nAutonomous vehicles could also be considered intelligent agents as they use sensors,\nGPS and cameras to make reactive decisions based on the environment to maneuver\nthrough traffic.\n\n. The Wumpus World in Artificial intelligence\nWumpus world:\n•\nThe Wumpus World is a classic problem, best example of Reasoning with Knowledge.\n•\nThe Wumpus world is a simple world example to illustrate the worth of a knowledge-based agent and\nto represent knowledge representation. It was inspired by a video game Hunt the Wumpus by\nGregory Yob in 1973.\n•\nThe Wumpus world is a cave which has 4/4 rooms connected with passageways. So there are total\n16 rooms which are connected with each other.\n•\nWe have a knowledge-based agent who will go forward in this world.\n•\nThe cave has a room with a beast which is called Wumpus, who eats anyone who enters the room.\n•\nThe Wumpus can be shot by the agent, but the agent has a single arrow.\n•\nIn the Wumpus world, there are some Pits rooms which are bottomless, and if agent falls in Pits,\nthen he will be stuck there forever.",
+    "page_number": 25,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "25-26"
+  },
+  {
+    "text": ". The Wumpus World in Artificial intelligence\nWumpus world:\n•\nThe Wumpus World is a classic problem, best example of Reasoning with Knowledge.\n•\nThe Wumpus world is a simple world example to illustrate the worth of a knowledge-based agent and\nto represent knowledge representation. It was inspired by a video game Hunt the Wumpus by\nGregory Yob in 1973.\n•\nThe Wumpus world is a cave which has 4/4 rooms connected with passageways. So there are total\n16 rooms which are connected with each other.\n•\nWe have a knowledge-based agent who will go forward in this world.\n•\nThe cave has a room with a beast which is called Wumpus, who eats anyone who enters the room.\n•\nThe Wumpus can be shot by the agent, but the agent has a single arrow.\n•\nIn the Wumpus world, there are some Pits rooms which are bottomless, and if agent falls in Pits,\nthen he will be stuck there forever.",
+    "page_number": 26,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". The Wumpus World in Artificial intelligence\nWumpus world:\n•\nThe Wumpus World is a classic problem, best example of Reasoning with Knowledge.\n•\nThe Wumpus world is a simple world example to illustrate the worth of a knowledge-based agent and\nto represent knowledge representation. It was inspired by a video game Hunt the Wumpus by\nGregory Yob in 1973.\n•\nThe Wumpus world is a cave which has 4/4 rooms connected with passageways. So there are total\n16 rooms which are connected with each other.\n•\nWe have a knowledge-based agent who will go forward in this world.\n•\nThe cave has a room with a beast which is called Wumpus, who eats anyone who enters the room.\n•\nThe Wumpus can be shot by the agent, but the agent has a single arrow.\n•\nIn the Wumpus world, there are some Pits rooms which are bottomless, and if agent falls in Pits,\nthen he will be stuck there forever.\n\n. The Wumpus World in Artificial intelligence\nWumpus world:\n•\nThe exciting thing with this cave is that in one room there is a possibility of finding a heap of gold. So\nthe agent goal is to find the gold and climb out the cave without fallen into Pits or eaten by Wumpus.\n•\nThe agent will get a reward if he comes out with gold, and he will get a penalty if eaten by Wumpus\nor falls in the pit.\n•\nNote: Here Wumpus is static and cannot move.",
+    "page_number": 26,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "26-27"
+  },
+  {
+    "text": ". The Wumpus World in Artificial intelligence\nWumpus world:\n•\nThe exciting thing with this cave is that in one room there is a possibility of finding a heap of gold. So\nthe agent goal is to find the gold and climb out the cave without fallen into Pits or eaten by Wumpus.\n•\nThe agent will get a reward if he comes out with gold, and he will get a penalty if eaten by Wumpus\nor falls in the pit.\n•\nNote: Here Wumpus is static and cannot move.",
+    "page_number": 27,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". The Wumpus World in Artificial intelligence\nWumpus world:\n•\nThe exciting thing with this cave is that in one room there is a possibility of finding a heap of gold. So\nthe agent goal is to find the gold and climb out the cave without fallen into Pits or eaten by Wumpus.\n•\nThe agent will get a reward if he comes out with gold, and he will get a penalty if eaten by Wumpus\nor falls in the pit.\n•\nNote: Here Wumpus is static and cannot move.\n\n. Wumpus World Problem : An example thread\nWumpus world:\n•\nFollowing is a sample diagram for representing the Wumpus world. It is showing some rooms with\nPits, one room with Wumpus and one agent at (1, 1) square location of the world.",
+    "page_number": 27,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "27-28"
+  },
+  {
+    "text": ". Wumpus World Problem : An example thread\nWumpus world:\n•\nFollowing is a sample diagram for representing the Wumpus world. It is showing some rooms with\nPits, one room with Wumpus and one agent at (1, 1) square location of the world.",
+    "page_number": 28,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Wumpus World Problem : An example thread\nWumpus world:\n•\nFollowing is a sample diagram for representing the Wumpus world. It is showing some rooms with\nPits, one room with Wumpus and one agent at (1, 1) square location of the world.\n\nWumpus World Problem : An example thread\nThere are also some components which can help the agent to navigate the cave. These\ncomponents are given as follows:\na) The rooms adjacent to the Wumpus room are smelly, so that it would have some stench.\nb) The room adjacent to PITs has a breeze, so if the agent reaches near to PIT, then he will perceive\nthe breeze.\nc) There will be glitter in the room if and only if the room has gold.\nd) The Wumpus can be killed by the agent if the agent is facing to it, and Wumpus will emit a horrible\nscream which can be heard anywhere in the cave.",
+    "page_number": 28,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "28-29"
+  },
+  {
+    "text": "Wumpus World Problem : An example thread\nThere are also some components which can help the agent to navigate the cave. These\ncomponents are given as follows:\na) The rooms adjacent to the Wumpus room are smelly, so that it would have some stench.\nb) The room adjacent to PITs has a breeze, so if the agent reaches near to PIT, then he will perceive\nthe breeze.\nc) There will be glitter in the room if and only if the room has gold.\nd) The Wumpus can be killed by the agent if the agent is facing to it, and Wumpus will emit a horrible\nscream which can be heard anywhere in the cave.",
+    "page_number": 29,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Wumpus World Problem : An example thread\nThere are also some components which can help the agent to navigate the cave. These\ncomponents are given as follows:\na) The rooms adjacent to the Wumpus room are smelly, so that it would have some stench.\nb) The room adjacent to PITs has a breeze, so if the agent reaches near to PIT, then he will perceive\nthe breeze.\nc) There will be glitter in the room if and only if the room has gold.\nd) The Wumpus can be killed by the agent if the agent is facing to it, and Wumpus will emit a horrible\nscream which can be heard anywhere in the cave.\n\nTo explain the Wumpus world we have given PEAS description as below:\n1) Performance measure:\n•\n+1000 reward points if the agent comes out of the cave with the gold.\n•\n-1000 points penalty for being eaten by the Wumpus or falling into the pit.\n•\n-1 for each action, and -10 for using an arrow.\n•\nThe game ends if either agent dies or came out of the cave.\n2) Environment:\n•\nA 4*4 grid of rooms.\n•\nThe agent initially in room square [1, 1], facing toward the right.\n•\nLocation of Wumpus and gold are chosen randomly except the first square [1,1].\n•\nEach square of the cave can be a pit with probability 0.2 except the first square.",
+    "page_number": 29,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "29-30"
+  },
+  {
+    "text": "To explain the Wumpus world we have given PEAS description as below:\n1) Performance measure:\n•\n+1000 reward points if the agent comes out of the cave with the gold.\n•\n-1000 points penalty for being eaten by the Wumpus or falling into the pit.\n•\n-1 for each action, and -10 for using an arrow.\n•\nThe game ends if either agent dies or came out of the cave.\n2) Environment:\n•\nA 4*4 grid of rooms.\n•\nThe agent initially in room square [1, 1], facing toward the right.\n•\nLocation of Wumpus and gold are chosen randomly except the first square [1,1].\n•\nEach square of the cave can be a pit with probability 0.2 except the first square.",
+    "page_number": 30,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "To explain the Wumpus world we have given PEAS description as below:\n1) Performance measure:\n•\n+1000 reward points if the agent comes out of the cave with the gold.\n•\n-1000 points penalty for being eaten by the Wumpus or falling into the pit.\n•\n-1 for each action, and -10 for using an arrow.\n•\nThe game ends if either agent dies or came out of the cave.\n2) Environment:\n•\nA 4*4 grid of rooms.\n•\nThe agent initially in room square [1, 1], facing toward the right.\n•\nLocation of Wumpus and gold are chosen randomly except the first square [1,1].\n•\nEach square of the cave can be a pit with probability 0.2 except the first square.\n\nTo explain the Wumpus world we have given PEAS description as below:\n3) Actuators:\n•\nLeft turn\n•\nRight turn\n•\nMove forward\n•\nGrab\n•\nRelease\n•\nShoot",
+    "page_number": 30,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "30-31"
+  },
+  {
+    "text": "To explain the Wumpus world we have given PEAS description as below:\n3) Actuators:\n•\nLeft turn\n•\nRight turn\n•\nMove forward\n•\nGrab\n•\nRelease\n•\nShoot",
+    "page_number": 31,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "To explain the Wumpus world we have given PEAS description as below:\n3) Actuators:\n•\nLeft turn\n•\nRight turn\n•\nMove forward\n•\nGrab\n•\nRelease\n•\nShoot\n\nTo explain the Wumpus world we have given PEAS description as below:\n4) Sensors:\n•\nThe agent will perceive the stench if he is in the room adjacent to the Wumpus. (Not diagonally).\n•\nThe agent will perceive breeze if he is in the room directly adjacent to the Pit.\n•\nThe agent will perceive the glitter in the room where the gold is present.\n•\nThe agent will perceive the bump if he walks into a wall.\n•\nWhen the Wumpus is shot, it emits a horrible scream which can be perceived anywhere in the cave.\n•\nThese percepts can be represented as five element list, in which we will have different indicators for\neach sensor.\n•\nExample if agent perceives stench, breeze, but no glitter, no bump, and no scream then it can be\nrepresented as: [Stench, Breeze, None, None, None].",
+    "page_number": 31,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "31-32"
+  },
+  {
+    "text": "To explain the Wumpus world we have given PEAS description as below:\n4) Sensors:\n•\nThe agent will perceive the stench if he is in the room adjacent to the Wumpus. (Not diagonally).\n•\nThe agent will perceive breeze if he is in the room directly adjacent to the Pit.\n•\nThe agent will perceive the glitter in the room where the gold is present.\n•\nThe agent will perceive the bump if he walks into a wall.\n•\nWhen the Wumpus is shot, it emits a horrible scream which can be perceived anywhere in the cave.\n•\nThese percepts can be represented as five element list, in which we will have different indicators for\neach sensor.\n•\nExample if agent perceives stench, breeze, but no glitter, no bump, and no scream then it can be\nrepresented as: [Stench, Breeze, None, None, None].",
+    "page_number": 32,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "To explain the Wumpus world we have given PEAS description as below:\n4) Sensors:\n•\nThe agent will perceive the stench if he is in the room adjacent to the Wumpus. (Not diagonally).\n•\nThe agent will perceive breeze if he is in the room directly adjacent to the Pit.\n•\nThe agent will perceive the glitter in the room where the gold is present.\n•\nThe agent will perceive the bump if he walks into a wall.\n•\nWhen the Wumpus is shot, it emits a horrible scream which can be perceived anywhere in the cave.\n•\nThese percepts can be represented as five element list, in which we will have different indicators for\neach sensor.\n•\nExample if agent perceives stench, breeze, but no glitter, no bump, and no scream then it can be\nrepresented as: [Stench, Breeze, None, None, None].\n\nThe Wumpus world Properties:\n•\nPartially observable: The Wumpus world is partially observable because the agent can only\nperceive the close environment such as an adjacent room.\n•\nDeterministic: It is deterministic, as the result and outcome of the world are already known.\n•\nSequential: The order is important, so it is sequential.\n•\nStatic: It is static as Wumpus and Pits are not moving.\n•\nDiscrete: The environment is discrete.\n•\nOne agent: The environment is a single agent as we have one agent only and Wumpus is not\nconsidered as an agent.",
+    "page_number": 32,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "32-33"
+  },
+  {
+    "text": "The Wumpus world Properties:\n•\nPartially observable: The Wumpus world is partially observable because the agent can only\nperceive the close environment such as an adjacent room.\n•\nDeterministic: It is deterministic, as the result and outcome of the world are already known.\n•\nSequential: The order is important, so it is sequential.\n•\nStatic: It is static as Wumpus and Pits are not moving.\n•\nDiscrete: The environment is discrete.\n•\nOne agent: The environment is a single agent as we have one agent only and Wumpus is not\nconsidered as an agent.",
+    "page_number": 33,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "The Wumpus world Properties:\n•\nPartially observable: The Wumpus world is partially observable because the agent can only\nperceive the close environment such as an adjacent room.\n•\nDeterministic: It is deterministic, as the result and outcome of the world are already known.\n•\nSequential: The order is important, so it is sequential.\n•\nStatic: It is static as Wumpus and Pits are not moving.\n•\nDiscrete: The environment is discrete.\n•\nOne agent: The environment is a single agent as we have one agent only and Wumpus is not\nconsidered as an agent.\n\nExploring the Wumpus world:\nNow we will explore the Wumpus world and will determine how the agent will find its goal by applying\nlogical reasoning.\nAgent's First step:\n•\nInitially, the agent is in the first room or on the square [1,1], and we already know that this room is\nsafe for the agent, so to represent on the below diagram (a) that room is safe we will add symbol OK.\nSymbol A is used to represent agent, symbol B for the breeze, G for Glitter or gold, V for the visited\nroom, P for pits, W for Wumpus.\n•\nAt Room [1,1] agent does not feel any breeze or any Stench which means the adjacent squares are\nalso OK.",
+    "page_number": 33,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "33-34"
+  },
+  {
+    "text": "Exploring the Wumpus world:\nNow we will explore the Wumpus world and will determine how the agent will find its goal by applying\nlogical reasoning.\nAgent's First step:\n•\nInitially, the agent is in the first room or on the square [1,1], and we already know that this room is\nsafe for the agent, so to represent on the below diagram (a) that room is safe we will add symbol OK.\nSymbol A is used to represent agent, symbol B for the breeze, G for Glitter or gold, V for the visited\nroom, P for pits, W for Wumpus.\n•\nAt Room [1,1] agent does not feel any breeze or any Stench which means the adjacent squares are\nalso OK.",
+    "page_number": 34,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Exploring the Wumpus world:\nNow we will explore the Wumpus world and will determine how the agent will find its goal by applying\nlogical reasoning.\nAgent's First step:\n•\nInitially, the agent is in the first room or on the square [1,1], and we already know that this room is\nsafe for the agent, so to represent on the below diagram (a) that room is safe we will add symbol OK.\nSymbol A is used to represent agent, symbol B for the breeze, G for Glitter or gold, V for the visited\nroom, P for pits, W for Wumpus.\n•\nAt Room [1,1] agent does not feel any breeze or any Stench which means the adjacent squares are\nalso OK.\n\nAgent's second Step:\n•\nNow agent needs to move forward, so it will either move to [1, 2], or [2,1]. Let's suppose agent\nmoves to the room [2, 1], at this room agent perceives some breeze which means Pit is around this\nroom. The pit can be in [3, 1], or [2,2], so we will add symbol P? to say that, is this Pit room?\n•\nNow agent will stop and think and will not make any harmful move. The agent will go back to the [1,\n1] room. The room [1,1], and [2,1] are visited by the agent, so we will use symbol V to represent the\nvisited squares.",
+    "page_number": 34,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "34-36"
+  },
+  {
+    "text": "Agent's second Step:\n•\nNow agent needs to move forward, so it will either move to [1, 2], or [2,1]. Let's suppose agent\nmoves to the room [2, 1], at this room agent perceives some breeze which means Pit is around this\nroom. The pit can be in [3, 1], or [2,2], so we will add symbol P? to say that, is this Pit room?\n•\nNow agent will stop and think and will not make any harmful move. The agent will go back to the [1,\n1] room. The room [1,1], and [2,1] are visited by the agent, so we will use symbol V to represent the\nvisited squares.",
+    "page_number": 36,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Agent's second Step:\n•\nNow agent needs to move forward, so it will either move to [1, 2], or [2,1]. Let's suppose agent\nmoves to the room [2, 1], at this room agent perceives some breeze which means Pit is around this\nroom. The pit can be in [3, 1], or [2,2], so we will add symbol P? to say that, is this Pit room?\n•\nNow agent will stop and think and will not make any harmful move. The agent will go back to the [1,\n1] room. The room [1,1], and [2,1] are visited by the agent, so we will use symbol V to represent the\nvisited squares.\n\nAgent's third step:\n•\nAt the third step, now agent will move to the room [1,2] which is OK. In the room [1,2] agent perceives\na stench which means there must be a Wumpus nearby. But Wumpus cannot be in the room [1,1] as\nby rules of the game, and also not in [2,2] (Agent had not detected any stench when he was at [2,1]).\nTherefore agent infers that Wumpus is in the room [1,3], and in current state, there is no breeze which\nmeans in [2,2] there is no Pit and no Wumpus. So it is safe, and we will mark it OK, and the agent\nmoves further in [2,2].",
+    "page_number": 36,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "36-37"
+  },
+  {
+    "text": "Agent's third step:\n•\nAt the third step, now agent will move to the room [1,2] which is OK. In the room [1,2] agent perceives\na stench which means there must be a Wumpus nearby. But Wumpus cannot be in the room [1,1] as\nby rules of the game, and also not in [2,2] (Agent had not detected any stench when he was at [2,1]).\nTherefore agent infers that Wumpus is in the room [1,3], and in current state, there is no breeze which\nmeans in [2,2] there is no Pit and no Wumpus. So it is safe, and we will mark it OK, and the agent\nmoves further in [2,2].",
+    "page_number": 37,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Agent's third step:\n•\nAt the third step, now agent will move to the room [1,2] which is OK. In the room [1,2] agent perceives\na stench which means there must be a Wumpus nearby. But Wumpus cannot be in the room [1,1] as\nby rules of the game, and also not in [2,2] (Agent had not detected any stench when he was at [2,1]).\nTherefore agent infers that Wumpus is in the room [1,3], and in current state, there is no breeze which\nmeans in [2,2] there is no Pit and no Wumpus. So it is safe, and we will mark it OK, and the agent\nmoves further in [2,2].\n\nAgent's fourth step:\n•\nAt room [2,2], here no stench and no breezes present so let's suppose agent decides to move to [2,3].\nAt room [2,3] agent perceives glitter, so it should grab the gold and climb out of the cave.",
+    "page_number": 37,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "37-38"
+  },
+  {
+    "text": "Agent's fourth step:\n•\nAt room [2,2], here no stench and no breezes present so let's suppose agent decides to move to [2,3].\nAt room [2,3] agent perceives glitter, so it should grab the gold and climb out of the cave.",
+    "page_number": 38,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Agent's fourth step:\n•\nAt room [2,2], here no stench and no breezes present so let's suppose agent decides to move to [2,3].\nAt room [2,3] agent perceives glitter, so it should grab the gold and climb out of the cave.\n\nWumpus World Problem : An example thread\nhttps://github.com/khamkarajinkya/Agent-for-wumpus-world",
+    "page_number": 38,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "38-39"
+  },
+  {
+    "text": "Wumpus World Problem : An example thread\nhttps://github.com/khamkarajinkya/Agent-for-wumpus-world",
+    "page_number": 39,
+    "source_file": "Chapter+3+-+Types+of+intelligent+agents",
+    "total_pages": 40,
+    "extraction_method": "ocr_fallback"
+  }
+]
