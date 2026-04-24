@@ -1,226 +1,114 @@
-# 🎓 Educational AI Agent - RAG-Based Lecture Assistant
+# 🎓 Educational AI Agent (المساعد التعليمي الذكي)
 
-An intelligent educational assistant built with **Retrieval-Augmented Generation (RAG)** that answers student questions based on lecture PDFs. Upload your lecture slides, and the AI will answer questions using ONLY the provided content.
-
----
-
-## 📚 Course Coverage
-
-This agent is loaded with **8 lectures** on **Multi-Agent Systems**:
-
-| File | Chapter | Topic | Pages |
-|------|---------|-------|-------|
-| L.1.pdf | Ch.1 | Introduction to Agents | 28 |
-| L.2.pdf | Ch.2 | Sensors & Actuators | 45 |
-| Chapter+3 | Ch.3 | Types of Intelligent Agents | 40 |
-| L.4.pdf | Ch.4 | Reinforcement Learning | 46 |
-| Chapter+5 | Ch.5 | Markov Decision Processes (MDPs) | 41 |
-| Chapter+6 | Ch.6 | Q-Learning | 28 |
-| Chapter+7 | Ch.7 | Examples on Reinforcement Learning | 42 |
-| Chapter+8 | Ch.8 | Scaling Planning for Complex Tasks | 31 |
-
-**Total: 301 pages extracted → 245 chunks → 245 vectors**
+تطبيق ويب ذكي مبني على **RAG (Retrieval-Augmented Generation)** مخصص لمساعدة الطلاب على فهم المحاضرات وتوليد أسئلة امتحانات مقترحة (MCQ). يقوم هذا المساعد بقراءة ملفات الـ PDF، أرشفة المعلومات، والإجابة على أي سؤال حصرياً من المحتوى الذي تم دراسته.
 
 ---
 
-## 🏗️ Architecture
+## ✨ المميزات الرئيسية (Features)
 
-```
-[PDF Files] → [Text Extraction] → [Chunking] → [Embeddings] → [Vector DB (Chroma)]
-                                                                    ↑
-[User Question] → [Embedding] → [Similarity Search] → [Top-K Chunks]
-                                                                    |
-                                        [LLM Prompt (Question + Context)] → [Generated Answer] → [User]
-```
-
-### Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| PDF Extraction | PyMuPDF (fitz) |
-| Text Splitting | LangChain RecursiveCharacterTextSplitter |
-| Embeddings | OpenAI text-embedding-3-large (or HuggingFace) |
-| Vector DB | ChromaDB |
-| LLM | GPT-4o / GPT-4o-mini (or Groq Llama3) |
-| UI | Streamlit |
-| Deployment | Docker + Docker Compose |
+1. **الاستمرارية (Auto-load DB):** قاعدة البيانات (Vector DB) تُحفظ محلياً. لا داعي لإعادة رفع ومعالجة المحاضرات في كل مرة تفتح فيها التطبيق.
+2. **تعدد المواد الدراسية (Multi-Subject Support):** يمكنك إنشاء أكثر من مادة دراسية. كل مادة لها ملفاتها الخاصة وقاعدة بياناتها المنفصلة لضمان عدم اختلاط المعلومات.
+3. **مولّد أسئلة الامتحانات (MCQ Generator):** توليد بنك أسئلة أكاديمية ذكية بواقع 4 اختيارات للسؤال. الأسئلة تركز على المفاهيم، الخوارزميات، والتعاريف بدلاً من الأسئلة السطحية.
+4. **التفكير المتقدم (Reasoning Models):** مدعوم بموديلات التفكير المتقدم عبر **Groq API** (مثل `openai/gpt-oss-120b` و `llama-3`) لتقديم إجابات تحليلية دقيقة.
+5. **معالجة متقدمة لملفات الـ PDF:** التعامل مع الصفحات المتتالية للحفاظ على ترابط المعلومات، وتفعيل استخلاص الصور (OCR Fallback) لقراءة النصوص المدمجة كصور في المحاضرات.
 
 ---
 
-## 🚀 Quick Start
+## 🏗️ كيف يعمل النظام؟ (Architecture)
 
-### Prerequisites
-- Python 3.10+
-- pip
-- (Optional) Docker & Docker Compose
-
-### Option 1: Local Setup
-
-```bash
-# 1. Clone/navigate to the project
-cd edu-agent
-
-# 2. Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Set API keys
-cp .env.example .env
-# Edit .env with your API keys
-
-# 5. Run the application
-streamlit run src/app.py
-```
-
-### Option 2: Docker (Recommended)
-
-```bash
-# 1. Set API keys in .env
-# 2. Build and run
-docker-compose up -d
-
-# Access at http://localhost:8501
+```text
+[ملفات PDF] → [استخراج النصوص ودمج الصفحات] → [تقطيع النصوص Chunks] → [Embedding (HuggingFace)] → [ChromaDB]
+                                                                        ↑
+[سؤال الطالب] → [Embedding للمطالبة] → [بحث عن أقرب نصوص مشابهة Similarity Search]
+                                                                        |
+                       [Groq LLM + System Prompt] ← (السؤال + النصوص المستخرجة) → [إجابة دقيقة للطالب]
 ```
 
 ---
 
-## 🔑 API Keys Setup
+## 🚀 كيفية استخدام التطبيق أونلاين مجاناً
 
-Edit `.env` file with your API keys:
+التطبيق مرفوع ويعمل 24/7 عبر **Streamlit Community Cloud**. يمكنك استخدامه من أي جهاز (موبايل أو كمبيوتر) بدون أي تسطيب:
 
-```bash
-# Option A: OpenAI (Recommended)
-OPENAI_API_KEY=sk-your-key-here
+🌐 **[رابط التطبيق (اضغط هنا للاستخدام) - سيتم توليده من Streamlit]**
 
-# Option B: Groq (Fast, free tier available)
-GROQ_API_KEY=gsk-your-key-here
-
-# Optional: Cohere (for re-ranking)
-COHERE_API_KEY=your-cohere-key
-```
-
-### Get Free API Keys:
-- **Groq**: https://console.groq.com (FREE tier with Llama 3)
-- **OpenAI**: https://platform.openai.com
+> **ملاحظة:** إذا لم يتم استخدام التطبيق لفترة طويلة، قد يدخل في وضع "النوم". بمجرد فتحك للرابط، سيستيقظ تلقائياً خلال 30 ثانية لتتمكن من استخدامه.
 
 ---
 
-## 📁 Project Structure
+## 💻 طريقة تشغيل التطبيق على جهازك (Local Development)
 
-```
-edu-agent/
-├── data/
-│   ├── raw_pdfs/              # Upload your PDF lectures here
-│   ├── extracted_text/        # Extracted text (JSON)
-│   └── processed_chunks/      # Text chunks (JSON)
-├── src/
-│   ├── __init__.py
-│   ├── config.py              # All configuration
-│   ├── extraction.py          # Phase 1: PDF text extraction
-│   ├── chunking.py            # Phase 2: Text chunking
-│   ├── embedding.py           # Phase 3: Embeddings & vector store
-│   ├── retrieval.py           # Phase 4: RAG pipeline & prompts
-│   ├── llm_chain.py           # Phase 5: LLM & response generation
-│   ├── app.py                 # Phase 6: Streamlit UI
-│   └── testing.py             # Phase 7: Evaluation suite
-├── vector_db/                 # ChromaDB storage
-├── tests/                     # Unit tests
-├── .env                       # API keys (not in git)
-├── .gitignore
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
-```
+إذا كنت ترغب في تشغيل الكود وتطويره على جهازك الخاص:
 
----
+### المتطلبات (Prerequisites)
+- Python 3.10 أو أحدث.
+- Git.
 
-## 🔧 Configuration
+### خطوات التشغيل
 
-All settings are centralized in `src/config.py`:
+1. **تحميل المشروع من GitHub:**
+   ```bash
+   git clone https://github.com/The-lucky-Survivor/EDU-Agent.git
+   cd EDU-Agent
+   ```
 
-| Setting | Default | Description |
-|---------|---------|-------------|
-| `CHUNK_SIZE` | 700 | Characters per chunk |
-| `CHUNK_OVERLAP` | 100 | Overlap between chunks |
-| `EMBEDDING_PROVIDER` | openai | openai / huggingface |
-| `LLM_PROVIDER` | openai | openai / groq |
-| `LLM_TEMPERATURE` | 0.1 | Low = factual, High = creative |
-| `RETRIEVER_TOP_K` | 10 | Initial candidates |
-| `RETRIEVER_FINAL_K` | 5 | Final results after re-ranking |
+2. **إنشاء وتفعيل بيئة وهمية (Virtual Environment):**
+   ```bash
+   # للويندوز
+   python -m venv venv_win
+   .\venv_win\Scripts\activate
+   
+   # للماك / لينكس:
+   # python3 -m venv venv
+   # source venv/bin/activate
+   ```
 
----
+3. **تثبيت المكتبات المطلوبة:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🧪 Testing
+4. **إعداد مفتاح الـ API:**
+   - قم بإعادة تسمية ملف `.env.example` إلى `.env` 
+   - ضع مفتاح **Groq API** الخاص بك (يمكنك الحصول عليه مجاناً من [console.groq.com](https://console.groq.com)).
+   ```env
+   GROQ_API_KEY=gsk_your_api_key_here
+   ```
 
-Run the evaluation suite:
-
-```python
-from src.testing import run_full_evaluation, print_report
-
-# After creating chain
-report = run_full_evaluation(vectorstore, chain)
-print_report(report)
-```
-
-### Quality Gates
-
-| Gate | Criteria | Status |
-|------|----------|--------|
-| QG1 | All PDFs extracted, no empty pages | ✅ PASS |
-| QG2 | Avg chunk 300-700 chars, all metadata | ✅ PASS |
-| QG3 | Vectors match chunks, search works | ✅ PASS |
-| QG4 | Relevant retrievals, prompt quality | ✅ PASS |
-| QG5 | Factual answers, < 5s response | ✅ PASS |
+5. **تشغيل التطبيق:**
+   ```bash
+   python -m streamlit run src/app.py
+   ```
+   سيفتح التطبيق تلقائياً في المتصفح على العنوان `http://localhost:8501`.
 
 ---
 
-## 🐳 Docker Deployment
+## 📁 هيكل المشروع
 
-### Build & Run
-
-```bash
-# Build image
-docker build -t edu-agent .
-
-# Run container
-docker run -p 8501:8501 --env-file .env edu-agent
-
-# Or use docker-compose
-docker-compose up -d
-```
-
-### Deploy to Render/Railway
-
-```bash
-# 1. Push to GitHub
-# 2. Connect repo to Render
-# 3. Set environment variables
-# 4. Deploy as Web Service (port 8501)
+```text
+EDU-Agent/
+├── subjects/               # قواعد البيانات (Vector DB) وملفات PDF لكل مادة
+├── src/                    
+│   ├── config.py           # الإعدادات ومسارات الملفات
+│   ├── extraction.py       # معالجة ودمج نصوص الـ PDF
+│   ├── chunking.py         # تقسيم النصوص إلى أجزاء ذكية
+│   ├── embedding.py        # تحويل النصوص والتعامل مع ChromaDB
+│   ├── retrieval.py        # جلب المعلومات المتعلقة بالسؤال
+│   ├── llm_chain.py        # الاتصال بـ Groq وتقديم الـ Prompts
+│   └── app.py              # واجهة المستخدم (Streamlit)
+├── .streamlit/             
+│   └── config.toml         # إعدادات الواجهة والألوان
+├── requirements.txt        # المكتبات المطلوبة
+└── .env                    # (غير مرفوع) مفاتيح الـ API السرية
 ```
 
 ---
 
-## ⚠️ Troubleshooting
+## ⚠️ مشاكل شائعة (Troubleshooting)
 
-| Problem | Cause | Solution |
-|---------|-------|----------|
-| "No LLM API key found" | Missing API key | Set OPENAI_API_KEY or GROQ_API_KEY in .env |
-| Slow embeddings | HuggingFace downloading | First run downloads model; subsequent runs are fast |
-| Out of memory | Large PDFs | Reduce CHUNK_SIZE in config.py |
-| Arabic text issues | Encoding | Ensure UTF-8 encoding |
-| Port already in use | 8501 occupied | Change port: `--server.port=8502` |
+- **خطأ في قاعدة بيانات ChromaDB عند النشر:** هذا الخطأ يحدث بسبب إصدار الـ `sqlite3` القديم على سيرفرات النشر. تم حله برمجياً في `app.py` عن طريق تحويل المكتبة إلى `pysqlite3-binary`.
+- **خطأ `Descriptors cannot be created directly`:** يحدث غالباً بسبب مكتبة `protobuf`. تأكد أن إصدار المكتبة في `requirements.txt` هو `protobuf<=3.20.3`.
+- **بطء في الرد:** موديلات التفكير (Reasoning Models) تأخذ من 10 إلى 30 ثانية للتفكير في الإجابة لضمان أدق نتيجة أكاديمية، وهذا طبيعي تماماً.
 
 ---
-
-## 📝 License
-
-Educational use only. Built for AI course at university.
-
----
-
-**Built with ❤️ using LangChain + ChromaDB + Streamlit**
+**تم التطوير باستخدام ❤️ | Streamlit + LangChain + ChromaDB + Groq**
