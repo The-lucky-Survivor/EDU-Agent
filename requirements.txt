@@ -10,6 +10,8 @@ pymupdf>=1.23.0
 python-dotenv>=1.0.0
 sentence-transformers>=2.2.0
 numpy>=1.24.0
+protobuf<=3.20.3
+pysqlite3-binary
 
 # Optional (uncomment if needed)
 # langchain-openai>=0.0.5

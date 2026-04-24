@@ -4,6 +4,11 @@ Educational AI Agent interface with Arabic support.
 Features: Auto-load DB, Multi-subject, Question generation.
 """
 
+# Required for Streamlit Cloud deployment with ChromaDB
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import os
 import sys
 import json
