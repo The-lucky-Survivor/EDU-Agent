@@ -1,3 +1,12 @@
+---
+title: EDU Agent
+emoji: 🎓
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
 # 🎓 Educational AI Agent (المساعد التعليمي الذكي)
 
 تطبيق ويب ذكي مبني على **RAG (Retrieval-Augmented Generation)** مخصص لمساعدة الطلاب على فهم المحاضرات وتوليد أسئلة امتحانات مقترحة (MCQ). يقوم هذا المساعد بقراءة ملفات الـ PDF، أرشفة المعلومات، والإجابة على أي سؤال حصرياً من المحتوى الذي تم دراسته.
