@@ -1,0 +1,429 @@
+[
+  {
+    "text": "Multi-Agents \n \nChapter 7 \nScaling Planning for \nComplex Tasks \nDr. Fatma M. Talaat",
+    "page_number": 1,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Multi-Agents \n \nChapter 7 \nScaling Planning for \nComplex Tasks \nDr. Fatma M. Talaat\n\nContents \n1. Chapter 1: Introduction to agents \n2. Chapter 2: Types of intelligent agents \n3. Chapter 3: Reinforcement Learning \n4. Chapter 4: Markov Decision Processes (MDPs) \n5. Chapter 5: Examples on Reinforcement Learning \n6. Chapter 6: Reinforcement Learning (Q-Learning) \n7. Chapter 7: Scaling Planning for Complex Tasks \n8. Chapter 8: Acting in Uncertain (real world) Environments",
+    "page_number": 1,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "1-2"
+  },
+  {
+    "text": "Contents \n1. Chapter 1: Introduction to agents \n2. Chapter 2: Types of intelligent agents \n3. Chapter 3: Reinforcement Learning \n4. Chapter 4: Markov Decision Processes (MDPs) \n5. Chapter 5: Examples on Reinforcement Learning \n6. Chapter 6: Reinforcement Learning (Q-Learning) \n7. Chapter 7: Scaling Planning for Complex Tasks \n8. Chapter 8: Acting in Uncertain (real world) Environments",
+    "page_number": 2,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents \n1. Chapter 1: Introduction to agents \n2. Chapter 2: Types of intelligent agents \n3. Chapter 3: Reinforcement Learning \n4. Chapter 4: Markov Decision Processes (MDPs) \n5. Chapter 5: Examples on Reinforcement Learning \n6. Chapter 6: Reinforcement Learning (Q-Learning) \n7. Chapter 7: Scaling Planning for Complex Tasks \n8. Chapter 8: Acting in Uncertain (real world) Environments\n\nContents \n1.\nRepresenting States, Goals and Actions in STRIPS \n○\n1.1. Explicit State-Space Representation \n○\n1.2. The STRIPS Representation \n○\n1.3. Feature-Based Representation of Actions \n \n2.\nsimple_rl",
+    "page_number": 2,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-4"
+  },
+  {
+    "text": "Contents \n1.\nRepresenting States, Goals and Actions in STRIPS \n○\n1.1. Explicit State-Space Representation \n○\n1.2. The STRIPS Representation \n○\n1.3. Feature-Based Representation of Actions \n \n2.\nsimple_rl",
+    "page_number": 4,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents \n1.\nRepresenting States, Goals and Actions in STRIPS \n○\n1.1. Explicit State-Space Representation \n○\n1.2. The STRIPS Representation \n○\n1.3. Feature-Based Representation of Actions \n \n2.\nsimple_rl\n\n. Representing States, Goals and Actions in STRIPS \n•\nTo reason about what to do, assume an agent has goals, a model of the environment, and a model of \nits actions. \n \n•\nA deterministic action is a partial function from states to states. \n•\nIt is partial because not every action is able to be carried out in every state. \n \n•\nFor example, a robot cannot pick up a particular object if it is nowhere near the object. The \nprecondition of an action specifies when the action can be carried out. The effect of an action \nspecifies the resulting state.",
+    "page_number": 4,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "4-5"
+  },
+  {
+    "text": ". Representing States, Goals and Actions in STRIPS \n•\nTo reason about what to do, assume an agent has goals, a model of the environment, and a model of \nits actions. \n \n•\nA deterministic action is a partial function from states to states. \n•\nIt is partial because not every action is able to be carried out in every state. \n \n•\nFor example, a robot cannot pick up a particular object if it is nowhere near the object. The \nprecondition of an action specifies when the action can be carried out. The effect of an action \nspecifies the resulting state.",
+    "page_number": 5,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Representing States, Goals and Actions in STRIPS \n•\nTo reason about what to do, assume an agent has goals, a model of the environment, and a model of \nits actions. \n \n•\nA deterministic action is a partial function from states to states. \n•\nIt is partial because not every action is able to be carried out in every state. \n \n•\nFor example, a robot cannot pick up a particular object if it is nowhere near the object. The \nprecondition of an action specifies when the action can be carried out. The effect of an action \nspecifies the resulting state.\n\n. Representing States, Goals and Actions in STRIPS \nExample 1.1: Consider a delivery robot with mail and coffee to deliver. Assume a simplified problem \ndomain with four locations as shown in Figure.",
+    "page_number": 5,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "5-6"
+  },
+  {
+    "text": ". Representing States, Goals and Actions in STRIPS \nExample 1.1: Consider a delivery robot with mail and coffee to deliver. Assume a simplified problem \ndomain with four locations as shown in Figure.",
+    "page_number": 6,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Representing States, Goals and Actions in STRIPS \nExample 1.1: Consider a delivery robot with mail and coffee to deliver. Assume a simplified problem \ndomain with four locations as shown in Figure.\n\nExample 1.1 \n•\nThe robot, called Rob, can buy coffee at the coffee shop, pick up mail in the mail room, move, and \ndeliver coffee and/or mail. \n•\nDelivering the coffee to Sam’s office will stop Sam from wanting coffee. \n•\nThere could be mail waiting at the mail room to be delivered to Sam’s office. \n•\nThis domain is quite simple, yet it is rich enough to demonstrate many of the issues in representing \nactions and in planning.",
+    "page_number": 6,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "6-7"
+  },
+  {
+    "text": "Example 1.1 \n•\nThe robot, called Rob, can buy coffee at the coffee shop, pick up mail in the mail room, move, and \ndeliver coffee and/or mail. \n•\nDelivering the coffee to Sam’s office will stop Sam from wanting coffee. \n•\nThere could be mail waiting at the mail room to be delivered to Sam’s office. \n•\nThis domain is quite simple, yet it is rich enough to demonstrate many of the issues in representing \nactions and in planning.",
+    "page_number": 7,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 1.1 \n•\nThe robot, called Rob, can buy coffee at the coffee shop, pick up mail in the mail room, move, and \ndeliver coffee and/or mail. \n•\nDelivering the coffee to Sam’s office will stop Sam from wanting coffee. \n•\nThere could be mail waiting at the mail room to be delivered to Sam’s office. \n•\nThis domain is quite simple, yet it is rich enough to demonstrate many of the issues in representing \nactions and in planning.\n\nExample 1.1 \nThe state is described in terms of the following features: \n \n•\nRLoc, the robot’s location, which is one of the coffee shop (cs), Sam’s office (off), the mail room (mr), \nor the laboratory (lab). \n•\nRHC, whether the robot has coffee. The atom rhc means Rob has coffee (i.e., RHC=true) and ¬rhc \nmeans Rob does not have coffee (i.e., RHC=false). \n•\nSWC, whether Sam wants coffee. The atom swc means Sam wants coffee and ¬swc means Sam \ndoes not want coffee. \n•\nMW, whether mail is waiting at the mail room. The atom mw means there is mail waiting and ¬mw \nmeans there is no mail waiting. \n•\nRHM, whether the robot is carrying the mail. The atom rhm means Rob has mail, and ¬rhm means \nRob does not have mail.",
+    "page_number": 7,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "7-8"
+  },
+  {
+    "text": "Example 1.1 \nThe state is described in terms of the following features: \n \n•\nRLoc, the robot’s location, which is one of the coffee shop (cs), Sam’s office (off), the mail room (mr), \nor the laboratory (lab). \n•\nRHC, whether the robot has coffee. The atom rhc means Rob has coffee (i.e., RHC=true) and ¬rhc \nmeans Rob does not have coffee (i.e., RHC=false). \n•\nSWC, whether Sam wants coffee. The atom swc means Sam wants coffee and ¬swc means Sam \ndoes not want coffee. \n•\nMW, whether mail is waiting at the mail room. The atom mw means there is mail waiting and ¬mw \nmeans there is no mail waiting. \n•\nRHM, whether the robot is carrying the mail. The atom rhm means Rob has mail, and ¬rhm means \nRob does not have mail.",
+    "page_number": 8,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 1.1 \nThe state is described in terms of the following features: \n \n•\nRLoc, the robot’s location, which is one of the coffee shop (cs), Sam’s office (off), the mail room (mr), \nor the laboratory (lab). \n•\nRHC, whether the robot has coffee. The atom rhc means Rob has coffee (i.e., RHC=true) and ¬rhc \nmeans Rob does not have coffee (i.e., RHC=false). \n•\nSWC, whether Sam wants coffee. The atom swc means Sam wants coffee and ¬swc means Sam \ndoes not want coffee. \n•\nMW, whether mail is waiting at the mail room. The atom mw means there is mail waiting and ¬mw \nmeans there is no mail waiting. \n•\nRHM, whether the robot is carrying the mail. The atom rhm means Rob has mail, and ¬rhm means \nRob does not have mail.\n\nExample 1.1 \nRob has six actions: \n \n1) Rob can move clockwise (mc). \n \n2) Rob can move counterclockwise (mcc). \n \n3) Rob can pick up coffee if Rob is at the coffee shop. Let puc mean that Rob picks up coffee. The \nprecondition of puc is ¬rhc∧(RLoc=cs); that is, Rob can pick up coffee in any state where its location is cs, \nand it is not already holding coffee. The effect of this action is to make RHC true. It does not affect the \nother features.",
+    "page_number": 8,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "8-9"
+  },
+  {
+    "text": "Example 1.1 \nRob has six actions: \n \n1) Rob can move clockwise (mc). \n \n2) Rob can move counterclockwise (mcc). \n \n3) Rob can pick up coffee if Rob is at the coffee shop. Let puc mean that Rob picks up coffee. The \nprecondition of puc is ¬rhc∧(RLoc=cs); that is, Rob can pick up coffee in any state where its location is cs, \nand it is not already holding coffee. The effect of this action is to make RHC true. It does not affect the \nother features.",
+    "page_number": 9,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 1.1 \nRob has six actions: \n \n1) Rob can move clockwise (mc). \n \n2) Rob can move counterclockwise (mcc). \n \n3) Rob can pick up coffee if Rob is at the coffee shop. Let puc mean that Rob picks up coffee. The \nprecondition of puc is ¬rhc∧(RLoc=cs); that is, Rob can pick up coffee in any state where its location is cs, \nand it is not already holding coffee. The effect of this action is to make RHC true. It does not affect the \nother features.\n\nExample 1.1 \nRob has six actions: \n \n4) Rob can deliver coffee if Rob is carrying coffee and is at Sam’s office. Let dc mean that Rob delivers \ncoffee. The precondition of dc is rhc∧(RLoc=off). The effect of this action is to make RHC false and make \nSWC false. Note that Rob can deliver coffee whether or not Sam wants it. \n \n5) Rob can pick up mail if Rob is at the mail room and there is mail waiting there. Let pum mean Rob picks \nup the mail. Rob can deliver mail if Rob is carrying mail and at Sam’s office. Let dm mean Rob delivers \nmail. \n \nAssume that it is only possible for Rob to do one action at a time. We assume that a lower-level controller \nis able to implement these actions, as described in previous chapters.",
+    "page_number": 9,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "9-10"
+  },
+  {
+    "text": "Example 1.1 \nRob has six actions: \n \n4) Rob can deliver coffee if Rob is carrying coffee and is at Sam’s office. Let dc mean that Rob delivers \ncoffee. The precondition of dc is rhc∧(RLoc=off). The effect of this action is to make RHC false and make \nSWC false. Note that Rob can deliver coffee whether or not Sam wants it. \n \n5) Rob can pick up mail if Rob is at the mail room and there is mail waiting there. Let pum mean Rob picks \nup the mail. Rob can deliver mail if Rob is carrying mail and at Sam’s office. Let dm mean Rob delivers \nmail. \n \nAssume that it is only possible for Rob to do one action at a time. We assume that a lower-level controller \nis able to implement these actions, as described in previous chapters.",
+    "page_number": 10,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 1.1 \nRob has six actions: \n \n4) Rob can deliver coffee if Rob is carrying coffee and is at Sam’s office. Let dc mean that Rob delivers \ncoffee. The precondition of dc is rhc∧(RLoc=off). The effect of this action is to make RHC false and make \nSWC false. Note that Rob can deliver coffee whether or not Sam wants it. \n \n5) Rob can pick up mail if Rob is at the mail room and there is mail waiting there. Let pum mean Rob picks \nup the mail. Rob can deliver mail if Rob is carrying mail and at Sam’s office. Let dm mean Rob delivers \nmail. \n \nAssume that it is only possible for Rob to do one action at a time. We assume that a lower-level controller \nis able to implement these actions, as described in previous chapters.\n\n. Representing States, Goals and Actions in STRIPS \nRepresenting states can be in three ways: \n \n1.1. Explicit State-Space Representation \n \n1.2. The STRIPS Representation \n \n1.3. Feature-Based Representation of Actions",
+    "page_number": 10,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "10-11"
+  },
+  {
+    "text": ". Representing States, Goals and Actions in STRIPS \nRepresenting states can be in three ways: \n \n1.1. Explicit State-Space Representation \n \n1.2. The STRIPS Representation \n \n1.3. Feature-Based Representation of Actions",
+    "page_number": 11,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Representing States, Goals and Actions in STRIPS \nRepresenting states can be in three ways: \n \n1.1. Explicit State-Space Representation \n \n1.2. The STRIPS Representation \n \n1.3. Feature-Based Representation of Actions\n\n.1. Explicit State-Space Representation \n•\nOne possible representation of the effect and precondition of actions is to explicitly enumerate the \nstates and, for each state, specify the actions that are possible in that state and, for each state–action \npair, specify the state that results from carrying out the action in that state. \n \n•\nThis would require a table such as the following: \n \n \n \n \n \n•\nThe first tuple in this relation specifies that it is possible to carry out action act47 in state s7 and, if it \nwere to be carried out in state s7, the resulting state would be s94.",
+    "page_number": 11,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "11-12"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \n•\nOne possible representation of the effect and precondition of actions is to explicitly enumerate the \nstates and, for each state, specify the actions that are possible in that state and, for each state–action \npair, specify the state that results from carrying out the action in that state. \n \n•\nThis would require a table such as the following: \n \n \n \n \n \n•\nThe first tuple in this relation specifies that it is possible to carry out action act47 in state s7 and, if it \nwere to be carried out in state s7, the resulting state would be s94.",
+    "page_number": 12,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \n•\nOne possible representation of the effect and precondition of actions is to explicitly enumerate the \nstates and, for each state, specify the actions that are possible in that state and, for each state–action \npair, specify the state that results from carrying out the action in that state. \n \n•\nThis would require a table such as the following: \n \n \n \n \n \n•\nThe first tuple in this relation specifies that it is possible to carry out action act47 in state s7 and, if it \nwere to be carried out in state s7, the resulting state would be s94.\n\n.1. Explicit State-Space Representation \nExample 1.2: In Example 1.1, the states are the quintuples specifying the robot’s location, whether the \nrobot has coffee, whether Sam wants coffee, whether mail is waiting, and whether the robot is carrying the \nmail. \n \nFor example, the tuple \n \n \n⟨lab,¬rhc,swc,¬mw,rhm⟩ \nrepresents the state where Rob is at the Lab, Rob does not have coffee, Sam wants coffee, there is no \nmail waiting, and Sam has mail. \n \nThe tuple \n \n \n⟨lab,rhc,swc,mw,¬rhm⟩ \nrepresents the state where Rob is at the Lab carrying coffee, Sam wants coffee, there is mail waiting, \nand Rob is not holding any mail.",
+    "page_number": 12,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "12-13"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \nExample 1.2: In Example 1.1, the states are the quintuples specifying the robot’s location, whether the \nrobot has coffee, whether Sam wants coffee, whether mail is waiting, and whether the robot is carrying the \nmail. \n \nFor example, the tuple \n \n \n⟨lab,¬rhc,swc,¬mw,rhm⟩ \nrepresents the state where Rob is at the Lab, Rob does not have coffee, Sam wants coffee, there is no \nmail waiting, and Sam has mail. \n \nThe tuple \n \n \n⟨lab,rhc,swc,mw,¬rhm⟩ \nrepresents the state where Rob is at the Lab carrying coffee, Sam wants coffee, there is mail waiting, \nand Rob is not holding any mail.",
+    "page_number": 13,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \nExample 1.2: In Example 1.1, the states are the quintuples specifying the robot’s location, whether the \nrobot has coffee, whether Sam wants coffee, whether mail is waiting, and whether the robot is carrying the \nmail. \n \nFor example, the tuple \n \n \n⟨lab,¬rhc,swc,¬mw,rhm⟩ \nrepresents the state where Rob is at the Lab, Rob does not have coffee, Sam wants coffee, there is no \nmail waiting, and Sam has mail. \n \nThe tuple \n \n \n⟨lab,rhc,swc,mw,¬rhm⟩ \nrepresents the state where Rob is at the Lab carrying coffee, Sam wants coffee, there is mail waiting, \nand Rob is not holding any mail.\n\n.1. Explicit State-Space Representation \n•\nIn this example, there are 4×2×2×2×2=64 states. Intuitively, all of them are possible, even if one \nwould not expect that some of them would be reached by an intelligent robot. \n \n•\nThere are six actions, not all of which are applicable in each state. \n•\nThe actions are defined in terms of the state transitions:",
+    "page_number": 13,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "13-14"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \n•\nIn this example, there are 4×2×2×2×2=64 states. Intuitively, all of them are possible, even if one \nwould not expect that some of them would be reached by an intelligent robot. \n \n•\nThere are six actions, not all of which are applicable in each state. \n•\nThe actions are defined in terms of the state transitions:",
+    "page_number": 14,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \n•\nIn this example, there are 4×2×2×2×2=64 states. Intuitively, all of them are possible, even if one \nwould not expect that some of them would be reached by an intelligent robot. \n \n•\nThere are six actions, not all of which are applicable in each state. \n•\nThe actions are defined in terms of the state transitions:\n\n.1. Explicit State-Space Representation \n \n \n \n \n \n \n \n \n•\nThis table shows the transitions for two of the states. The complete representation includes the \ntransitions for the other 62 states.",
+    "page_number": 14,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "14-15"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \n \n \n \n \n \n \n \n \n•\nThis table shows the transitions for two of the states. The complete representation includes the \ntransitions for the other 62 states.",
+    "page_number": 15,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \n \n \n \n \n \n \n \n \n•\nThis table shows the transitions for two of the states. The complete representation includes the \ntransitions for the other 62 states.\n\n.1. Explicit State-Space Representation \n•\nThis is not a good representation for three main reasons: \n1) There are usually too many states to represent, to acquire, and to reason with. \n \n2) Small changes to the model mean a large change to the representation. Adding another feature means \nchanging the whole representation. For example, to model the level of power in the robot, so that it can \nrecharge itself in the Lab, every state has to change. \n \n3) It does not represent the structure of states; there is much structure and regularity in the effects of \nactions that is not reflected in the state transitions. For example, most actions do not affect whether Sam \nwants coffee, but this fact needs to be repeated for every state. \n \nAn alternative is to model how the actions affect the features.",
+    "page_number": 15,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "15-16"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \n•\nThis is not a good representation for three main reasons: \n1) There are usually too many states to represent, to acquire, and to reason with. \n \n2) Small changes to the model mean a large change to the representation. Adding another feature means \nchanging the whole representation. For example, to model the level of power in the robot, so that it can \nrecharge itself in the Lab, every state has to change. \n \n3) It does not represent the structure of states; there is much structure and regularity in the effects of \nactions that is not reflected in the state transitions. For example, most actions do not affect whether Sam \nwants coffee, but this fact needs to be repeated for every state. \n \nAn alternative is to model how the actions affect the features.",
+    "page_number": 16,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".1. Explicit State-Space Representation \n•\nThis is not a good representation for three main reasons: \n1) There are usually too many states to represent, to acquire, and to reason with. \n \n2) Small changes to the model mean a large change to the representation. Adding another feature means \nchanging the whole representation. For example, to model the level of power in the robot, so that it can \nrecharge itself in the Lab, every state has to change. \n \n3) It does not represent the structure of states; there is much structure and regularity in the effects of \nactions that is not reflected in the state transitions. For example, most actions do not affect whether Sam \nwants coffee, but this fact needs to be repeated for every state. \n \nAn alternative is to model how the actions affect the features.\n\n.2. The STRIPS Representation \n•\nThe STRIPS representation is an action-centric representation which, for each action, specifies when \nthe action can occur and the effects of the action. \n \n•\nSTRIPS, which stands for “STanford Research Institute Problem Solver,” was the planner used in \nShakey, one of the first robots built using AI technology.",
+    "page_number": 16,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "16-17"
+  },
+  {
+    "text": ".2. The STRIPS Representation \n•\nThe STRIPS representation is an action-centric representation which, for each action, specifies when \nthe action can occur and the effects of the action. \n \n•\nSTRIPS, which stands for “STanford Research Institute Problem Solver,” was the planner used in \nShakey, one of the first robots built using AI technology.",
+    "page_number": 17,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".2. The STRIPS Representation \n•\nThe STRIPS representation is an action-centric representation which, for each action, specifies when \nthe action can occur and the effects of the action. \n \n•\nSTRIPS, which stands for “STanford Research Institute Problem Solver,” was the planner used in \nShakey, one of the first robots built using AI technology.\n\n.2. The STRIPS Representation \n•\nTo represent a planning problem in STRIPS, first divide the features that describe the state of the \nworld into primitive and derived features. \n \n•\nThe STRIPS representation is used to specify the values of primitive features in a state based on the \nprevious state and the action taken by the agent. \n \n•\nDefinite clauses are used to determine the value of derived features from the values of the primitive \nfeatures in any given state.",
+    "page_number": 17,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "17-18"
+  },
+  {
+    "text": ".2. The STRIPS Representation \n•\nTo represent a planning problem in STRIPS, first divide the features that describe the state of the \nworld into primitive and derived features. \n \n•\nThe STRIPS representation is used to specify the values of primitive features in a state based on the \nprevious state and the action taken by the agent. \n \n•\nDefinite clauses are used to determine the value of derived features from the values of the primitive \nfeatures in any given state.",
+    "page_number": 18,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".2. The STRIPS Representation \n•\nTo represent a planning problem in STRIPS, first divide the features that describe the state of the \nworld into primitive and derived features. \n \n•\nThe STRIPS representation is used to specify the values of primitive features in a state based on the \nprevious state and the action taken by the agent. \n \n•\nDefinite clauses are used to determine the value of derived features from the values of the primitive \nfeatures in any given state.\n\n.2. The STRIPS Representation \nThe STRIPS representation for an action consists of: \n \n1) The precondition, a set of assignments of values to features that must hold for the action to \noccur, and \n \n2) The effect, a set of assignments of values to primitive features that specifies the features that \nchange, and the values they change to, as the result of the action. \n \n \n•\nThe precondition of an action is a proposition – the conjunction of the elements of the set – that must \nbe true before the action is able to be carried out. \n•\nIn terms of constraints, the robot is constrained so it can only choose an action for which the \nprecondition holds.",
+    "page_number": 18,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "18-19"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nThe STRIPS representation for an action consists of: \n \n1) The precondition, a set of assignments of values to features that must hold for the action to \noccur, and \n \n2) The effect, a set of assignments of values to primitive features that specifies the features that \nchange, and the values they change to, as the result of the action. \n \n \n•\nThe precondition of an action is a proposition – the conjunction of the elements of the set – that must \nbe true before the action is able to be carried out. \n•\nIn terms of constraints, the robot is constrained so it can only choose an action for which the \nprecondition holds.",
+    "page_number": 19,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nThe STRIPS representation for an action consists of: \n \n1) The precondition, a set of assignments of values to features that must hold for the action to \noccur, and \n \n2) The effect, a set of assignments of values to primitive features that specifies the features that \nchange, and the values they change to, as the result of the action. \n \n \n•\nThe precondition of an action is a proposition – the conjunction of the elements of the set – that must \nbe true before the action is able to be carried out. \n•\nIn terms of constraints, the robot is constrained so it can only choose an action for which the \nprecondition holds.\n\n.2. The STRIPS Representation \nExample 1.3: in Example 1.1, the action of Rob to pick up coffee (puc) has precondition {cs,¬rhc}. That is, \nRob must be at the coffee shop (cs), not carrying coffee (¬rhc) to carry out the puc action. As a constraint, \nthis means that puc is not available for any other location or when rhc is true. \n \n•\nThe action to move clockwise is always possible. Its precondition is the empty set, {}, which represents \nthe proposition true. \n \n•\nThe STRIPS representation is based on the idea that most things are not affected by a single \naction. \n•\nThe semantics relies on the STRIPS assumption: the values of all of the primitive features not \nmentioned in the effects of the action are unchanged by the action.",
+    "page_number": 19,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "19-20"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nExample 1.3: in Example 1.1, the action of Rob to pick up coffee (puc) has precondition {cs,¬rhc}. That is, \nRob must be at the coffee shop (cs), not carrying coffee (¬rhc) to carry out the puc action. As a constraint, \nthis means that puc is not available for any other location or when rhc is true. \n \n•\nThe action to move clockwise is always possible. Its precondition is the empty set, {}, which represents \nthe proposition true. \n \n•\nThe STRIPS representation is based on the idea that most things are not affected by a single \naction. \n•\nThe semantics relies on the STRIPS assumption: the values of all of the primitive features not \nmentioned in the effects of the action are unchanged by the action.",
+    "page_number": 20,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nExample 1.3: in Example 1.1, the action of Rob to pick up coffee (puc) has precondition {cs,¬rhc}. That is, \nRob must be at the coffee shop (cs), not carrying coffee (¬rhc) to carry out the puc action. As a constraint, \nthis means that puc is not available for any other location or when rhc is true. \n \n•\nThe action to move clockwise is always possible. Its precondition is the empty set, {}, which represents \nthe proposition true. \n \n•\nThe STRIPS representation is based on the idea that most things are not affected by a single \naction. \n•\nThe semantics relies on the STRIPS assumption: the values of all of the primitive features not \nmentioned in the effects of the action are unchanged by the action.\n\n.2. The STRIPS Representation \n•\nPrimitive feature X has value v after action act \n \n \nIf action act was possible (its preconditions hold) and X=v is in the effect of act. \n \nor \n \nIf X is not mentioned in the effect of act, and X had value v immediately before act. \n \n•\nThe values of non-primitive features can be derived from the values of the primitive features for each \ntime.",
+    "page_number": 20,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "20-21"
+  },
+  {
+    "text": ".2. The STRIPS Representation \n•\nPrimitive feature X has value v after action act \n \n \nIf action act was possible (its preconditions hold) and X=v is in the effect of act. \n \nor \n \nIf X is not mentioned in the effect of act, and X had value v immediately before act. \n \n•\nThe values of non-primitive features can be derived from the values of the primitive features for each \ntime.",
+    "page_number": 21,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".2. The STRIPS Representation \n•\nPrimitive feature X has value v after action act \n \n \nIf action act was possible (its preconditions hold) and X=v is in the effect of act. \n \nor \n \nIf X is not mentioned in the effect of act, and X had value v immediately before act. \n \n•\nThe values of non-primitive features can be derived from the values of the primitive features for each \ntime.\n\n.2. The STRIPS Representation \nExample 1.4: in Example 1.1, the action of Rob to pick up coffee (puc) has the following STRIPS \nrepresentation: \n \n \nprecondition: {cs,¬rhc} \n \neffect: {rhc} \n \nThat is, in order to be able to pick up coffee, the robot must be at the coffee shop and not have coffee. \nAfter the action, rhc holds (i.e., RHC=true). All other feature values are unaffected by this action.",
+    "page_number": 21,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "21-22"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nExample 1.4: in Example 1.1, the action of Rob to pick up coffee (puc) has the following STRIPS \nrepresentation: \n \n \nprecondition: {cs,¬rhc} \n \neffect: {rhc} \n \nThat is, in order to be able to pick up coffee, the robot must be at the coffee shop and not have coffee. \nAfter the action, rhc holds (i.e., RHC=true). All other feature values are unaffected by this action.",
+    "page_number": 22,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nExample 1.4: in Example 1.1, the action of Rob to pick up coffee (puc) has the following STRIPS \nrepresentation: \n \n \nprecondition: {cs,¬rhc} \n \neffect: {rhc} \n \nThat is, in order to be able to pick up coffee, the robot must be at the coffee shop and not have coffee. \nAfter the action, rhc holds (i.e., RHC=true). All other feature values are unaffected by this action.\n\n.2. The STRIPS Representation \nExample 1.5: The action of delivering coffee (dc) can be defined by \n \nPrecondition: {off,rhc} \nEffect: {¬rhc,¬swc} \n \n•\nThe robot can deliver coffee when it is in the office and has coffee. \n•\nThe robot does not have coffee after the action, and Sam does not want coffee after the action. \nThus, the effects are to make RHC=false and SWC=false. \n \nNote that, according to this model, the robot can deliver coffee whether Sam wants coffee or not; in either \ncase, Sam does not want coffee immediately after the action.",
+    "page_number": 22,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "22-23"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nExample 1.5: The action of delivering coffee (dc) can be defined by \n \nPrecondition: {off,rhc} \nEffect: {¬rhc,¬swc} \n \n•\nThe robot can deliver coffee when it is in the office and has coffee. \n•\nThe robot does not have coffee after the action, and Sam does not want coffee after the action. \nThus, the effects are to make RHC=false and SWC=false. \n \nNote that, according to this model, the robot can deliver coffee whether Sam wants coffee or not; in either \ncase, Sam does not want coffee immediately after the action.",
+    "page_number": 23,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nExample 1.5: The action of delivering coffee (dc) can be defined by \n \nPrecondition: {off,rhc} \nEffect: {¬rhc,¬swc} \n \n•\nThe robot can deliver coffee when it is in the office and has coffee. \n•\nThe robot does not have coffee after the action, and Sam does not want coffee after the action. \nThus, the effects are to make RHC=false and SWC=false. \n \nNote that, according to this model, the robot can deliver coffee whether Sam wants coffee or not; in either \ncase, Sam does not want coffee immediately after the action.\n\n.2. The STRIPS Representation \nExample 1.6: Consider representing the action mc to move clockwise. The effect of mc, where the robot \nends up, depends on the robot’s location before mc was carried out. \n \n•\nTo represent this in the STRIPS representation, we can construct multiple actions that differ in what is \ntrue initially. For example, the action mc_cs (move clockwise from coffee shop) has a precondition \n{RLoc=cs} and effect {RLoc=off}. \n•\nThe action mc_off (move clockwise from office) has a precondition {RLoc=off} and effect {RLoc=lab}. \nSTRIPS thus requires four move clockwise actions (one for each location) and four move \ncounterclockwise actions.",
+    "page_number": 23,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "23-24"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nExample 1.6: Consider representing the action mc to move clockwise. The effect of mc, where the robot \nends up, depends on the robot’s location before mc was carried out. \n \n•\nTo represent this in the STRIPS representation, we can construct multiple actions that differ in what is \ntrue initially. For example, the action mc_cs (move clockwise from coffee shop) has a precondition \n{RLoc=cs} and effect {RLoc=off}. \n•\nThe action mc_off (move clockwise from office) has a precondition {RLoc=off} and effect {RLoc=lab}. \nSTRIPS thus requires four move clockwise actions (one for each location) and four move \ncounterclockwise actions.",
+    "page_number": 24,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".2. The STRIPS Representation \nExample 1.6: Consider representing the action mc to move clockwise. The effect of mc, where the robot \nends up, depends on the robot’s location before mc was carried out. \n \n•\nTo represent this in the STRIPS representation, we can construct multiple actions that differ in what is \ntrue initially. For example, the action mc_cs (move clockwise from coffee shop) has a precondition \n{RLoc=cs} and effect {RLoc=off}. \n•\nThe action mc_off (move clockwise from office) has a precondition {RLoc=off} and effect {RLoc=lab}. \nSTRIPS thus requires four move clockwise actions (one for each location) and four move \ncounterclockwise actions.\n\n.3. Feature-Based Representation of Actions \n•\nWhereas STRIPS is an action-centric representation, a feature-centric representation is more \nflexible, as it allows for conditional effects, and non-local effects. \n \n•\nA feature-based representation of actions models \n \n- The precondition of each action. \n \n- For each feature, the feature values in the next state as a function of the feature values of the \nprevious state and the action.",
+    "page_number": 24,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "24-25"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \n•\nWhereas STRIPS is an action-centric representation, a feature-centric representation is more \nflexible, as it allows for conditional effects, and non-local effects. \n \n•\nA feature-based representation of actions models \n \n- The precondition of each action. \n \n- For each feature, the feature values in the next state as a function of the feature values of the \nprevious state and the action.",
+    "page_number": 25,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \n•\nWhereas STRIPS is an action-centric representation, a feature-centric representation is more \nflexible, as it allows for conditional effects, and non-local effects. \n \n•\nA feature-based representation of actions models \n \n- The precondition of each action. \n \n- For each feature, the feature values in the next state as a function of the feature values of the \nprevious state and the action.\n\n.3. Feature-Based Representation of Actions \n•\nThe feature-based representation of actions uses definite clauses to specify the value of each \nvariable in the state resulting from an action. \n•\nThe bodies of these rules can include propositions about the action carried out and propositions about \nvalues of features in the previous state. We assume these propositions can be equalities and \ninequalities between features and values. \n \n•\nThe rules have two forms: \n \n- A causal rule specifies when a feature gets a new value. \n \n- A frame rule specifies when a feature keeps its value. \n \n•\nIt is useful to think of these as two separate cases: what makes the feature change its value, and \nwhat makes it keep its value.",
+    "page_number": 25,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "25-26"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \n•\nThe feature-based representation of actions uses definite clauses to specify the value of each \nvariable in the state resulting from an action. \n•\nThe bodies of these rules can include propositions about the action carried out and propositions about \nvalues of features in the previous state. We assume these propositions can be equalities and \ninequalities between features and values. \n \n•\nThe rules have two forms: \n \n- A causal rule specifies when a feature gets a new value. \n \n- A frame rule specifies when a feature keeps its value. \n \n•\nIt is useful to think of these as two separate cases: what makes the feature change its value, and \nwhat makes it keep its value.",
+    "page_number": 26,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \n•\nThe feature-based representation of actions uses definite clauses to specify the value of each \nvariable in the state resulting from an action. \n•\nThe bodies of these rules can include propositions about the action carried out and propositions about \nvalues of features in the previous state. We assume these propositions can be equalities and \ninequalities between features and values. \n \n•\nThe rules have two forms: \n \n- A causal rule specifies when a feature gets a new value. \n \n- A frame rule specifies when a feature keeps its value. \n \n•\nIt is useful to think of these as two separate cases: what makes the feature change its value, and \nwhat makes it keep its value.\n\n.3. Feature-Based Representation of Actions \nExample 1.7: In Example 1.1, Rob’s location depends on its previous location and where it moved. \n•\nLet RLoc′ be the variable that specifies the location in the resulting state. \n•\nThe following rules specify the conditions under which Rob is at the coffee shop: \n \n \nRLoc′=cs←RLoc=off∧Act=mcc. \n \n \nRLoc′=cs←RLoc=mr∧Act=mc. \n \n \nRLoc′=cs←RLoc=cs∧Act≠mcc∧Act≠mc. \n \n \n•\nThe first two rules are causal rules and the last rule is a frame rule.",
+    "page_number": 26,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "26-27"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \nExample 1.7: In Example 1.1, Rob’s location depends on its previous location and where it moved. \n•\nLet RLoc′ be the variable that specifies the location in the resulting state. \n•\nThe following rules specify the conditions under which Rob is at the coffee shop: \n \n \nRLoc′=cs←RLoc=off∧Act=mcc. \n \n \nRLoc′=cs←RLoc=mr∧Act=mc. \n \n \nRLoc′=cs←RLoc=cs∧Act≠mcc∧Act≠mc. \n \n \n•\nThe first two rules are causal rules and the last rule is a frame rule.",
+    "page_number": 27,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \nExample 1.7: In Example 1.1, Rob’s location depends on its previous location and where it moved. \n•\nLet RLoc′ be the variable that specifies the location in the resulting state. \n•\nThe following rules specify the conditions under which Rob is at the coffee shop: \n \n \nRLoc′=cs←RLoc=off∧Act=mcc. \n \n \nRLoc′=cs←RLoc=mr∧Act=mc. \n \n \nRLoc′=cs←RLoc=cs∧Act≠mcc∧Act≠mc. \n \n \n•\nThe first two rules are causal rules and the last rule is a frame rule.\n\n.3. Feature-Based Representation of Actions \n•\nWhether the robot has coffee in the resulting state depends on whether it has coffee in the previous \nstate and its action. A causal rule specifies that picking up the coffee causes the robot to have coffee \nin the next time step: \n \n \n \nrhc′←Act=puc. \n \n \n•\nA frame rule specifies that the robot having coffee persists unless the robot delivers the coffee. \n \n \n \nrhc′←rhc∧Act≠dc. \n \n \n \nThe rule implicitly implies that the robot cannot drop the coffee, drink it or lose it, and the coffee cannot be \nstolen.",
+    "page_number": 27,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "27-28"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \n•\nWhether the robot has coffee in the resulting state depends on whether it has coffee in the previous \nstate and its action. A causal rule specifies that picking up the coffee causes the robot to have coffee \nin the next time step: \n \n \n \nrhc′←Act=puc. \n \n \n•\nA frame rule specifies that the robot having coffee persists unless the robot delivers the coffee. \n \n \n \nrhc′←rhc∧Act≠dc. \n \n \n \nThe rule implicitly implies that the robot cannot drop the coffee, drink it or lose it, and the coffee cannot be \nstolen.",
+    "page_number": 28,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \n•\nWhether the robot has coffee in the resulting state depends on whether it has coffee in the previous \nstate and its action. A causal rule specifies that picking up the coffee causes the robot to have coffee \nin the next time step: \n \n \n \nrhc′←Act=puc. \n \n \n•\nA frame rule specifies that the robot having coffee persists unless the robot delivers the coffee. \n \n \n \nrhc′←rhc∧Act≠dc. \n \n \n \nThe rule implicitly implies that the robot cannot drop the coffee, drink it or lose it, and the coffee cannot be \nstolen.\n\n.3. Feature-Based Representation of Actions \nExample 1.8: Suppose that all of the actions make the robot dirty, except for the wash action that makes \nthe robot clean. \n \n•\nIn STRIPS this would entail having dirty as an effect of every action. \n•\nIn the feature-based representation, we could add a rule that robot is dirty after every action that is not \nwash: \n \n \nrobot_dirty′←Act≠wash.",
+    "page_number": 28,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "28-29"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \nExample 1.8: Suppose that all of the actions make the robot dirty, except for the wash action that makes \nthe robot clean. \n \n•\nIn STRIPS this would entail having dirty as an effect of every action. \n•\nIn the feature-based representation, we could add a rule that robot is dirty after every action that is not \nwash: \n \n \nrobot_dirty′←Act≠wash.",
+    "page_number": 29,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".3. Feature-Based Representation of Actions \nExample 1.8: Suppose that all of the actions make the robot dirty, except for the wash action that makes \nthe robot clean. \n \n•\nIn STRIPS this would entail having dirty as an effect of every action. \n•\nIn the feature-based representation, we could add a rule that robot is dirty after every action that is not \nwash: \n \n \nrobot_dirty′←Act≠wash.\n\n. simple_rl \n•\nA simple framework for experimenting with Reinforcement Learning in Python. \n•\nThere are loads of other great libraries out there for RL. The aim of this one is twofold: \n \n- Simplicity. \n \n- Reproducibility of results. \n \n \nhttps://github.com/david-abel/simple_rl",
+    "page_number": 29,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "29-30"
+  },
+  {
+    "text": ". simple_rl \n•\nA simple framework for experimenting with Reinforcement Learning in Python. \n•\nThere are loads of other great libraries out there for RL. The aim of this one is twofold: \n \n- Simplicity. \n \n- Reproducibility of results. \n \n \nhttps://github.com/david-abel/simple_rl",
+    "page_number": 30,
+    "source_file": "Chapter+8+-+Scaling+Planning+for+Complex+Tasks",
+    "total_pages": 31,
+    "extraction_method": "ocr_fallback"
+  }
+]

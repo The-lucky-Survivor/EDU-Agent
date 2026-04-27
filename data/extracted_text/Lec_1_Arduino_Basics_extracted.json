@@ -1,0 +1,774 @@
+[
+  {
+    "text": "What is a Microcontroller\n• A small computer on a single chip \n• containing a processor, memory, and input/output\n• Typically \"embedded\" inside some device that they control \n• A microcontroller is often small and low cost",
+    "page_number": 9,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "What is a Microcontroller\n• A small computer on a single chip \n• containing a processor, memory, and input/output\n• Typically \"embedded\" inside some device that they control \n• A microcontroller is often small and low cost\n\nWhat is a Development Board\nTypical components include:\n• power circuit \n• programming interface\n• basic input; usually buttons and LEDs\n• I/O pins\n• A printed circuit \nboard designed to \nfacilitate work with a \nparticular \nmicrocontroller.",
+    "page_number": 9,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "9-10"
+  },
+  {
+    "text": "What is a Development Board\nTypical components include:\n• power circuit \n• programming interface\n• basic input; usually buttons and LEDs\n• I/O pins\n• A printed circuit \nboard designed to \nfacilitate work with a \nparticular \nmicrocontroller.",
+    "page_number": 10,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "What is a Development Board\nTypical components include:\n• power circuit \n• programming interface\n• basic input; usually buttons and LEDs\n• I/O pins\n• A printed circuit \nboard designed to \nfacilitate work with a \nparticular \nmicrocontroller.\n\nWhat is the Arduino\n• The Arduino is a family of microcontroller \nboards\n \n Used by:\n✓Artists\n✓Hackers\n✓Hobbyists\n✓Professionals \nTo easily:\n✓Design\n✓Prototype\n✓Experiment with\n electronics.",
+    "page_number": 10,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "10-16"
+  },
+  {
+    "text": "What is the Arduino\n• The Arduino is a family of microcontroller \nboards\n \n Used by:\n✓Artists\n✓Hackers\n✓Hobbyists\n✓Professionals \nTo easily:\n✓Design\n✓Prototype\n✓Experiment with\n electronics.",
+    "page_number": 16,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "What is the Arduino\n• The Arduino is a family of microcontroller \nboards\n \n Used by:\n✓Artists\n✓Hackers\n✓Hobbyists\n✓Professionals \nTo easily:\n✓Design\n✓Prototype\n✓Experiment with\n electronics.\n\nWhat is the Arduino\n• it’s designed to attach all kinds of sensors,\n \n✓LEDs,\n✓small motors,\n✓speakers,\n✓servos, etc.\ndirectly to these pins, which can read in or \noutput digital or analog voltages between 0 and \n5 volts.",
+    "page_number": 16,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "16-17"
+  },
+  {
+    "text": "What is the Arduino\n• it’s designed to attach all kinds of sensors,\n \n✓LEDs,\n✓small motors,\n✓speakers,\n✓servos, etc.\ndirectly to these pins, which can read in or \noutput digital or analog voltages between 0 and \n5 volts.",
+    "page_number": 17,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "What is the Arduino\n• it’s designed to attach all kinds of sensors,\n \n✓LEDs,\n✓small motors,\n✓speakers,\n✓servos, etc.\ndirectly to these pins, which can read in or \noutput digital or analog voltages between 0 and \n5 volts.\n\nWhat is the Arduino\n• with an Arduino you can connect various \nforms of input and output, and create a \nprogram to process and respond to the inputs \nand outputs. \n• Basically anything that can be switched on or \noff, or controlled by electricity, can be \ncontrolled by an Arduino.",
+    "page_number": 17,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "17-18"
+  },
+  {
+    "text": "What is the Arduino\n• with an Arduino you can connect various \nforms of input and output, and create a \nprogram to process and respond to the inputs \nand outputs. \n• Basically anything that can be switched on or \noff, or controlled by electricity, can be \ncontrolled by an Arduino.",
+    "page_number": 18,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "What is the Arduino\n• with an Arduino you can connect various \nforms of input and output, and create a \nprogram to process and respond to the inputs \nand outputs. \n• Basically anything that can be switched on or \noff, or controlled by electricity, can be \ncontrolled by an Arduino.\n\nWhat is the Arduino\n• Examples of input and output forms\ninput: \n✓buttons\n✓Switches\n✓movement sensors\n✓temperature sensors\n✓light sensors\n✓gas sensors\noutput: \n✓Lights\n✓noise-makers\n✓Motors\n✓pumps, other circuits, \n✓liquid-crystal displays",
+    "page_number": 18,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "18-19"
+  },
+  {
+    "text": "What is the Arduino\n• Examples of input and output forms\ninput: \n✓buttons\n✓Switches\n✓movement sensors\n✓temperature sensors\n✓light sensors\n✓gas sensors\noutput: \n✓Lights\n✓noise-makers\n✓Motors\n✓pumps, other circuits, \n✓liquid-crystal displays",
+    "page_number": 19,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "What is the Arduino\n• Examples of input and output forms\ninput: \n✓buttons\n✓Switches\n✓movement sensors\n✓temperature sensors\n✓light sensors\n✓gas sensors\noutput: \n✓Lights\n✓noise-makers\n✓Motors\n✓pumps, other circuits, \n✓liquid-crystal displays\n\nWhat is the Arduino\n• Arduino connects to your computer via USB, \nwhere you program it in a simple language \n(C/C++) inside the free Arduino IDE by \nuploading your compiled code to the board.\n• Once programmed, Arduino can run with the \nUSB link back to your computer, or standalone without it — no keyboard or screen \nneeded, just power.",
+    "page_number": 19,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "19-20"
+  },
+  {
+    "text": "What is the Arduino\n• Arduino connects to your computer via USB, \nwhere you program it in a simple language \n(C/C++) inside the free Arduino IDE by \nuploading your compiled code to the board.\n• Once programmed, Arduino can run with the \nUSB link back to your computer, or standalone without it — no keyboard or screen \nneeded, just power.",
+    "page_number": 20,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "What is the Arduino\n• Arduino connects to your computer via USB, \nwhere you program it in a simple language \n(C/C++) inside the free Arduino IDE by \nuploading your compiled code to the board.\n• Once programmed, Arduino can run with the \nUSB link back to your computer, or standalone without it — no keyboard or screen \nneeded, just power.\n\nShields for Arduino\nShield to control 6 relay, 6 digital input and 6 analog input \nwith Arduino Duemilanove, Arduino UNO or Seeeduino. The \ndigital inputs and relay outputs are equipped with an LED \nthat indicates the status.",
+    "page_number": 20,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "20-21"
+  },
+  {
+    "text": "Shields for Arduino\nShield to control 6 relay, 6 digital input and 6 analog input \nwith Arduino Duemilanove, Arduino UNO or Seeeduino. The \ndigital inputs and relay outputs are equipped with an LED \nthat indicates the status.",
+    "page_number": 21,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Shields for Arduino\nShield to control 6 relay, 6 digital input and 6 analog input \nwith Arduino Duemilanove, Arduino UNO or Seeeduino. The \ndigital inputs and relay outputs are equipped with an LED \nthat indicates the status.\n\nGetting Started With Arduino\n1. Download & install the Arduino environment \n(IDE)\n2. Connect the board to your computer via USB\n3. If needed, install the drivers\n4. Launch the Arduino IDE\n5. Select your board\n6. Select your serial port\n7. Implement your circuit\n8. Write a control code\n9. Upload the control code",
+    "page_number": 21,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "21-22"
+  },
+  {
+    "text": "Getting Started With Arduino\n1. Download & install the Arduino environment \n(IDE)\n2. Connect the board to your computer via USB\n3. If needed, install the drivers\n4. Launch the Arduino IDE\n5. Select your board\n6. Select your serial port\n7. Implement your circuit\n8. Write a control code\n9. Upload the control code",
+    "page_number": 22,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Getting Started With Arduino\n1. Download & install the Arduino environment \n(IDE)\n2. Connect the board to your computer via USB\n3. If needed, install the drivers\n4. Launch the Arduino IDE\n5. Select your board\n6. Select your serial port\n7. Implement your circuit\n8. Write a control code\n9. Upload the control code\n\nGetting Started With Arduino\nConnecting the USB cable",
+    "page_number": 22,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "22-23"
+  },
+  {
+    "text": "Getting Started With Arduino\nConnecting the USB cable",
+    "page_number": 23,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Getting Started With Arduino\nConnecting the USB cable\n\nGetting Started With Arduino\nSelecting the serial port and the Arduino Board",
+    "page_number": 23,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "23-25"
+  },
+  {
+    "text": "Getting Started With Arduino\nSelecting the serial port and the Arduino Board",
+    "page_number": 25,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Getting Started With Arduino\nSelecting the serial port and the Arduino Board\n\nGetting Started With Arduino\nFrom Coding\nto Execution",
+    "page_number": 25,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "25-26"
+  },
+  {
+    "text": "Getting Started With Arduino\nFrom Coding\nto Execution",
+    "page_number": 26,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Getting Started With Arduino\nFrom Coding\nto Execution\n\nOverview of Common Components: Resistor\nA resistor is a device designed to cause ʻresistanceʼ to an electric current and \ntherefore cause a drop in voltage across itʼs terminals. We use resistors to \ndecrease voltage or current to other devices. The value of resistance is Ohm Ω.",
+    "page_number": 26,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "26-32"
+  },
+  {
+    "text": "Overview of Common Components: Resistor\nA resistor is a device designed to cause ʻresistanceʼ to an electric current and \ntherefore cause a drop in voltage across itʼs terminals. We use resistors to \ndecrease voltage or current to other devices. The value of resistance is Ohm Ω.",
+    "page_number": 32,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: Resistor\nA resistor is a device designed to cause ʻresistanceʼ to an electric current and \ntherefore cause a drop in voltage across itʼs terminals. We use resistors to \ndecrease voltage or current to other devices. The value of resistance is Ohm Ω.\n\nOverview of Common Components: LED\n• A Diode is a device that permits current to flow in only \none direction. \n• if the current tried to reverse and go back in the \nopposite direction the diode would stop it\n• from doing so. Diodes can be useful to prevent \nsomeone from accidently connecting the Power and \nGround to the wrong terminals in a circuit and \ndamaging the components.",
+    "page_number": 32,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "32-34"
+  },
+  {
+    "text": "Overview of Common Components: LED\n• A Diode is a device that permits current to flow in only \none direction. \n• if the current tried to reverse and go back in the \nopposite direction the diode would stop it\n• from doing so. Diodes can be useful to prevent \nsomeone from accidently connecting the Power and \nGround to the wrong terminals in a circuit and \ndamaging the components.",
+    "page_number": 34,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: LED\n• A Diode is a device that permits current to flow in only \none direction. \n• if the current tried to reverse and go back in the \nopposite direction the diode would stop it\n• from doing so. Diodes can be useful to prevent \nsomeone from accidently connecting the Power and \nGround to the wrong terminals in a circuit and \ndamaging the components.\n\nOverview of Common Components: LED\n• LED (Light Emitting Diode).\n• An LED is the same thing, but it also emits light. LEDʼs come in all \nkinds of different colours and brightnesses and can also emit light in \nthe ultraviolet and infrared part of the spectrum (like in the LEDʼs in \nyour TV remote control).",
+    "page_number": 34,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "34-35"
+  },
+  {
+    "text": "Overview of Common Components: LED\n• LED (Light Emitting Diode).\n• An LED is the same thing, but it also emits light. LEDʼs come in all \nkinds of different colours and brightnesses and can also emit light in \nthe ultraviolet and infrared part of the spectrum (like in the LEDʼs in \nyour TV remote control).",
+    "page_number": 35,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: LED\n• LED (Light Emitting Diode).\n• An LED is the same thing, but it also emits light. LEDʼs come in all \nkinds of different colours and brightnesses and can also emit light in \nthe ultraviolet and infrared part of the spectrum (like in the LEDʼs in \nyour TV remote control).\n\nOverview of Common Components: Resistor\nArdunio Digital Pin is outputting 5 volts DC at (according to the Atmega \ndatasheet) 40mA (milliamps).\nLED requires (according to their datasheet) a voltage of 2v and a current \nof 20mA. \nWe therefore need to put in a resistor that will reduce the 5v to 2v\nand the current from 40mA to 20mA if we want to display the LED at itʼs \nmaximum brightness. If we want the LED to be dimmer we could use a \nhigher value of resistance.\nSo VR= 52= 3V Then is R = 3/0.02= 150 Ω",
+    "page_number": 35,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "35-36"
+  },
+  {
+    "text": "Overview of Common Components: Resistor\nArdunio Digital Pin is outputting 5 volts DC at (according to the Atmega \ndatasheet) 40mA (milliamps).\nLED requires (according to their datasheet) a voltage of 2v and a current \nof 20mA. \nWe therefore need to put in a resistor that will reduce the 5v to 2v\nand the current from 40mA to 20mA if we want to display the LED at itʼs \nmaximum brightness. If we want the LED to be dimmer we could use a \nhigher value of resistance.\nSo VR= 52= 3V Then is R = 3/0.02= 150 Ω",
+    "page_number": 36,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: Resistor\nArdunio Digital Pin is outputting 5 volts DC at (according to the Atmega \ndatasheet) 40mA (milliamps).\nLED requires (according to their datasheet) a voltage of 2v and a current \nof 20mA. \nWe therefore need to put in a resistor that will reduce the 5v to 2v\nand the current from 40mA to 20mA if we want to display the LED at itʼs \nmaximum brightness. If we want the LED to be dimmer we could use a \nhigher value of resistance.\nSo VR= 52= 3V Then is R = 3/0.02= 150 Ω\n\nOverview of Common Components: Potentiometer\nA potentiometer is a simple knob \nthat provides a variable resistance, \nwhich we can read into the Arduino \nboard as an analog value.",
+    "page_number": 36,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "36-37"
+  },
+  {
+    "text": "Overview of Common Components: Potentiometer\nA potentiometer is a simple knob \nthat provides a variable resistance, \nwhich we can read into the Arduino \nboard as an analog value.",
+    "page_number": 37,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: Potentiometer\nA potentiometer is a simple knob \nthat provides a variable resistance, \nwhich we can read into the Arduino \nboard as an analog value.\n\nOverview of Common Components: \n \n \n \n \n Bluetooth Module",
+    "page_number": 37,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "37-43"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n Bluetooth Module",
+    "page_number": 43,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n Bluetooth Module\n\nOverview of Common Components: \n \n \n \n \n \n LCD Display",
+    "page_number": 43,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "43-44"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LCD Display",
+    "page_number": 44,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LCD Display\n\nOverview of Common Components: \n \n \n \n \n \n LCD Display",
+    "page_number": 44,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "44-45"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LCD Display",
+    "page_number": 45,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LCD Display\n\nOverview of Common Components: \n \n \n \n \n \n LCD Display",
+    "page_number": 45,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "45-46"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LCD Display",
+    "page_number": 46,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LCD Display\n\nOverview of Common Components: \n \n \n \n \n \n Dot Matrix",
+    "page_number": 46,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "46-47"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Dot Matrix",
+    "page_number": 47,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Dot Matrix\n\nOverview of Common Components: \n \n \n \n \n \n Dot Matrix",
+    "page_number": 47,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "47-48"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Dot Matrix",
+    "page_number": 48,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Dot Matrix\n\nOverview of Common Components: \n \n \n \n \n \n Temperature Sensor\ntemp = (5.0 * analogRead(tempPin) * 100.0) / 1024;",
+    "page_number": 48,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "48-49"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Temperature Sensor\ntemp = (5.0 * analogRead(tempPin) * 100.0) / 1024;",
+    "page_number": 49,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Temperature Sensor\ntemp = (5.0 * analogRead(tempPin) * 100.0) / 1024;\n\nOverview of Common Components: \n \n \n \n \n \n Ultrasonic Sensor",
+    "page_number": 49,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "49-50"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Ultrasonic Sensor",
+    "page_number": 50,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Ultrasonic Sensor\n\nOverview of Common Components: \n \n \n \n \n \n LDR Sensor",
+    "page_number": 50,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "50-51"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LDR Sensor",
+    "page_number": 51,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LDR Sensor\n\nOverview of Common Components: \n \n \n \n \n \n LDR Sensor",
+    "page_number": 51,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "51-52"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LDR Sensor",
+    "page_number": 52,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LDR Sensor\n\nOverview of Common Components: \n \n \n \n \n \n LDR Sensor",
+    "page_number": 52,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "52-53"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LDR Sensor",
+    "page_number": 53,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n LDR Sensor\n\nOverview of Common Components: \n \n \n \n \n \n Motion Sensor",
+    "page_number": 53,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "53-54"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Motion Sensor",
+    "page_number": 54,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Motion Sensor\n\nOverview of Common Components: \n \n \n \n \n \n Motion Sensor",
+    "page_number": 54,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "54-55"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Motion Sensor",
+    "page_number": 55,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Motion Sensor\n\nOverview of Common Components: \n \n \n \n \n \n Motion Sensor",
+    "page_number": 55,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "55-56"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Motion Sensor",
+    "page_number": 56,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Motion Sensor\n\nOverview of Common Components: \n \n Infrared Transmitter and Receiver Pair",
+    "page_number": 56,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "56-57"
+  },
+  {
+    "text": "Overview of Common Components: \n \n Infrared Transmitter and Receiver Pair",
+    "page_number": 57,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n Infrared Transmitter and Receiver Pair\n\nOverview of Common Components: \n \n Infrared Obstacle Avoidance Sensor",
+    "page_number": 57,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "57-58"
+  },
+  {
+    "text": "Overview of Common Components: \n \n Infrared Obstacle Avoidance Sensor",
+    "page_number": 58,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n Infrared Obstacle Avoidance Sensor\n\nOverview of Common Components: \n \n \n \n \n \n Sound Sensor",
+    "page_number": 58,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "58-59"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Sound Sensor",
+    "page_number": 59,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Sound Sensor\n\nOverview of Common Components: \n \n \n \n \n \n Sound Sensor",
+    "page_number": 59,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "59-60"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Sound Sensor",
+    "page_number": 60,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Sound Sensor\n\nOverview of Common Components: \n \n \n \n \n \n Fire Sensor",
+    "page_number": 60,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "60-61"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Fire Sensor",
+    "page_number": 61,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Fire Sensor\n\nOverview of Common Components: \n \n \n \n \n \n Fire Sensor",
+    "page_number": 61,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "61-62"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Fire Sensor",
+    "page_number": 62,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Fire Sensor\n\nOverview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 62,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "62-63"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 63,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor\n\nOverview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 63,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "63-64"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 64,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor\n\nOverview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 64,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "64-65"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 65,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor\n\nOverview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 65,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "65-66"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 66,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor\n\nOverview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 66,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "66-67"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor",
+    "page_number": 67,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Soil Moisture Sensor\n\nOverview of Common Components: \n \n \n Rain Drop Sensor",
+    "page_number": 67,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "67-68"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Rain Drop Sensor",
+    "page_number": 68,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Rain Drop Sensor\n\nOverview of Common Components: \n \n \n Rain Drop Sensor",
+    "page_number": 68,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "68-69"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Rain Drop Sensor",
+    "page_number": 69,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Rain Drop Sensor\n\nOverview of Common Components: \n \n \n Rain Drop Sensor",
+    "page_number": 69,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "69-70"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Rain Drop Sensor",
+    "page_number": 70,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n Rain Drop Sensor\n\nOverview of Common Components: \n \n \n \n \n \n Servo Motor",
+    "page_number": 70,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "70-71"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Servo Motor",
+    "page_number": 71,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Servo Motor\n\nOverview of Common Components: \n \n \n \n \n \n Servo Motor",
+    "page_number": 71,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "71-72"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Servo Motor",
+    "page_number": 72,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n Servo Motor\n\nOverview of Common Components: \n \n \n \n \n \n DC Motor",
+    "page_number": 72,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "72-73"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n DC Motor",
+    "page_number": 73,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n DC Motor\n\nOverview of Common Components: \n \n \n \n \n \n DC Motor",
+    "page_number": 73,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "73-74"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n DC Motor",
+    "page_number": 74,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n DC Motor\n\nOverview of Common Components: \n \n \n \n \n \n DC Motor",
+    "page_number": 74,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "74-75"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n DC Motor",
+    "page_number": 75,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Overview of Common Components: \n \n \n \n \n \n DC Motor\n\nSketch Structure\nvoid setup() // run once, when the sketch starts\n{\nStatements;\n}\nvoid loop() \n// run over and over again\n{\nStatements;\n}",
+    "page_number": 75,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "75-78"
+  },
+  {
+    "text": "Sketch Structure\nvoid setup() // run once, when the sketch starts\n{\nStatements;\n}\nvoid loop() \n// run over and over again\n{\nStatements;\n}",
+    "page_number": 78,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Sketch Structure\nvoid setup() // run once, when the sketch starts\n{\nStatements;\n}\nvoid loop() \n// run over and over again\n{\nStatements;\n}\n\nSketch Structure\n// Blinking LED\nint LED = 13; // LED connected to digital pin 13\nvoid setup()\n{\n pinMode(LED, OUTPUT); // sets the digital pin as output\n}\nvoid loop()\n{\n digitalWrite(LED, HIGH); // turns the LED on\n delay(1000); // waits for a second\n digitalWrite(LED, LOW); // turns the LED off\n delay(1000); // waits for a second\n}",
+    "page_number": 78,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "78-79"
+  },
+  {
+    "text": "Sketch Structure\n// Blinking LED\nint LED = 13; // LED connected to digital pin 13\nvoid setup()\n{\n pinMode(LED, OUTPUT); // sets the digital pin as output\n}\nvoid loop()\n{\n digitalWrite(LED, HIGH); // turns the LED on\n delay(1000); // waits for a second\n digitalWrite(LED, LOW); // turns the LED off\n delay(1000); // waits for a second\n}",
+    "page_number": 79,
+    "source_file": "Lec_1_Arduino_Basics",
+    "total_pages": 85,
+    "extraction_method": "ocr_fallback"
+  }
+]

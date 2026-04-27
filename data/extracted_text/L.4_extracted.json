@@ -1,0 +1,549 @@
+[
+  {
+    "text": "Multi-Agents\nChapter 4\nReinforcement Learning\nDr. Fatma M. Talaat",
+    "page_number": 1,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Multi-Agents\nChapter 4\nReinforcement Learning\nDr. Fatma M. Talaat\n\nContents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 1,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "1-2"
+  },
+  {
+    "text": "Contents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 2,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments\n\nContents\n1. Overview of Learning Algorithms\n2. What is Reinforcement Learning?\n3. Intuition to Reinforcement Learning\n4. Terminologies\n5. How Reinforcement Learning Works\n6. RL Applications\n7. RL (MDPs & Q-learning)",
+    "page_number": 2,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-4"
+  },
+  {
+    "text": "Contents\n1. Overview of Learning Algorithms\n2. What is Reinforcement Learning?\n3. Intuition to Reinforcement Learning\n4. Terminologies\n5. How Reinforcement Learning Works\n6. RL Applications\n7. RL (MDPs & Q-learning)",
+    "page_number": 4,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents\n1. Overview of Learning Algorithms\n2. What is Reinforcement Learning?\n3. Intuition to Reinforcement Learning\n4. Terminologies\n5. How Reinforcement Learning Works\n6. RL Applications\n7. RL (MDPs & Q-learning)\n\n. Overview of Learning Algorithms\nAward based learning",
+    "page_number": 4,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "4-5"
+  },
+  {
+    "text": ". Overview of Learning Algorithms\nAward based learning",
+    "page_number": 5,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Overview of Learning Algorithms\nAward based learning\n\nTypes of Learning\n1) Supervised learning\nCircle\nTriangle\nSquare\n???\n1. Overview of Learning Algorithms",
+    "page_number": 5,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "5-7"
+  },
+  {
+    "text": "Types of Learning\n1) Supervised learning\nCircle\nTriangle\nSquare\n???\n1. Overview of Learning Algorithms",
+    "page_number": 7,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Types of Learning\n1) Supervised learning\nCircle\nTriangle\nSquare\n???\n1. Overview of Learning Algorithms\n\nTypes of Learning\n2) Unsupervised learning\n1. Overview of Learning Algorithms",
+    "page_number": 7,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "7-8"
+  },
+  {
+    "text": "Types of Learning\n2) Unsupervised learning\n1. Overview of Learning Algorithms",
+    "page_number": 8,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Types of Learning\n2) Unsupervised learning\n1. Overview of Learning Algorithms\n\nTypes of Learning\n3) Reinforcement learning (RL)\n1. Overview of Learning Algorithms",
+    "page_number": 8,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "8-9"
+  },
+  {
+    "text": "Types of Learning\n3) Reinforcement learning (RL)\n1. Overview of Learning Algorithms",
+    "page_number": 9,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Types of Learning\n3) Reinforcement learning (RL)\n1. Overview of Learning Algorithms\n\nTypes of Learning\nReinforcement learning (RL)\n1. Overview of Learning Algorithms",
+    "page_number": 9,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "9-10"
+  },
+  {
+    "text": "Types of Learning\nReinforcement learning (RL)\n1. Overview of Learning Algorithms",
+    "page_number": 10,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Types of Learning\nReinforcement learning (RL)\n1. Overview of Learning Algorithms\n\n. What is Reinforcement Learning?\nSupervised Learning: Immediate feedback (labels provided for every input).\nUnsupervised Learning: No feedback (no labels provided).\nReinforcement Learning: Delayed scalar feedback (a number called reward).\n- RL deals with agents that must sense & act upon their environment.\n- This combines classical AI and machine learning techniques.\n- It is the most comprehensive problem setting.",
+    "page_number": 10,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "10-11"
+  },
+  {
+    "text": ". What is Reinforcement Learning?\nSupervised Learning: Immediate feedback (labels provided for every input).\nUnsupervised Learning: No feedback (no labels provided).\nReinforcement Learning: Delayed scalar feedback (a number called reward).\n- RL deals with agents that must sense & act upon their environment.\n- This combines classical AI and machine learning techniques.\n- It is the most comprehensive problem setting.",
+    "page_number": 11,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". What is Reinforcement Learning?\nSupervised Learning: Immediate feedback (labels provided for every input).\nUnsupervised Learning: No feedback (no labels provided).\nReinforcement Learning: Delayed scalar feedback (a number called reward).\n- RL deals with agents that must sense & act upon their environment.\n- This combines classical AI and machine learning techniques.\n- It is the most comprehensive problem setting.\n\nReinforcement Learning: Process\nAgent\nEnvironment\nAction a\nState s\nReward r\nAgent should MAXIMIZE its EXPECTED REWARD",
+    "page_number": 11,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "11-12"
+  },
+  {
+    "text": "Reinforcement Learning: Process\nAgent\nEnvironment\nAction a\nState s\nReward r\nAgent should MAXIMIZE its EXPECTED REWARD",
+    "page_number": 12,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning: Process\nAgent\nEnvironment\nAction a\nState s\nReward r\nAgent should MAXIMIZE its EXPECTED REWARD\n\n. What is Reinforcement Learning?\nExamples:\n- A robot cleaning my room and recharging its battery\n- Robot-soccer\n- How to invest in shares\n- Modeling the economy through rational agents\n- Learning how to fly a helicopter\n- Scheduling planes to their destinations.. and so on",
+    "page_number": 12,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "12-13"
+  },
+  {
+    "text": ". What is Reinforcement Learning?\nExamples:\n- A robot cleaning my room and recharging its battery\n- Robot-soccer\n- How to invest in shares\n- Modeling the economy through rational agents\n- Learning how to fly a helicopter\n- Scheduling planes to their destinations.. and so on",
+    "page_number": 13,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". What is Reinforcement Learning?\nExamples:\n- A robot cleaning my room and recharging its battery\n- Robot-soccer\n- How to invest in shares\n- Modeling the economy through rational agents\n- Learning how to fly a helicopter\n- Scheduling planes to their destinations.. and so on\n\n. Intuition to Reinforcement Learning\nLet us try to understand the previously stated formal definition by means of an example:\n➜Imagine you are supposed to cross an unknown field in the middle of a black night without\na torch. There can be pits and stones in the field, the position of those are unfamiliar to you.\nThere's a simple rule - if you fall into a hole or hit a rock, you must start again from your\ninitial point.\n➜You start walking forward blindly, only counting the number of steps you take. After x\nsteps, you fall into a pit. Your reward was x points since you walked that many steps.\n➜You start again from your initial position, but after x steps, you take a detour either left/right\nand again move forward. You hit a stone after y steps. This time your reward was y which is\ngreater than x. You decide to take this path again but with more caution.",
+    "page_number": 13,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "13-14"
+  },
+  {
+    "text": ". Intuition to Reinforcement Learning\nLet us try to understand the previously stated formal definition by means of an example:\n➜Imagine you are supposed to cross an unknown field in the middle of a black night without\na torch. There can be pits and stones in the field, the position of those are unfamiliar to you.\nThere's a simple rule - if you fall into a hole or hit a rock, you must start again from your\ninitial point.\n➜You start walking forward blindly, only counting the number of steps you take. After x\nsteps, you fall into a pit. Your reward was x points since you walked that many steps.\n➜You start again from your initial position, but after x steps, you take a detour either left/right\nand again move forward. You hit a stone after y steps. This time your reward was y which is\ngreater than x. You decide to take this path again but with more caution.",
+    "page_number": 14,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Intuition to Reinforcement Learning\nLet us try to understand the previously stated formal definition by means of an example:\n➜Imagine you are supposed to cross an unknown field in the middle of a black night without\na torch. There can be pits and stones in the field, the position of those are unfamiliar to you.\nThere's a simple rule - if you fall into a hole or hit a rock, you must start again from your\ninitial point.\n➜You start walking forward blindly, only counting the number of steps you take. After x\nsteps, you fall into a pit. Your reward was x points since you walked that many steps.\n➜You start again from your initial position, but after x steps, you take a detour either left/right\nand again move forward. You hit a stone after y steps. This time your reward was y which is\ngreater than x. You decide to take this path again but with more caution.\n\n. Intuition to Reinforcement Learning\n- When you start again, you make a detour after x steps, another after y steps and manage\nto fall into another pit after z steps. This time the reward was z points which was greater\nthan y, and you decide that this is a good path to take again.\n- You restart again, make the detours after x, y and z steps to reach the other side of the\nfield. Thus, you've learned to cross the field without the need of light.",
+    "page_number": 14,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "14-15"
+  },
+  {
+    "text": ". Intuition to Reinforcement Learning\n- When you start again, you make a detour after x steps, another after y steps and manage\nto fall into another pit after z steps. This time the reward was z points which was greater\nthan y, and you decide that this is a good path to take again.\n- You restart again, make the detours after x, y and z steps to reach the other side of the\nfield. Thus, you've learned to cross the field without the need of light.",
+    "page_number": 15,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Intuition to Reinforcement Learning\n- When you start again, you make a detour after x steps, another after y steps and manage\nto fall into another pit after z steps. This time the reward was z points which was greater\nthan y, and you decide that this is a good path to take again.\n- You restart again, make the detours after x, y and z steps to reach the other side of the\nfield. Thus, you've learned to cross the field without the need of light.\n\nInsight\n- In the previous example, you are the agent who is trying to walk across the field, which is the environment.\n- Walking is the action the agent performs on the environment.\n- The distance the agent walks acts as the reward.\n- The agent tries to perform the action in such a way that the reward maximizes. This is how RL works in a\nnutshell. The following figure puts it into a simple diagram.",
+    "page_number": 15,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "15-16"
+  },
+  {
+    "text": "Insight\n- In the previous example, you are the agent who is trying to walk across the field, which is the environment.\n- Walking is the action the agent performs on the environment.\n- The distance the agent walks acts as the reward.\n- The agent tries to perform the action in such a way that the reward maximizes. This is how RL works in a\nnutshell. The following figure puts it into a simple diagram.",
+    "page_number": 16,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Insight\n- In the previous example, you are the agent who is trying to walk across the field, which is the environment.\n- Walking is the action the agent performs on the environment.\n- The distance the agent walks acts as the reward.\n- The agent tries to perform the action in such a way that the reward maximizes. This is how RL works in a\nnutshell. The following figure puts it into a simple diagram.\n\n. Terminologies\nAgent: a hypothetical entity which performs actions in an environment to gain some reward.\nAction (a): All the possible moves that the agent can take.\nEnvironment (e): A scenario the agent has to face.\nState (s): Current situation returned by the environment.\nReward (R): An immediate return sent back from the environment to evaluate the last action by the\nagent.",
+    "page_number": 16,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "16-17"
+  },
+  {
+    "text": ". Terminologies\nAgent: a hypothetical entity which performs actions in an environment to gain some reward.\nAction (a): All the possible moves that the agent can take.\nEnvironment (e): A scenario the agent has to face.\nState (s): Current situation returned by the environment.\nReward (R): An immediate return sent back from the environment to evaluate the last action by the\nagent.",
+    "page_number": 17,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Terminologies\nAgent: a hypothetical entity which performs actions in an environment to gain some reward.\nAction (a): All the possible moves that the agent can take.\nEnvironment (e): A scenario the agent has to face.\nState (s): Current situation returned by the environment.\nReward (R): An immediate return sent back from the environment to evaluate the last action by the\nagent.\n\n. Terminologies\nPolicy (π): The strategy that the agent employs to determine next action based on the current\nstate.\nValue (V): The expected long-term return with discount, as opposed to the short-term reward R.\nVπ(s), is defined as the expected long-term return of the current state s under policy π.\nQ-value or action-value (Q): Q-value is similar to value, except that it takes an extra parameter,\nthe current action a. Qπ(s, a) refers to the long-term return of the current state s, taking action a\nunder policy π.",
+    "page_number": 17,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "17-18"
+  },
+  {
+    "text": ". Terminologies\nPolicy (π): The strategy that the agent employs to determine next action based on the current\nstate.\nValue (V): The expected long-term return with discount, as opposed to the short-term reward R.\nVπ(s), is defined as the expected long-term return of the current state s under policy π.\nQ-value or action-value (Q): Q-value is similar to value, except that it takes an extra parameter,\nthe current action a. Qπ(s, a) refers to the long-term return of the current state s, taking action a\nunder policy π.",
+    "page_number": 18,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Terminologies\nPolicy (π): The strategy that the agent employs to determine next action based on the current\nstate.\nValue (V): The expected long-term return with discount, as opposed to the short-term reward R.\nVπ(s), is defined as the expected long-term return of the current state s under policy π.\nQ-value or action-value (Q): Q-value is similar to value, except that it takes an extra parameter,\nthe current action a. Qπ(s, a) refers to the long-term return of the current state s, taking action a\nunder policy π.\n\n. How Reinforcement Learning Works\nThere are majorly three approaches to implement RL:\n1) Value-Based: you try to maximize a value function V(s).\n2) Policy-Based: you try to come up with a policy such that the action performed at each state is optimal to gain maximum\nreward in the future.\n○\nThere are two types of policy-based RL methods:\n■\nDeterministic: at any state s, the same action a is produced by the policy π.\n■\nStochastic: each action has a certain probability.\n3) Model-Based: you create a virtual model for each environment, and the agent learns to perform in that specific\nenvironment. Since the model differs for each environment, there is no singular solution or algorithm for this type.",
+    "page_number": 18,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "18-19"
+  },
+  {
+    "text": ". How Reinforcement Learning Works\nThere are majorly three approaches to implement RL:\n1) Value-Based: you try to maximize a value function V(s).\n2) Policy-Based: you try to come up with a policy such that the action performed at each state is optimal to gain maximum\nreward in the future.\n○\nThere are two types of policy-based RL methods:\n■\nDeterministic: at any state s, the same action a is produced by the policy π.\n■\nStochastic: each action has a certain probability.\n3) Model-Based: you create a virtual model for each environment, and the agent learns to perform in that specific\nenvironment. Since the model differs for each environment, there is no singular solution or algorithm for this type.",
+    "page_number": 19,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". How Reinforcement Learning Works\nThere are majorly three approaches to implement RL:\n1) Value-Based: you try to maximize a value function V(s).\n2) Policy-Based: you try to come up with a policy such that the action performed at each state is optimal to gain maximum\nreward in the future.\n○\nThere are two types of policy-based RL methods:\n■\nDeterministic: at any state s, the same action a is produced by the policy π.\n■\nStochastic: each action has a certain probability.\n3) Model-Based: you create a virtual model for each environment, and the agent learns to perform in that specific\nenvironment. Since the model differs for each environment, there is no singular solution or algorithm for this type.\n\n. RL Applications\nReward here is the distance.\nReward here is the score.",
+    "page_number": 19,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "19-20"
+  },
+  {
+    "text": ". RL Applications\nReward here is the distance.\nReward here is the score.",
+    "page_number": 20,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". RL Applications\nReward here is the distance.\nReward here is the score.\n\n. RL (MDPs & Q-learning)\n1) Markov Decision Processes (MDPs)\nالـnext actionيعتمد\nعلى\nالـcurrent stateفقط\n➜Markov:\n➜\n بيهتم ان الـnext state\n معتمدة فقط على الـcurrent state\n مالهاش دعوة بالـstatesالقديمة\n1) Q-Learning\n➜\n في الـMDP\n بنكون عارفين الـr, T\n عارف الـreward\n وعارف الـprobabilityلكل حالة وأكشن\n➜\n في الـRL\n مابنكونش عارفين الـR,T \n فالـagent\n عشان يتعلم الـpolicy\n هو محتاج يتعلم قيمةT, Rفهو أكثر تعقيدا",
+    "page_number": 20,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "20-21"
+  },
+  {
+    "text": ". RL (MDPs & Q-learning)\n1) Markov Decision Processes (MDPs)\nالـnext actionيعتمد\nعلى\nالـcurrent stateفقط\n➜Markov:\n➜\n بيهتم ان الـnext state\n معتمدة فقط على الـcurrent state\n مالهاش دعوة بالـstatesالقديمة\n1) Q-Learning\n➜\n في الـMDP\n بنكون عارفين الـr, T\n عارف الـreward\n وعارف الـprobabilityلكل حالة وأكشن\n➜\n في الـRL\n مابنكونش عارفين الـR,T \n فالـagent\n عشان يتعلم الـpolicy\n هو محتاج يتعلم قيمةT, Rفهو أكثر تعقيدا",
+    "page_number": 21,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". RL (MDPs & Q-learning)\n1) Markov Decision Processes (MDPs)\nالـnext actionيعتمد\nعلى\nالـcurrent stateفقط\n➜Markov:\n➜\n بيهتم ان الـnext state\n معتمدة فقط على الـcurrent state\n مالهاش دعوة بالـstatesالقديمة\n1) Q-Learning\n➜\n في الـMDP\n بنكون عارفين الـr, T\n عارف الـreward\n وعارف الـprobabilityلكل حالة وأكشن\n➜\n في الـRL\n مابنكونش عارفين الـR,T \n فالـagent\n عشان يتعلم الـpolicy\n هو محتاج يتعلم قيمةT, Rفهو أكثر تعقيدا\n\nExample: Grid World\n▪\nA maze-like problem\n▪\nThe agent lives in a grid\n▪\nWalls block the agent’s path\n▪\nNoisy movement: actions do not always go as planned\n▪\n80% of the time, the action North takes the agent North \n(if there is no wall there)\n▪\n10% of the time, North takes the agent West; 10% East\n▪\nIf there is a wall in the direction the agent would have been \ntaken, the agent stays put\n▪\nThe agent receives rewards each time step\n▪\nSmall “living” reward each step (can be negative)\n▪\nBig rewards come at the end (good or bad)\n▪\nGoal: maximize sum of rewardsالـreawardفي\nالمربعات\nاللي\nفي\nالنص\nسالب\nعشان\nيقل\nويوص\nل\nآلخر\nstateفي\nأسرع\nخطوات\nممكنة\nومايطولش\nفي\nالطريق.",
+    "page_number": 21,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "21-22"
+  },
+  {
+    "text": "Example: Grid World\n▪\nA maze-like problem\n▪\nThe agent lives in a grid\n▪\nWalls block the agent’s path\n▪\nNoisy movement: actions do not always go as planned\n▪\n80% of the time, the action North takes the agent North \n(if there is no wall there)\n▪\n10% of the time, North takes the agent West; 10% East\n▪\nIf there is a wall in the direction the agent would have been \ntaken, the agent stays put\n▪\nThe agent receives rewards each time step\n▪\nSmall “living” reward each step (can be negative)\n▪\nBig rewards come at the end (good or bad)\n▪\nGoal: maximize sum of rewardsالـreawardفي\nالمربعات\nاللي\nفي\nالنص\nسالب\nعشان\nيقل\nويوص\nل\nآلخر\nstateفي\nأسرع\nخطوات\nممكنة\nومايطولش\nفي\nالطريق.",
+    "page_number": 22,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example: Grid World\n▪\nA maze-like problem\n▪\nThe agent lives in a grid\n▪\nWalls block the agent’s path\n▪\nNoisy movement: actions do not always go as planned\n▪\n80% of the time, the action North takes the agent North \n(if there is no wall there)\n▪\n10% of the time, North takes the agent West; 10% East\n▪\nIf there is a wall in the direction the agent would have been \ntaken, the agent stays put\n▪\nThe agent receives rewards each time step\n▪\nSmall “living” reward each step (can be negative)\n▪\nBig rewards come at the end (good or bad)\n▪\nGoal: maximize sum of rewardsالـreawardفي\nالمربعات\nاللي\nفي\nالنص\nسالب\nعشان\nيقل\nويوص\nل\nآلخر\nstateفي\nأسرع\nخطوات\nممكنة\nومايطولش\nفي\nالطريق.\n\nGrid World Actions\nDeterministic Grid World\nNondeterministic (Stochastic) Grid World",
+    "page_number": 22,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "22-23"
+  },
+  {
+    "text": "Grid World Actions\nDeterministic Grid World\nNondeterministic (Stochastic) Grid World",
+    "page_number": 23,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Grid World Actions\nDeterministic Grid World\nNondeterministic (Stochastic) Grid World\n\nNon-Deterministic Search\nNondeterministic:\nمعناها\nانه\nلما\nياخدactionمعين\nمش\nهيروح\nللمكان\nده\nبنسبة100\n%\n،\nممكن\nيتغير\nللمكان\nالمطلوب\nفعال\nبنسبة80\n%أو\nليمينه\nبنسبة10\n%أو\nشماله\nبنسبة10\n%",
+    "page_number": 23,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "23-24"
+  },
+  {
+    "text": "Non-Deterministic Search\nNondeterministic:\nمعناها\nانه\nلما\nياخدactionمعين\nمش\nهيروح\nللمكان\nده\nبنسبة100\n%\n،\nممكن\nيتغير\nللمكان\nالمطلوب\nفعال\nبنسبة80\n%أو\nليمينه\nبنسبة10\n%أو\nشماله\nبنسبة10\n%",
+    "page_number": 24,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Non-Deterministic Search\nNondeterministic:\nمعناها\nانه\nلما\nياخدactionمعين\nمش\nهيروح\nللمكان\nده\nبنسبة100\n%\n،\nممكن\nيتغير\nللمكان\nالمطلوب\nفعال\nبنسبة80\n%أو\nليمينه\nبنسبة10\n%أو\nشماله\nبنسبة10\n%\n\nMarkov Decision Processes\n▪An MDP is defined by:\n▪A set of states s ∈S مكان كل من الجوهرة والروبوت\n▪A set of actions a ∈A ممكن يتحرك فوق، تحت، يمين، شمال\n▪A transition function T(s, a, s’)\n▪Probability that a from s leads to s’, i.e., P(s’| s, a)\n▪Also called the model or the dynamics\n▪\n لو أنا فيstate\n معينة وأخدت أكشن معين هيتنقل لـstateايه\n▪A reward function R(s, a, s’) \n▪Sometimes just R(s) or R(s’)\n▪\n لو أنا فيstate \n معينة وأخدت أكشن معين هياخدrewardايه\n▪A start state\n▪Maybe a terminal state",
+    "page_number": 24,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "24-25"
+  },
+  {
+    "text": "Markov Decision Processes\n▪An MDP is defined by:\n▪A set of states s ∈S مكان كل من الجوهرة والروبوت\n▪A set of actions a ∈A ممكن يتحرك فوق، تحت، يمين، شمال\n▪A transition function T(s, a, s’)\n▪Probability that a from s leads to s’, i.e., P(s’| s, a)\n▪Also called the model or the dynamics\n▪\n لو أنا فيstate\n معينة وأخدت أكشن معين هيتنقل لـstateايه\n▪A reward function R(s, a, s’) \n▪Sometimes just R(s) or R(s’)\n▪\n لو أنا فيstate \n معينة وأخدت أكشن معين هياخدrewardايه\n▪A start state\n▪Maybe a terminal state",
+    "page_number": 25,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Markov Decision Processes\n▪An MDP is defined by:\n▪A set of states s ∈S مكان كل من الجوهرة والروبوت\n▪A set of actions a ∈A ممكن يتحرك فوق، تحت، يمين، شمال\n▪A transition function T(s, a, s’)\n▪Probability that a from s leads to s’, i.e., P(s’| s, a)\n▪Also called the model or the dynamics\n▪\n لو أنا فيstate\n معينة وأخدت أكشن معين هيتنقل لـstateايه\n▪A reward function R(s, a, s’) \n▪Sometimes just R(s) or R(s’)\n▪\n لو أنا فيstate \n معينة وأخدت أكشن معين هياخدrewardايه\n▪A start state\n▪Maybe a terminal state\n\nWhat is Markov about MDPs?\n▪“Markov” generally means that given the present state, the\nfuture and the past are independent\n▪For\nMarkov\ndecision\nprocesses,\n“Markov”\nmeans\naction\noutcomes depend only on the current state\n▪This is just like search, where the successor function could only\ndepend on the current state (not the history)\nAndrey Markov \n(1856-1922)",
+    "page_number": 25,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "25-26"
+  },
+  {
+    "text": "What is Markov about MDPs?\n▪“Markov” generally means that given the present state, the\nfuture and the past are independent\n▪For\nMarkov\ndecision\nprocesses,\n“Markov”\nmeans\naction\noutcomes depend only on the current state\n▪This is just like search, where the successor function could only\ndepend on the current state (not the history)\nAndrey Markov \n(1856-1922)",
+    "page_number": 26,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "What is Markov about MDPs?\n▪“Markov” generally means that given the present state, the\nfuture and the past are independent\n▪For\nMarkov\ndecision\nprocesses,\n“Markov”\nmeans\naction\noutcomes depend only on the current state\n▪This is just like search, where the successor function could only\ndepend on the current state (not the history)\nAndrey Markov \n(1856-1922)\n\nPolicies\nOptimal policy when R(s, a, s’) = -0.03 \nfor all non-terminals s\n▪In deterministic single-agent search problems, \nwe wanted an optimal plan, or sequence of \nactions, from start to a goal\n▪For MDPs, we want an optimal policy π*: S → A\n▪A policy π gives an action for each state\n▪An optimal policy is one that maximizes expected \nutility if followed\n▪An explicit policy defines a reflex agent",
+    "page_number": 26,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "26-28"
+  },
+  {
+    "text": "Policies\nOptimal policy when R(s, a, s’) = -0.03 \nfor all non-terminals s\n▪In deterministic single-agent search problems, \nwe wanted an optimal plan, or sequence of \nactions, from start to a goal\n▪For MDPs, we want an optimal policy π*: S → A\n▪A policy π gives an action for each state\n▪An optimal policy is one that maximizes expected \nutility if followed\n▪An explicit policy defines a reflex agent",
+    "page_number": 28,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Policies\nOptimal policy when R(s, a, s’) = -0.03 \nfor all non-terminals s\n▪In deterministic single-agent search problems, \nwe wanted an optimal plan, or sequence of \nactions, from start to a goal\n▪For MDPs, we want an optimal policy π*: S → A\n▪A policy π gives an action for each state\n▪An optimal policy is one that maximizes expected \nutility if followed\n▪An explicit policy defines a reflex agent\n\nOptimal Policies\nR(s) = -2.0\nR(s) = -0.4\nR(s) = -0.03\nR(s) = -0.",
+    "page_number": 28,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "28-29"
+  },
+  {
+    "text": "Optimal Policies\nR(s) = -2.0\nR(s) = -0.4\nR(s) = -0.03\nR(s) = -0.",
+    "page_number": 29,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Optimal Policies\nR(s) = -2.0\nR(s) = -0.4\nR(s) = -0.03\nR(s) = -0.\n\nUtilities of Sequences\n▪What preferences should an agent have over reward sequences?\n▪More or less?\n▪Now or later?\n[1, 2, 2]\n[2, 3, 4]\nor\n[0, 0, 1]\n[1, 0, 0]\nor",
+    "page_number": 29,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "29-31"
+  },
+  {
+    "text": "Utilities of Sequences\n▪What preferences should an agent have over reward sequences?\n▪More or less?\n▪Now or later?\n[1, 2, 2]\n[2, 3, 4]\nor\n[0, 0, 1]\n[1, 0, 0]\nor",
+    "page_number": 31,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Utilities of Sequences\n▪What preferences should an agent have over reward sequences?\n▪More or less?\n▪Now or later?\n[1, 2, 2]\n[2, 3, 4]\nor\n[0, 0, 1]\n[1, 0, 0]\nor\n\nInfinite Utilities?!\n▪Problem: What if the game lasts forever? Do we get infinite rewards?\n▪Solutions:\n▪Finite horizon: (similar to depth-limited search)\n▪Terminate episodes after a fixed T steps (e.g. life)\n▪Gives nonstationary policies (π depends on time left)\n▪Discounting: use 0 < γ < 1\n▪Smaller γ means smaller “horizon” – shorter term focus\n▪Absorbing state: guarantee that for every policy, a terminal state will eventually \nbe reached",
+    "page_number": 31,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "31-32"
+  },
+  {
+    "text": "Infinite Utilities?!\n▪Problem: What if the game lasts forever? Do we get infinite rewards?\n▪Solutions:\n▪Finite horizon: (similar to depth-limited search)\n▪Terminate episodes after a fixed T steps (e.g. life)\n▪Gives nonstationary policies (π depends on time left)\n▪Discounting: use 0 < γ < 1\n▪Smaller γ means smaller “horizon” – shorter term focus\n▪Absorbing state: guarantee that for every policy, a terminal state will eventually \nbe reached",
+    "page_number": 32,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Infinite Utilities?!\n▪Problem: What if the game lasts forever? Do we get infinite rewards?\n▪Solutions:\n▪Finite horizon: (similar to depth-limited search)\n▪Terminate episodes after a fixed T steps (e.g. life)\n▪Gives nonstationary policies (π depends on time left)\n▪Discounting: use 0 < γ < 1\n▪Smaller γ means smaller “horizon” – shorter term focus\n▪Absorbing state: guarantee that for every policy, a terminal state will eventually \nbe reached\n\nDiscounting\n▪It’s reasonable to maximize the sum of rewards\n▪It’s also reasonable to prefer rewards now to rewards later\n▪One solution: values of rewards decay exponentially\nWorth Now\nWorth Next Step\nWorth In Two Steps\n0 < <",
+    "page_number": 32,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "32-33"
+  },
+  {
+    "text": "Discounting\n▪It’s reasonable to maximize the sum of rewards\n▪It’s also reasonable to prefer rewards now to rewards later\n▪One solution: values of rewards decay exponentially\nWorth Now\nWorth Next Step\nWorth In Two Steps\n0 < <",
+    "page_number": 33,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Discounting\n▪It’s reasonable to maximize the sum of rewards\n▪It’s also reasonable to prefer rewards now to rewards later\n▪One solution: values of rewards decay exponentially\nWorth Now\nWorth Next Step\nWorth In Two Steps\n0 < <\n\nDiscounting\n▪How to discount?\n▪Each time we descend a level, we \nmultiply in the discount once\n▪Why discount?\n▪Sooner rewards probably do have \nhigher utility than later rewards\n▪Also helps our algorithms converge\n▪Example: discount of 0.5\n▪U([1,2,3]) = 1*1 + 0.5*2 + 0.25*3\n▪U([1,2,3]) < U([3,2,1])\nUtility\n :\n مجموع كل الـrewards",
+    "page_number": 33,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "33-34"
+  },
+  {
+    "text": "Discounting\n▪How to discount?\n▪Each time we descend a level, we \nmultiply in the discount once\n▪Why discount?\n▪Sooner rewards probably do have \nhigher utility than later rewards\n▪Also helps our algorithms converge\n▪Example: discount of 0.5\n▪U([1,2,3]) = 1*1 + 0.5*2 + 0.25*3\n▪U([1,2,3]) < U([3,2,1])\nUtility\n :\n مجموع كل الـrewards",
+    "page_number": 34,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Discounting\n▪How to discount?\n▪Each time we descend a level, we \nmultiply in the discount once\n▪Why discount?\n▪Sooner rewards probably do have \nhigher utility than later rewards\n▪Also helps our algorithms converge\n▪Example: discount of 0.5\n▪U([1,2,3]) = 1*1 + 0.5*2 + 0.25*3\n▪U([1,2,3]) < U([3,2,1])\nUtility\n :\n مجموع كل الـrewards\n\nQuiz: Discounting\n▪Given:\n▪Actions: East, West, and Exit (only available in exit states a, e)\n▪Transitions: deterministic\n▪Quiz 1: For γ = 1, what is the optimal policy?\n▪Quiz 2: For γ = 0.1, what is the optimal policy?\n▪Quiz 3: For which γ are West and East equally good when in state d?\nExit\n←\n←\n←\n←\nExit\n←\n←\n→\nExit\n10 γ3 = 1γ \nγ = 0.",
+    "page_number": 34,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "34-35"
+  },
+  {
+    "text": "Quiz: Discounting\n▪Given:\n▪Actions: East, West, and Exit (only available in exit states a, e)\n▪Transitions: deterministic\n▪Quiz 1: For γ = 1, what is the optimal policy?\n▪Quiz 2: For γ = 0.1, what is the optimal policy?\n▪Quiz 3: For which γ are West and East equally good when in state d?\nExit\n←\n←\n←\n←\nExit\n←\n←\n→\nExit\n10 γ3 = 1γ \nγ = 0.",
+    "page_number": 35,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Quiz: Discounting\n▪Given:\n▪Actions: East, West, and Exit (only available in exit states a, e)\n▪Transitions: deterministic\n▪Quiz 1: For γ = 1, what is the optimal policy?\n▪Quiz 2: For γ = 0.1, what is the optimal policy?\n▪Quiz 3: For which γ are West and East equally good when in state d?\nExit\n←\n←\n←\n←\nExit\n←\n←\n→\nExit\n10 γ3 = 1γ \nγ = 0.\n\nRecap: Defining MDPs\n▪Markov decision processes:\n▪Set of states S\n▪Start state s0\n▪Set of actions A\n▪Transitions P(s’|s,a) (or T(s,a,s’))\n▪Rewards R(s,a,s’) (and discount γ)\n▪MDP quantities so far:\n▪Policy = Choice of action for each state\n▪Utility = sum of (discounted) rewards\na\ns\ns, a\ns,a,s’\ns’",
+    "page_number": 35,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "35-36"
+  },
+  {
+    "text": "Recap: Defining MDPs\n▪Markov decision processes:\n▪Set of states S\n▪Start state s0\n▪Set of actions A\n▪Transitions P(s’|s,a) (or T(s,a,s’))\n▪Rewards R(s,a,s’) (and discount γ)\n▪MDP quantities so far:\n▪Policy = Choice of action for each state\n▪Utility = sum of (discounted) rewards\na\ns\ns, a\ns,a,s’\ns’",
+    "page_number": 36,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Recap: Defining MDPs\n▪Markov decision processes:\n▪Set of states S\n▪Start state s0\n▪Set of actions A\n▪Transitions P(s’|s,a) (or T(s,a,s’))\n▪Rewards R(s,a,s’) (and discount γ)\n▪MDP quantities so far:\n▪Policy = Choice of action for each state\n▪Utility = sum of (discounted) rewards\na\ns\ns, a\ns,a,s’\ns’\n\nUsing RL for load balancing in fog environment\nThe proposed algorithm has two main RL agents namely:\n•\nAllocation Agent named RL based Allocation Algorithm (RAA)\n•\nMigration Agent named RL based Migration Algorithm (RMA)",
+    "page_number": 36,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "36-37"
+  },
+  {
+    "text": "Using RL for load balancing in fog environment\nThe proposed algorithm has two main RL agents namely:\n•\nAllocation Agent named RL based Allocation Algorithm (RAA)\n•\nMigration Agent named RL based Migration Algorithm (RMA)",
+    "page_number": 37,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Using RL for load balancing in fog environment\nThe proposed algorithm has two main RL agents namely:\n•\nAllocation Agent named RL based Allocation Algorithm (RAA)\n•\nMigration Agent named RL based Migration Algorithm (RMA)\n\nAllocation Agent named RL based Allocation Algorithm (RAA)\n.",
+    "page_number": 37,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "37-38"
+  },
+  {
+    "text": "Allocation Agent named RL based Allocation Algorithm (RAA)\n.",
+    "page_number": 38,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Allocation Agent named RL based Allocation Algorithm (RAA)\n.\n\nMigration Agent named RL based Migration Algorithm (RMA) \n.",
+    "page_number": 38,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "38-39"
+  },
+  {
+    "text": "Migration Agent named RL based Migration Algorithm (RMA) \n.",
+    "page_number": 39,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Migration Agent named RL based Migration Algorithm (RMA) \n.\n\nKerasRL\n•\nKerasRL is a Deep Reinforcement Learning Python library. It implements some state-of-the-art RL\nalgorithms, and seamlessly integrates with Deep Learning library Keras.\n•\nMoreover, KerasRL works with OpenAI Gym out of the box. This means you can evaluate and play\naround with different algorithms quite easily.\n•\nTo install KerasRL simply use a pip command:\npip install keras-rl",
+    "page_number": 39,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "39-40"
+  },
+  {
+    "text": "KerasRL\n•\nKerasRL is a Deep Reinforcement Learning Python library. It implements some state-of-the-art RL\nalgorithms, and seamlessly integrates with Deep Learning library Keras.\n•\nMoreover, KerasRL works with OpenAI Gym out of the box. This means you can evaluate and play\naround with different algorithms quite easily.\n•\nTo install KerasRL simply use a pip command:\npip install keras-rl",
+    "page_number": 40,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "KerasRL\n•\nKerasRL is a Deep Reinforcement Learning Python library. It implements some state-of-the-art RL\nalgorithms, and seamlessly integrates with Deep Learning library Keras.\n•\nMoreover, KerasRL works with OpenAI Gym out of the box. This means you can evaluate and play\naround with different algorithms quite easily.\n•\nTo install KerasRL simply use a pip command:\npip install keras-rl\n\nLet’s Write some code\nhttps://github.com/andrewekhalel/RL-Belarabi/tree/master/L04%20-%20Q-Learning/HW02%20-%20Q-Learning/Solution",
+    "page_number": 40,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "40-41"
+  },
+  {
+    "text": "Let’s Write some code\nhttps://github.com/andrewekhalel/RL-Belarabi/tree/master/L04%20-%20Q-Learning/HW02%20-%20Q-Learning/Solution",
+    "page_number": 41,
+    "source_file": "L.4",
+    "total_pages": 46,
+    "extraction_method": "ocr_fallback"
+  }
+]

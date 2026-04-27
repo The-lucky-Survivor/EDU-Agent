@@ -1,0 +1,369 @@
+[
+  {
+    "text": "Multi-Agents\nChapter 1\nIntroduction to agents\nDr. Fatma M. Talaat",
+    "page_number": 1,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": "Multi-Agents\nChapter 1\nIntroduction to agents\nDr. Fatma M. Talaat\n\nCourse Syllabus\n2\n•\nThis course provides the basic theoretical knowledge about intelligent agents and multiagent systems.\n•\nThe first part of the course covers the different types of agents, their properties and\narchitectures.\n•\nThe second part includes a thorough description of several coordination methods in multiagent systems. The course also includes a practical component on the lab, in which\nstudents have to work in teams to develop a multi-agent system.",
+    "page_number": 1,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "1-2"
+  },
+  {
+    "text": "Course Syllabus\n2\n•\nThis course provides the basic theoretical knowledge about intelligent agents and multiagent systems.\n•\nThe first part of the course covers the different types of agents, their properties and\narchitectures.\n•\nThe second part includes a thorough description of several coordination methods in multiagent systems. The course also includes a practical component on the lab, in which\nstudents have to work in teams to develop a multi-agent system.",
+    "page_number": 2,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": "Course Syllabus\n2\n•\nThis course provides the basic theoretical knowledge about intelligent agents and multiagent systems.\n•\nThe first part of the course covers the different types of agents, their properties and\narchitectures.\n•\nThe second part includes a thorough description of several coordination methods in multiagent systems. The course also includes a practical component on the lab, in which\nstudents have to work in teams to develop a multi-agent system.\n\nCourse Syllabus\n3\nObjectives:\n•\nUnderstand the origins and foundations of distributed computing on the Internet.\n•\nKnowing the possible applications of artificial intelligence for distributed systems on the Internet.\n•\nUnderstanding the basics of Agent Orientation .\n•\nTo analyze a problem distributed in nature to identify the different actors and their functionalities.\n•\nDesigning distributed systems using an agent-oriented methodology.\n•\nExtract and represent knowledge about the context necessary to build a distributed application\non the Internet that is flexible and robust.\n•\nDesigning context ontologies by applying a methodology properly.",
+    "page_number": 2,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "2-3"
+  },
+  {
+    "text": "Course Syllabus\n3\nObjectives:\n•\nUnderstand the origins and foundations of distributed computing on the Internet.\n•\nKnowing the possible applications of artificial intelligence for distributed systems on the Internet.\n•\nUnderstanding the basics of Agent Orientation .\n•\nTo analyze a problem distributed in nature to identify the different actors and their functionalities.\n•\nDesigning distributed systems using an agent-oriented methodology.\n•\nExtract and represent knowledge about the context necessary to build a distributed application\non the Internet that is flexible and robust.\n•\nDesigning context ontologies by applying a methodology properly.",
+    "page_number": 3,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": "Course Syllabus\n3\nObjectives:\n•\nUnderstand the origins and foundations of distributed computing on the Internet.\n•\nKnowing the possible applications of artificial intelligence for distributed systems on the Internet.\n•\nUnderstanding the basics of Agent Orientation .\n•\nTo analyze a problem distributed in nature to identify the different actors and their functionalities.\n•\nDesigning distributed systems using an agent-oriented methodology.\n•\nExtract and represent knowledge about the context necessary to build a distributed application\non the Internet that is flexible and robust.\n•\nDesigning context ontologies by applying a methodology properly.\n\nContents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 3,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "3-4"
+  },
+  {
+    "text": "Contents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 4,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": "Contents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments\n\nContents\n1.\nWhat is an Agent?\n2.\nAgents Classifications\n3.\nExamples of Agents\n4.\nStructure of Agents\n5.\nAgents in Artificial Intelligence\n6.\nIntelligent Agent\n7.\nNature of agents, performance measures and environments\n8.\nHow do intelligent agents work?\n9.\nRational Agent\n10. Characteristics of intelligent agents",
+    "page_number": 4,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "4-6"
+  },
+  {
+    "text": "Contents\n1.\nWhat is an Agent?\n2.\nAgents Classifications\n3.\nExamples of Agents\n4.\nStructure of Agents\n5.\nAgents in Artificial Intelligence\n6.\nIntelligent Agent\n7.\nNature of agents, performance measures and environments\n8.\nHow do intelligent agents work?\n9.\nRational Agent\n10. Characteristics of intelligent agents",
+    "page_number": 6,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": "Contents\n1.\nWhat is an Agent?\n2.\nAgents Classifications\n3.\nExamples of Agents\n4.\nStructure of Agents\n5.\nAgents in Artificial Intelligence\n6.\nIntelligent Agent\n7.\nNature of agents, performance measures and environments\n8.\nHow do intelligent agents work?\n9.\nRational Agent\n10. Characteristics of intelligent agents\n\n. What is an Agent?\n•\nAn agent is anything that can be viewed as perceiving its environment through sensors\nand acting upon that environment through effectors.\n•\nA human agent has eyes, ears, and other organs for sensors, and hands, legs, mouth,\nand other body parts for effectors/actuators.\n•\nA robotic agent substitutes cameras and infrared range finders for the sensors and\nvarious motors for the effectors.",
+    "page_number": 6,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "6-7"
+  },
+  {
+    "text": ". What is an Agent?\n•\nAn agent is anything that can be viewed as perceiving its environment through sensors\nand acting upon that environment through effectors.\n•\nA human agent has eyes, ears, and other organs for sensors, and hands, legs, mouth,\nand other body parts for effectors/actuators.\n•\nA robotic agent substitutes cameras and infrared range finders for the sensors and\nvarious motors for the effectors.",
+    "page_number": 7,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". What is an Agent?\n•\nAn agent is anything that can be viewed as perceiving its environment through sensors\nand acting upon that environment through effectors.\n•\nA human agent has eyes, ears, and other organs for sensors, and hands, legs, mouth,\nand other body parts for effectors/actuators.\n•\nA robotic agent substitutes cameras and infrared range finders for the sensors and\nvarious motors for the effectors.\n\n. What is an Agent?\n•\nPerceive from the environment through sensors (Percepts).\n•\nAct upon the environment through actuators (Actions).",
+    "page_number": 7,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "7-8"
+  },
+  {
+    "text": ". What is an Agent?\n•\nPerceive from the environment through sensors (Percepts).\n•\nAct upon the environment through actuators (Actions).",
+    "page_number": 8,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". What is an Agent?\n•\nPerceive from the environment through sensors (Percepts).\n•\nAct upon the environment through actuators (Actions).\n\n•\nOperate in an environment.\n•\nPerceives and acts upon it's environment through actuators/sensors and have its\ngoals.\n1. What is an Agent?",
+    "page_number": 8,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "8-9"
+  },
+  {
+    "text": "•\nOperate in an environment.\n•\nPerceives and acts upon it's environment through actuators/sensors and have its\ngoals.\n1. What is an Agent?",
+    "page_number": 9,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": "•\nOperate in an environment.\n•\nPerceives and acts upon it's environment through actuators/sensors and have its\ngoals.\n1. What is an Agent?\n\n•\nAn agent perceives its environment through sensors.\n•\nThe complete set of inputs at a given time is called percept.\n•\nThe current percept, or a sequence of percepts can influence the actions of an agent.\n•\nIt can change the environment through effectors.\n•\nAn operation involving an actuator is called an action ,which can be grouped in to action\nsequences.\n1. What is an Agent?",
+    "page_number": 9,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "9-10"
+  },
+  {
+    "text": "•\nAn agent perceives its environment through sensors.\n•\nThe complete set of inputs at a given time is called percept.\n•\nThe current percept, or a sequence of percepts can influence the actions of an agent.\n•\nIt can change the environment through effectors.\n•\nAn operation involving an actuator is called an action ,which can be grouped in to action\nsequences.\n1. What is an Agent?",
+    "page_number": 10,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": "•\nAn agent perceives its environment through sensors.\n•\nThe complete set of inputs at a given time is called percept.\n•\nThe current percept, or a sequence of percepts can influence the actions of an agent.\n•\nIt can change the environment through effectors.\n•\nAn operation involving an actuator is called an action ,which can be grouped in to action\nsequences.\n1. What is an Agent?\n\n. Examples of agents\nHumans\n•\neyes, ears, skin, taste buds, etc for Sensors.\n•\nhands, fingers, legs, mouth for actuators.\nRobots\n•\ncamera, infrared, bumper, etc for sensors.\n•\ngrippers, wheels, lights, speakers, actuators.",
+    "page_number": 10,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "10-12"
+  },
+  {
+    "text": ". Examples of agents\nHumans\n•\neyes, ears, skin, taste buds, etc for Sensors.\n•\nhands, fingers, legs, mouth for actuators.\nRobots\n•\ncamera, infrared, bumper, etc for sensors.\n•\ngrippers, wheels, lights, speakers, actuators.",
+    "page_number": 12,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Examples of agents\nHumans\n•\neyes, ears, skin, taste buds, etc for Sensors.\n•\nhands, fingers, legs, mouth for actuators.\nRobots\n•\ncamera, infrared, bumper, etc for sensors.\n•\ngrippers, wheels, lights, speakers, actuators.\n\n. Structure of agent\n•\nA simple agent program can be defined mathematically as an agent function which maps\nevery possible precepts sequence to a possible action the agent can perform.\nF: p*-> A \n•\nThe term percept is used to the agent’s perceptional inputs at any given instant.",
+    "page_number": 12,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "12-13"
+  },
+  {
+    "text": ". Structure of agent\n•\nA simple agent program can be defined mathematically as an agent function which maps\nevery possible precepts sequence to a possible action the agent can perform.\nF: p*-> A \n•\nThe term percept is used to the agent’s perceptional inputs at any given instant.",
+    "page_number": 13,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Structure of agent\n•\nA simple agent program can be defined mathematically as an agent function which maps\nevery possible precepts sequence to a possible action the agent can perform.\nF: p*-> A \n•\nThe term percept is used to the agent’s perceptional inputs at any given instant.\n\n. Agents in Artificial Intelligence\n•\nAn intelligent agent is a software entity that enables artificial intelligence to take action.\n•\nIntelligent agent senses the environment and uses actuators to initiate action and\nconducts operations in the place of users.\n•\nOr simply an Intelligent Agent (IA) is an entity that makes decisions.",
+    "page_number": 13,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "13-14"
+  },
+  {
+    "text": ". Agents in Artificial Intelligence\n•\nAn intelligent agent is a software entity that enables artificial intelligence to take action.\n•\nIntelligent agent senses the environment and uses actuators to initiate action and\nconducts operations in the place of users.\n•\nOr simply an Intelligent Agent (IA) is an entity that makes decisions.",
+    "page_number": 14,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Agents in Artificial Intelligence\n•\nAn intelligent agent is a software entity that enables artificial intelligence to take action.\n•\nIntelligent agent senses the environment and uses actuators to initiate action and\nconducts operations in the place of users.\n•\nOr simply an Intelligent Agent (IA) is an entity that makes decisions.\n\n. Agents in Artificial Intelligence\n•\nAnything that recognizes the environment through sensors and acts upon the\nenvironment initiated through actuators is called AGENTS.\n•\nAn agent performs the tasks of recognition, thinking, and acting cyclically.\n•\nAn agent can be:\n1) Human-Agent: eyes, ears, and other organs as sensors and hand, legs, vocal\ntrack as actuators.\n2) Robotic Agent: cameras, infrared range finder, sensors, and various motors.\n3) Software Agent: Set of programs designed for particular tasks like checking the\ncontents of received emails and grouping them as junk, important, very important.",
+    "page_number": 14,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "14-15"
+  },
+  {
+    "text": ". Agents in Artificial Intelligence\n•\nAnything that recognizes the environment through sensors and acts upon the\nenvironment initiated through actuators is called AGENTS.\n•\nAn agent performs the tasks of recognition, thinking, and acting cyclically.\n•\nAn agent can be:\n1) Human-Agent: eyes, ears, and other organs as sensors and hand, legs, vocal\ntrack as actuators.\n2) Robotic Agent: cameras, infrared range finder, sensors, and various motors.\n3) Software Agent: Set of programs designed for particular tasks like checking the\ncontents of received emails and grouping them as junk, important, very important.",
+    "page_number": 15,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Agents in Artificial Intelligence\n•\nAnything that recognizes the environment through sensors and acts upon the\nenvironment initiated through actuators is called AGENTS.\n•\nAn agent performs the tasks of recognition, thinking, and acting cyclically.\n•\nAn agent can be:\n1) Human-Agent: eyes, ears, and other organs as sensors and hand, legs, vocal\ntrack as actuators.\n2) Robotic Agent: cameras, infrared range finder, sensors, and various motors.\n3) Software Agent: Set of programs designed for particular tasks like checking the\ncontents of received emails and grouping them as junk, important, very important.\n\n. Intelligent Agent\n•\nAn intelligent agent is a program that can make decisions or perform a service based on\nits environment, user input and experiences.\n•\nThese programs can be used to autonomously gather information on a regular,\nprogrammed schedule or when prompted by the user in real time.\n•\nIntelligent agents may also be referred to as a bot, which is short for robot.",
+    "page_number": 15,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "15-16"
+  },
+  {
+    "text": ". Intelligent Agent\n•\nAn intelligent agent is a program that can make decisions or perform a service based on\nits environment, user input and experiences.\n•\nThese programs can be used to autonomously gather information on a regular,\nprogrammed schedule or when prompted by the user in real time.\n•\nIntelligent agents may also be referred to as a bot, which is short for robot.",
+    "page_number": 16,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Intelligent Agent\n•\nAn intelligent agent is a program that can make decisions or perform a service based on\nits environment, user input and experiences.\n•\nThese programs can be used to autonomously gather information on a regular,\nprogrammed schedule or when prompted by the user in real time.\n•\nIntelligent agents may also be referred to as a bot, which is short for robot.\n\n. Intelligent Agent\n•\nAn intelligent agent is an agent that can perform specific, predictable, and repetitive\ntasks for applications with some level of individualism.\n•\nThese agents can learn while performing tasks. These agents are with some human\nmental properties like knowledge, belief, intention, etc. A thermostat, Alexa, and Siri are\nexamples of intelligent agents.\n•\nThe main functions of intelligent agents are:\n•\n1) Perception: Done through sensors \n•\n2) Actions: Initiated through actuators.",
+    "page_number": 16,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "16-17"
+  },
+  {
+    "text": ". Intelligent Agent\n•\nAn intelligent agent is an agent that can perform specific, predictable, and repetitive\ntasks for applications with some level of individualism.\n•\nThese agents can learn while performing tasks. These agents are with some human\nmental properties like knowledge, belief, intention, etc. A thermostat, Alexa, and Siri are\nexamples of intelligent agents.\n•\nThe main functions of intelligent agents are:\n•\n1) Perception: Done through sensors \n•\n2) Actions: Initiated through actuators.",
+    "page_number": 17,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Intelligent Agent\n•\nAn intelligent agent is an agent that can perform specific, predictable, and repetitive\ntasks for applications with some level of individualism.\n•\nThese agents can learn while performing tasks. These agents are with some human\nmental properties like knowledge, belief, intention, etc. A thermostat, Alexa, and Siri are\nexamples of intelligent agents.\n•\nThe main functions of intelligent agents are:\n•\n1) Perception: Done through sensors \n•\n2) Actions: Initiated through actuators.\n\n. Intelligent Agent\n•\nTypically, an agent program, using parameters the user has provided, searches all or\nsome part of the internet, gathers information the user is interested in and presents it to\nthem on a periodic or requested basis.\n•\nData intelligent agents can extract any specifiable information, such as included\nkeywords or publication date.\n•\nIn agents that employ Artificial Intelligence (AI), user input is collected using sensors,\nlike microphone or cameras, and agent output is delivered through actuators, like\nspeakers or screens.\n•\nThe practice of having information brought to a user by an agent is called push\ntechnology.",
+    "page_number": 17,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "17-18"
+  },
+  {
+    "text": ". Intelligent Agent\n•\nTypically, an agent program, using parameters the user has provided, searches all or\nsome part of the internet, gathers information the user is interested in and presents it to\nthem on a periodic or requested basis.\n•\nData intelligent agents can extract any specifiable information, such as included\nkeywords or publication date.\n•\nIn agents that employ Artificial Intelligence (AI), user input is collected using sensors,\nlike microphone or cameras, and agent output is delivered through actuators, like\nspeakers or screens.\n•\nThe practice of having information brought to a user by an agent is called push\ntechnology.",
+    "page_number": 18,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Intelligent Agent\n•\nTypically, an agent program, using parameters the user has provided, searches all or\nsome part of the internet, gathers information the user is interested in and presents it to\nthem on a periodic or requested basis.\n•\nData intelligent agents can extract any specifiable information, such as included\nkeywords or publication date.\n•\nIn agents that employ Artificial Intelligence (AI), user input is collected using sensors,\nlike microphone or cameras, and agent output is delivered through actuators, like\nspeakers or screens.\n•\nThe practice of having information brought to a user by an agent is called push\ntechnology.\n\n. Intelligent Agent\n•\nCommon characteristics of intelligent agents are adaptation based on experience, real\ntime problem solving, analysis of error or success rates and the use of memory-based\nstorage and retrieval.\n•\nFor enterprises, intelligent agents can be used for applications in data mining, data\nanalytics and customer service and support (CSS).\n•\nConsumers can also use intelligent agents to compare the prices of similar products\nand notify the user when a website update occurs.\n•\nIntelligent agents are also similar to software agents which are autonomous computer\nprograms.",
+    "page_number": 18,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "18-19"
+  },
+  {
+    "text": ". Intelligent Agent\n•\nCommon characteristics of intelligent agents are adaptation based on experience, real\ntime problem solving, analysis of error or success rates and the use of memory-based\nstorage and retrieval.\n•\nFor enterprises, intelligent agents can be used for applications in data mining, data\nanalytics and customer service and support (CSS).\n•\nConsumers can also use intelligent agents to compare the prices of similar products\nand notify the user when a website update occurs.\n•\nIntelligent agents are also similar to software agents which are autonomous computer\nprograms.",
+    "page_number": 19,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Intelligent Agent\n•\nCommon characteristics of intelligent agents are adaptation based on experience, real\ntime problem solving, analysis of error or success rates and the use of memory-based\nstorage and retrieval.\n•\nFor enterprises, intelligent agents can be used for applications in data mining, data\nanalytics and customer service and support (CSS).\n•\nConsumers can also use intelligent agents to compare the prices of similar products\nand notify the user when a website update occurs.\n•\nIntelligent agents are also similar to software agents which are autonomous computer\nprograms.\n\n. Intelligent Agents\nFundamental functionalities of intelligence acting are:\n•\nSensing\n•\nUnderstanding\n•\nReasoning\n•\nLearning\nIn order to act you must sense. Blind actions is not a characterization of intelligence.\n•\nRobotics: sensing and acting.\n•\nUnderstanding not necessary.\n•\nSensing needs understanding to be useful.",
+    "page_number": 19,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "19-20"
+  },
+  {
+    "text": ". Intelligent Agents\nFundamental functionalities of intelligence acting are:\n•\nSensing\n•\nUnderstanding\n•\nReasoning\n•\nLearning\nIn order to act you must sense. Blind actions is not a characterization of intelligence.\n•\nRobotics: sensing and acting.\n•\nUnderstanding not necessary.\n•\nSensing needs understanding to be useful.",
+    "page_number": 20,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Intelligent Agents\nFundamental functionalities of intelligence acting are:\n•\nSensing\n•\nUnderstanding\n•\nReasoning\n•\nLearning\nIn order to act you must sense. Blind actions is not a characterization of intelligence.\n•\nRobotics: sensing and acting.\n•\nUnderstanding not necessary.\n•\nSensing needs understanding to be useful.\n\n. Intelligent Agents\nIntelligent Agent:\n•\nMust sense.\n•\nMust act.\n•\nMust be rational and autonomous.",
+    "page_number": 20,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "20-21"
+  },
+  {
+    "text": ". Intelligent Agents\nIntelligent Agent:\n•\nMust sense.\n•\nMust act.\n•\nMust be rational and autonomous.",
+    "page_number": 21,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Intelligent Agents\nIntelligent Agent:\n•\nMust sense.\n•\nMust act.\n•\nMust be rational and autonomous.\n\n. Nature of agents, performance measures and environments\nFour rules for an AI agent:\n•\nRule 1: Must have the ability to recognize the environment.\n•\nRule 2: Decisions are made from observations.\n•\nRule 3: Decision should result in actions.\n•\nRule 4: The action must be rational through actuators.",
+    "page_number": 21,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "21-22"
+  },
+  {
+    "text": ". Nature of agents, performance measures and environments\nFour rules for an AI agent:\n•\nRule 1: Must have the ability to recognize the environment.\n•\nRule 2: Decisions are made from observations.\n•\nRule 3: Decision should result in actions.\n•\nRule 4: The action must be rational through actuators.",
+    "page_number": 22,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Nature of agents, performance measures and environments\nFour rules for an AI agent:\n•\nRule 1: Must have the ability to recognize the environment.\n•\nRule 2: Decisions are made from observations.\n•\nRule 3: Decision should result in actions.\n•\nRule 4: The action must be rational through actuators.\n\n. How do intelligent agents work?\nSensors, actuators, and effectors are the three main components the intelligent agents work\nthrough.\nBefore moving into a detailed discussion, we should first know about sensors,\neffectors, and actuators.\n•\nSensor: A device that detects environmental changes and sends the information to\nother devices. An agent observes the environment through sensors. E.g.: Camera,\nGPS, radar.\n•\nActuators: Machine components that convert energy into motion. Actuators are\nresponsible for moving and controlling a system. E.g.: electric motor, gears, rails, etc.\n•\nEffectors: Devices that affect the environment. E.g.: wheels, and display screen.",
+    "page_number": 22,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "22-23"
+  },
+  {
+    "text": ". How do intelligent agents work?\nSensors, actuators, and effectors are the three main components the intelligent agents work\nthrough.\nBefore moving into a detailed discussion, we should first know about sensors,\neffectors, and actuators.\n•\nSensor: A device that detects environmental changes and sends the information to\nother devices. An agent observes the environment through sensors. E.g.: Camera,\nGPS, radar.\n•\nActuators: Machine components that convert energy into motion. Actuators are\nresponsible for moving and controlling a system. E.g.: electric motor, gears, rails, etc.\n•\nEffectors: Devices that affect the environment. E.g.: wheels, and display screen.",
+    "page_number": 23,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". How do intelligent agents work?\nSensors, actuators, and effectors are the three main components the intelligent agents work\nthrough.\nBefore moving into a detailed discussion, we should first know about sensors,\neffectors, and actuators.\n•\nSensor: A device that detects environmental changes and sends the information to\nother devices. An agent observes the environment through sensors. E.g.: Camera,\nGPS, radar.\n•\nActuators: Machine components that convert energy into motion. Actuators are\nresponsible for moving and controlling a system. E.g.: electric motor, gears, rails, etc.\n•\nEffectors: Devices that affect the environment. E.g.: wheels, and display screen.\n\n. How do intelligent agents work?\n•\nThe above diagram shows how these components are positioned in the AI system.\n•\nPercepts or inputs from the environment are received through sensors by the intelligent\nagent.\n•\nUsing this acquired information or observations this agent uses artificial intelligence to\nmake decisions.\n•\nActuators will then trigger actions.\n•\nPercept history and past actions will influence future decisions.",
+    "page_number": 23,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "23-24"
+  },
+  {
+    "text": ". How do intelligent agents work?\n•\nThe above diagram shows how these components are positioned in the AI system.\n•\nPercepts or inputs from the environment are received through sensors by the intelligent\nagent.\n•\nUsing this acquired information or observations this agent uses artificial intelligence to\nmake decisions.\n•\nActuators will then trigger actions.\n•\nPercept history and past actions will influence future decisions.",
+    "page_number": 24,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". How do intelligent agents work?\n•\nThe above diagram shows how these components are positioned in the AI system.\n•\nPercepts or inputs from the environment are received through sensors by the intelligent\nagent.\n•\nUsing this acquired information or observations this agent uses artificial intelligence to\nmake decisions.\n•\nActuators will then trigger actions.\n•\nPercept history and past actions will influence future decisions.\n\n. Rational Agent\n•\nAI is about building rational agents.\n•\nAn agent is something that perceives and acts.\n•\nA rational agent always does the right thing as\no What are the Functionalities?(Goals)\no What are the Components?\no How do we build them?",
+    "page_number": 24,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "24-25"
+  },
+  {
+    "text": ". Rational Agent\n•\nAI is about building rational agents.\n•\nAn agent is something that perceives and acts.\n•\nA rational agent always does the right thing as\no What are the Functionalities?(Goals)\no What are the Components?\no How do we build them?",
+    "page_number": 25,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": ". Rational Agent\n•\nAI is about building rational agents.\n•\nAn agent is something that perceives and acts.\n•\nA rational agent always does the right thing as\no What are the Functionalities?(Goals)\no What are the Components?\no How do we build them?\n\nRationality\n•\nPerfect Rationality: assumes that the rational agent knows all and will take the\naction that maximize the utility.\n•\nHuman beings do not satisfy this definition of rationality.",
+    "page_number": 25,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "25-26"
+  },
+  {
+    "text": "Rationality\n•\nPerfect Rationality: assumes that the rational agent knows all and will take the\naction that maximize the utility.\n•\nHuman beings do not satisfy this definition of rationality.",
+    "page_number": 26,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  },
+  {
+    "text": "Rationality\n•\nPerfect Rationality: assumes that the rational agent knows all and will take the\naction that maximize the utility.\n•\nHuman beings do not satisfy this definition of rationality.\n\n. Characteristics of intelligent agents\n1) Intelligent agents have some level of individualism that allows them to perform \ncertain tasks on their own. \n2) IA can learn even as tasks are carried out. \n3) They can make interactions with other entities like agents, humans, and systems. \n4) New rules can be accommodated. \n5) Goal-oriented habits",
+    "page_number": 26,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native",
+    "merged_pages": "26-27"
+  },
+  {
+    "text": ". Characteristics of intelligent agents\n1) Intelligent agents have some level of individualism that allows them to perform \ncertain tasks on their own. \n2) IA can learn even as tasks are carried out. \n3) They can make interactions with other entities like agents, humans, and systems. \n4) New rules can be accommodated. \n5) Goal-oriented habits",
+    "page_number": 27,
+    "source_file": "L.1",
+    "total_pages": 28,
+    "extraction_method": "native"
+  }
+]

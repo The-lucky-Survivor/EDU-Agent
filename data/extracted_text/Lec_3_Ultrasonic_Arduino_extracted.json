@@ -1,0 +1,54 @@
+[
+  {
+    "text": "Ultrasonic Sensor Programming \nwith Arduino\nBy\nProf.Dr. Eng. Tamer Medhat \ntmedhatm@eng.kfs.edu.eg\nwww.kfs.edu.eg/drtamer.html",
+    "page_number": 2,
+    "source_file": "Lec_3_Ultrasonic_Arduino",
+    "total_pages": 15,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Ultrasonic Sensor Programming \nwith Arduino\nBy\nProf.Dr. Eng. Tamer Medhat \ntmedhatm@eng.kfs.edu.eg\nwww.kfs.edu.eg/drtamer.html\n\nFor example, if the object is 20 cm away from the sensor, and the speed of the\nsound is 340 m/s or 0.034 cm/µs the sound wave will need to travel about 588\nmicroseconds. But what you will get from the Echo pin will be double that\nnumber because the sound wave needs to travel forward and bounce\nbackward. So in order to get the distance in cm we need to multiply the\nreceived travel time value from the echo pin by 0.034 and divide it by 2.",
+    "page_number": 2,
+    "source_file": "Lec_3_Ultrasonic_Arduino",
+    "total_pages": 15,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-4"
+  },
+  {
+    "text": "For example, if the object is 20 cm away from the sensor, and the speed of the\nsound is 340 m/s or 0.034 cm/µs the sound wave will need to travel about 588\nmicroseconds. But what you will get from the Echo pin will be double that\nnumber because the sound wave needs to travel forward and bounce\nbackward. So in order to get the distance in cm we need to multiply the\nreceived travel time value from the echo pin by 0.034 and divide it by 2.",
+    "page_number": 4,
+    "source_file": "Lec_3_Ultrasonic_Arduino",
+    "total_pages": 15,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "For example, if the object is 20 cm away from the sensor, and the speed of the\nsound is 340 m/s or 0.034 cm/µs the sound wave will need to travel about 588\nmicroseconds. But what you will get from the Echo pin will be double that\nnumber because the sound wave needs to travel forward and bounce\nbackward. So in order to get the distance in cm we need to multiply the\nreceived travel time value from the echo pin by 0.034 and divide it by 2.\n\nQuestions?\nComponents for Testing Ultrasonic Sensor",
+    "page_number": 4,
+    "source_file": "Lec_3_Ultrasonic_Arduino",
+    "total_pages": 15,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "4-6"
+  },
+  {
+    "text": "Questions?\nComponents for Testing Ultrasonic Sensor",
+    "page_number": 6,
+    "source_file": "Lec_3_Ultrasonic_Arduino",
+    "total_pages": 15,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Questions?\nComponents for Testing Ultrasonic Sensor\n\nUltrasonic\nSensor \nwith \nArduino\nAnd\nSerial \nMonitor",
+    "page_number": 6,
+    "source_file": "Lec_3_Ultrasonic_Arduino",
+    "total_pages": 15,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "6-7"
+  },
+  {
+    "text": "Ultrasonic\nSensor \nwith \nArduino\nAnd\nSerial \nMonitor",
+    "page_number": 7,
+    "source_file": "Lec_3_Ultrasonic_Arduino",
+    "total_pages": 15,
+    "extraction_method": "ocr_fallback"
+  }
+]

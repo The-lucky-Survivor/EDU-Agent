@@ -1,0 +1,504 @@
+[
+  {
+    "text": "Multi-Agents \n \nChapter 7 \nExamples on Reinforcement \nLearning \nDr. Fatma M. Talaat",
+    "page_number": 1,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Multi-Agents \n \nChapter 7 \nExamples on Reinforcement \nLearning \nDr. Fatma M. Talaat\n\nContents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 1,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "1-2"
+  },
+  {
+    "text": "Contents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 2,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments\n\nExample: \n•\nConsider the following search problem, and we will \ntraverse it using greedy best-first search. At each \niteration, each node is expanded using evaluation \nfunction f(n)=h(n) , which is given in the following table. \n \n•\nIn this search example, we are using two lists which are \nOPEN and CLOSED Lists. Following are the iteration for \ntraversing the example. \n \n1) Best-first Search Algorithm (Greedy Search)",
+    "page_number": 2,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-4"
+  },
+  {
+    "text": "Example: \n•\nConsider the following search problem, and we will \ntraverse it using greedy best-first search. At each \niteration, each node is expanded using evaluation \nfunction f(n)=h(n) , which is given in the following table. \n \n•\nIn this search example, we are using two lists which are \nOPEN and CLOSED Lists. Following are the iteration for \ntraversing the example. \n \n1) Best-first Search Algorithm (Greedy Search)",
+    "page_number": 4,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example: \n•\nConsider the following search problem, and we will \ntraverse it using greedy best-first search. At each \niteration, each node is expanded using evaluation \nfunction f(n)=h(n) , which is given in the following table. \n \n•\nIn this search example, we are using two lists which are \nOPEN and CLOSED Lists. Following are the iteration for \ntraversing the example. \n \n1) Best-first Search Algorithm (Greedy Search)\n\n• Expand the nodes of S and put in the CLOSED list \n \n• Initialization: Open [A, B], Closed [S]. \n \n• Iteration 1: Open [A], Closed [S, B] \n \n• Iteration 2: Open [E, F, A], Closed [S, B] \n• : Open [E, A], Closed [S, B, F] \n• Iteration 3: Open [I, G, E, A], Closed [S, B, F] \n• : Open [I, E, A], Closed [S, B, F, G] \n \n• Hence the final solution path will be: S----> B----->F----> G \n \n1) Best-first Search Algorithm (Greedy Search)",
+    "page_number": 4,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "4-5"
+  },
+  {
+    "text": "• Expand the nodes of S and put in the CLOSED list \n \n• Initialization: Open [A, B], Closed [S]. \n \n• Iteration 1: Open [A], Closed [S, B] \n \n• Iteration 2: Open [E, F, A], Closed [S, B] \n• : Open [E, A], Closed [S, B, F] \n• Iteration 3: Open [I, G, E, A], Closed [S, B, F] \n• : Open [I, E, A], Closed [S, B, F, G] \n \n• Hence the final solution path will be: S----> B----->F----> G \n \n1) Best-first Search Algorithm (Greedy Search)",
+    "page_number": 5,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "• Expand the nodes of S and put in the CLOSED list \n \n• Initialization: Open [A, B], Closed [S]. \n \n• Iteration 1: Open [A], Closed [S, B] \n \n• Iteration 2: Open [E, F, A], Closed [S, B] \n• : Open [E, A], Closed [S, B, F] \n• Iteration 3: Open [I, G, E, A], Closed [S, B, F] \n• : Open [I, E, A], Closed [S, B, F, G] \n \n• Hence the final solution path will be: S----> B----->F----> G \n \n1) Best-first Search Algorithm (Greedy Search)\n\nExample 1: \n \n• Find Shortest Path to arrive to state (F) from state (A):",
+    "page_number": 5,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "5-6"
+  },
+  {
+    "text": "Example 1: \n \n• Find Shortest Path to arrive to state (F) from state (A):",
+    "page_number": 6,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 1: \n \n• Find Shortest Path to arrive to state (F) from state (A):\n\nExample 1 (Cont.): \n \n• Now suppose you are at place A, the only visible path is your next destination and \nanything beyond that is not known at this stage. \n \n• You can take the best possible next step, which is going from {A -> D} from a \nsubset of {A -> (B, C, D, E)}.",
+    "page_number": 6,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "6-7"
+  },
+  {
+    "text": "Example 1 (Cont.): \n \n• Now suppose you are at place A, the only visible path is your next destination and \nanything beyond that is not known at this stage. \n \n• You can take the best possible next step, which is going from {A -> D} from a \nsubset of {A -> (B, C, D, E)}.",
+    "page_number": 7,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 1 (Cont.): \n \n• Now suppose you are at place A, the only visible path is your next destination and \nanything beyond that is not known at this stage. \n \n• You can take the best possible next step, which is going from {A -> D} from a \nsubset of {A -> (B, C, D, E)}.\n\nExample 1 (Cont.): \n \n• Similarly now you are at place D and want to go to place F, you can choose from \n{D -> (B, C, F)}. We see that {D -> F} has the lowest cost and hence we take that \npath. \n \n• So here, our policy was to take {A -> D -> F} and our Value is -120.",
+    "page_number": 7,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "7-8"
+  },
+  {
+    "text": "Example 1 (Cont.): \n \n• Similarly now you are at place D and want to go to place F, you can choose from \n{D -> (B, C, F)}. We see that {D -> F} has the lowest cost and hence we take that \npath. \n \n• So here, our policy was to take {A -> D -> F} and our Value is -120.",
+    "page_number": 8,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 1 (Cont.): \n \n• Similarly now you are at place D and want to go to place F, you can choose from \n{D -> (B, C, F)}. We see that {D -> F} has the lowest cost and hence we take that \npath. \n \n• So here, our policy was to take {A -> D -> F} and our Value is -120.\n\nExample 2 (Cont.): \n \n• Find Shortest Path to arrive to state (0) from state (10):",
+    "page_number": 8,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "8-9"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Find Shortest Path to arrive to state (0) from state (10):",
+    "page_number": 9,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Find Shortest Path to arrive to state (0) from state (10):\n\nExample 2 (Cont.): \n \n• First I import necessary modules. I will use networkx library to define \na Graph.",
+    "page_number": 9,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "9-10"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• First I import necessary modules. I will use networkx library to define \na Graph.",
+    "page_number": 10,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• First I import necessary modules. I will use networkx library to define \na Graph.\n\nExample 2 (Cont.): \n \n• Now, we define and visualize the graph",
+    "page_number": 10,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "10-11"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Now, we define and visualize the graph",
+    "page_number": 11,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Now, we define and visualize the graph\n\nExample 2 (Cont.): \n \n• Here we initialize Reward and Q matrix:",
+    "page_number": 11,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "11-12"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Here we initialize Reward and Q matrix:",
+    "page_number": 12,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Here we initialize Reward and Q matrix:\n\nExample 2 (Cont.): \n \n• We set all rewards 0 except the actions arriving node 10. These actions are going \nfrom 8 to 10 or 9 to 10. \n• Like Rewards, Q-values are initialized in a matrix. To eliminate impossible actions, \ntheir Q-values are set -100. \n \n• For example, in the graph, it is not possible to go directly from 2 to 10, therefore its \nQ-value set as -100. Possible actions are initialized as 0.",
+    "page_number": 12,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "12-13"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• We set all rewards 0 except the actions arriving node 10. These actions are going \nfrom 8 to 10 or 9 to 10. \n• Like Rewards, Q-values are initialized in a matrix. To eliminate impossible actions, \ntheir Q-values are set -100. \n \n• For example, in the graph, it is not possible to go directly from 2 to 10, therefore its \nQ-value set as -100. Possible actions are initialized as 0.",
+    "page_number": 13,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• We set all rewards 0 except the actions arriving node 10. These actions are going \nfrom 8 to 10 or 9 to 10. \n• Like Rewards, Q-values are initialized in a matrix. To eliminate impossible actions, \ntheir Q-values are set -100. \n \n• For example, in the graph, it is not possible to go directly from 2 to 10, therefore its \nQ-value set as -100. Possible actions are initialized as 0.\n\nExample 2 (Cont.): \n \n• Let’s take a look at the R and Q matrices:",
+    "page_number": 13,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "13-14"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Let’s take a look at the R and Q matrices:",
+    "page_number": 14,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Let’s take a look at the R and Q matrices:\n\nExample 2 (Cont.): \n \n• Now I’ll define a function which takes a starting node and returns the next node. It \nalso accepts an exploration rate for random exploration. \n \n• Otherwise, it chooses action according to the highest Q value of the possible actions.",
+    "page_number": 14,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "14-16"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Now I’ll define a function which takes a starting node and returns the next node. It \nalso accepts an exploration rate for random exploration. \n \n• Otherwise, it chooses action according to the highest Q value of the possible actions.",
+    "page_number": 16,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Now I’ll define a function which takes a starting node and returns the next node. It \nalso accepts an exploration rate for random exploration. \n \n• Otherwise, it chooses action according to the highest Q value of the possible actions.\n\nExample 2 (Cont.): \n \n• After, we need a function for updating Q-value of the action taken",
+    "page_number": 16,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "16-17"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• After, we need a function for updating Q-value of the action taken",
+    "page_number": 17,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• After, we need a function for updating Q-value of the action taken\n\nExample 2 (Cont.): \n \n• Now it is time to improve Q-values by starting at random nodes and making \n50000 walk",
+    "page_number": 17,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "17-18"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Now it is time to improve Q-values by starting at random nodes and making \n50000 walk",
+    "page_number": 18,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Now it is time to improve Q-values by starting at random nodes and making \n50000 walk\n\nExample 2 (Cont.): \n \n• Let’s check the final Q-values",
+    "page_number": 18,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "18-19"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Let’s check the final Q-values",
+    "page_number": 19,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Let’s check the final Q-values\n\nExample 2 (Cont.): \n \n• Now we can find shortest path between 0 and 10, by choosing highest Q-value from Q \nmatrix when deciding an action:",
+    "page_number": 19,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "19-20"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Now we can find shortest path between 0 and 10, by choosing highest Q-value from Q \nmatrix when deciding an action:",
+    "page_number": 20,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Example 2 (Cont.): \n \n• Now we can find shortest path between 0 and 10, by choosing highest Q-value from Q \nmatrix when deciding an action:\n\nOUTLINE \n1.\nIntroduction \n2.\nInstallation \n3.\nEnvironments \n4.\nInteracting with the environment \n5.\nSpaces \n6.\nWrappers \n \n \n \nOpenAI Gym",
+    "page_number": 20,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "20-21"
+  },
+  {
+    "text": "OUTLINE \n1.\nIntroduction \n2.\nInstallation \n3.\nEnvironments \n4.\nInteracting with the environment \n5.\nSpaces \n6.\nWrappers \n \n \n \nOpenAI Gym",
+    "page_number": 21,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "OUTLINE \n1.\nIntroduction \n2.\nInstallation \n3.\nEnvironments \n4.\nInteracting with the environment \n5.\nSpaces \n6.\nWrappers \n \n \n \nOpenAI Gym\n\n. Introduction \n• If you're looking to get started with Reinforcement Learning, the OpenAI gym is \nundeniably the most popular choice for implementing environments to train your \nagents. \n• A wide range of environments that are used as benchmarks for proving the efficacy of \nany new research methodology are implemented in OpenAI Gym, out-of-the-box. \n• Furthermore, OpenAI gym provides an easy API to implement your own environments.",
+    "page_number": 21,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "21-22"
+  },
+  {
+    "text": ". Introduction \n• If you're looking to get started with Reinforcement Learning, the OpenAI gym is \nundeniably the most popular choice for implementing environments to train your \nagents. \n• A wide range of environments that are used as benchmarks for proving the efficacy of \nany new research methodology are implemented in OpenAI Gym, out-of-the-box. \n• Furthermore, OpenAI gym provides an easy API to implement your own environments.",
+    "page_number": 22,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Introduction \n• If you're looking to get started with Reinforcement Learning, the OpenAI gym is \nundeniably the most popular choice for implementing environments to train your \nagents. \n• A wide range of environments that are used as benchmarks for proving the efficacy of \nany new research methodology are implemented in OpenAI Gym, out-of-the-box. \n• Furthermore, OpenAI gym provides an easy API to implement your own environments.\n\n. Installation \n• The first thing we do is to make sure we have the latest version of gym \ninstalled. \n• We can use pip to install gym as following: \n \n \n \npip install –U gym",
+    "page_number": 22,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "22-23"
+  },
+  {
+    "text": ". Installation \n• The first thing we do is to make sure we have the latest version of gym \ninstalled. \n• We can use pip to install gym as following: \n \n \n \npip install –U gym",
+    "page_number": 23,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Installation \n• The first thing we do is to make sure we have the latest version of gym \ninstalled. \n• We can use pip to install gym as following: \n \n \n \npip install –U gym\n\n. Environments \n• The fundamental building block of OpenAI Gym is the Env class. It is a Python class \nthat basically implements simulator that runs the environment you want to train \nyour agent in. \n• OpenAI Gym comes packed with a lot of environments, such as one where you can \n• move a car up a hill \n• balance a swinging pendulum \n• score well on Atari games, etc. \n• Gym also provides you with the ability to create custom environments as well.",
+    "page_number": 23,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "23-24"
+  },
+  {
+    "text": ". Environments \n• The fundamental building block of OpenAI Gym is the Env class. It is a Python class \nthat basically implements simulator that runs the environment you want to train \nyour agent in. \n• OpenAI Gym comes packed with a lot of environments, such as one where you can \n• move a car up a hill \n• balance a swinging pendulum \n• score well on Atari games, etc. \n• Gym also provides you with the ability to create custom environments as well.",
+    "page_number": 24,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Environments \n• The fundamental building block of OpenAI Gym is the Env class. It is a Python class \nthat basically implements simulator that runs the environment you want to train \nyour agent in. \n• OpenAI Gym comes packed with a lot of environments, such as one where you can \n• move a car up a hill \n• balance a swinging pendulum \n• score well on Atari games, etc. \n• Gym also provides you with the ability to create custom environments as well.\n\n. Environments \n• We start with an environment called MountainCar, where the objective is to drive a \ncar up a mountain. \n• The car is on a one-dimensional track, positioned between two \"mountains\". The \ngoal is to drive up the mountain on the right; however, the car's engine is not \nstrong enough to scale the mountain in a single go. Therefore, the only way to \nsucceed is to drive back and forth to build up momentum.",
+    "page_number": 24,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "24-25"
+  },
+  {
+    "text": ". Environments \n• We start with an environment called MountainCar, where the objective is to drive a \ncar up a mountain. \n• The car is on a one-dimensional track, positioned between two \"mountains\". The \ngoal is to drive up the mountain on the right; however, the car's engine is not \nstrong enough to scale the mountain in a single go. Therefore, the only way to \nsucceed is to drive back and forth to build up momentum.",
+    "page_number": 25,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Environments \n• We start with an environment called MountainCar, where the objective is to drive a \ncar up a mountain. \n• The car is on a one-dimensional track, positioned between two \"mountains\". The \ngoal is to drive up the mountain on the right; however, the car's engine is not \nstrong enough to scale the mountain in a single go. Therefore, the only way to \nsucceed is to drive back and forth to build up momentum.\n\n• The basic structure of the environment is described by the \nobservation_space and the action_space attributes of the Gym Env class. \n• The observation_space defines the structure as well as the legitimate \nvalues for the observation of the state of the environment. The observation \ncan be different things for different environments. \n• The action_space describes the numerical structure of the legitimate \nactions that can be applied to the environment. \n3. Environments",
+    "page_number": 25,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "25-27"
+  },
+  {
+    "text": "• The basic structure of the environment is described by the \nobservation_space and the action_space attributes of the Gym Env class. \n• The observation_space defines the structure as well as the legitimate \nvalues for the observation of the state of the environment. The observation \ncan be different things for different environments. \n• The action_space describes the numerical structure of the legitimate \nactions that can be applied to the environment. \n3. Environments",
+    "page_number": 27,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "• The basic structure of the environment is described by the \nobservation_space and the action_space attributes of the Gym Env class. \n• The observation_space defines the structure as well as the legitimate \nvalues for the observation of the state of the environment. The observation \ncan be different things for different environments. \n• The action_space describes the numerical structure of the legitimate \nactions that can be applied to the environment. \n3. Environments\n\n. Environments \n• Code to get observation_space and action_space:",
+    "page_number": 27,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "27-28"
+  },
+  {
+    "text": ". Environments \n• Code to get observation_space and action_space:",
+    "page_number": 28,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Environments \n• Code to get observation_space and action_space:\n\n• The observation for the mountain car environment is a vector of two \nnumbers representing velocity and position. The middle point between \nthe two mountains is taken to be the origin, with right being the \npositive direction and left being the negative direction. \n3. Environments",
+    "page_number": 28,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "28-29"
+  },
+  {
+    "text": "• The observation for the mountain car environment is a vector of two \nnumbers representing velocity and position. The middle point between \nthe two mountains is taken to be the origin, with right being the \npositive direction and left being the negative direction. \n3. Environments",
+    "page_number": 29,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "• The observation for the mountain car environment is a vector of two \nnumbers representing velocity and position. The middle point between \nthe two mountains is taken to be the origin, with right being the \npositive direction and left being the negative direction. \n3. Environments\n\n. Interacting with the environment \n• Functions of the Env class that help the agent interact with the \nenvironment. Two such important functions are: \n1)\nreset: this function resets the environment to its initial state, and returns the \nobservation of the environment corresponding to the initial state. \n2)\nstep: This function takes an action as an input and applies it to the \nenvironment, which leads to the environment transitioning to a new state.",
+    "page_number": 29,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "29-30"
+  },
+  {
+    "text": ". Interacting with the environment \n• Functions of the Env class that help the agent interact with the \nenvironment. Two such important functions are: \n1)\nreset: this function resets the environment to its initial state, and returns the \nobservation of the environment corresponding to the initial state. \n2)\nstep: This function takes an action as an input and applies it to the \nenvironment, which leads to the environment transitioning to a new state.",
+    "page_number": 30,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Interacting with the environment \n• Functions of the Env class that help the agent interact with the \nenvironment. Two such important functions are: \n1)\nreset: this function resets the environment to its initial state, and returns the \nobservation of the environment corresponding to the initial state. \n2)\nstep: This function takes an action as an input and applies it to the \nenvironment, which leads to the environment transitioning to a new state.\n\n. Interacting with the environment \n• The reset function returns four things: \n \n1)\nobservation: The observation of the state of the environment. \n2)\nreward: The reward that you can get from the environment after executing the action \nthat was given as the input to the step function. \n3)\ndone: Whether the episode has been terminated. If true, you may need to end the \nsimulation or reset the environment to restart the episode. \n4)\ninfo: This provides additional information depending on the environment, such as \nnumber of lives left, or general information that may be conducive in debugging.",
+    "page_number": 30,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "30-31"
+  },
+  {
+    "text": ". Interacting with the environment \n• The reset function returns four things: \n \n1)\nobservation: The observation of the state of the environment. \n2)\nreward: The reward that you can get from the environment after executing the action \nthat was given as the input to the step function. \n3)\ndone: Whether the episode has been terminated. If true, you may need to end the \nsimulation or reset the environment to restart the episode. \n4)\ninfo: This provides additional information depending on the environment, such as \nnumber of lives left, or general information that may be conducive in debugging.",
+    "page_number": 31,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Interacting with the environment \n• The reset function returns four things: \n \n1)\nobservation: The observation of the state of the environment. \n2)\nreward: The reward that you can get from the environment after executing the action \nthat was given as the input to the step function. \n3)\ndone: Whether the episode has been terminated. If true, you may need to end the \nsimulation or reset the environment to restart the episode. \n4)\ninfo: This provides additional information depending on the environment, such as \nnumber of lives left, or general information that may be conducive in debugging.\n\n. Spaces \n• As we saw that the observation_space for our environment was Box(2, ) \nand the action_space was Discrete(2, ). \n• Both Box and Discrete are types of data structures called Spaces provided \nby the Gym to describe the legitimate values for the observations and \nactions for the environments and all of these data structures are derived \nfrom the gym.space base class.",
+    "page_number": 31,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "31-32"
+  },
+  {
+    "text": ". Spaces \n• As we saw that the observation_space for our environment was Box(2, ) \nand the action_space was Discrete(2, ). \n• Both Box and Discrete are types of data structures called Spaces provided \nby the Gym to describe the legitimate values for the observations and \nactions for the environments and all of these data structures are derived \nfrom the gym.space base class.",
+    "page_number": 32,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Spaces \n• As we saw that the observation_space for our environment was Box(2, ) \nand the action_space was Discrete(2, ). \n• Both Box and Discrete are types of data structures called Spaces provided \nby the Gym to describe the legitimate values for the observations and \nactions for the environments and all of these data structures are derived \nfrom the gym.space base class.\n\n• Box(n, ) corresponds to the n-dimensional continuous space. In our case n=2, \nthus the observational space of our environment is a 2-D space. Of course, the \nspace is bounded by upper and lower limits which describe the legitimate \nvalues our observations can take. \n \n• We can determine this using the high and low attributes of the observation \nspace. These correspond to the maximum and minimum positions/velocities in \nour environment, respectively. \n5. Spaces",
+    "page_number": 32,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "32-33"
+  },
+  {
+    "text": "• Box(n, ) corresponds to the n-dimensional continuous space. In our case n=2, \nthus the observational space of our environment is a 2-D space. Of course, the \nspace is bounded by upper and lower limits which describe the legitimate \nvalues our observations can take. \n \n• We can determine this using the high and low attributes of the observation \nspace. These correspond to the maximum and minimum positions/velocities in \nour environment, respectively. \n5. Spaces",
+    "page_number": 33,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "• Box(n, ) corresponds to the n-dimensional continuous space. In our case n=2, \nthus the observational space of our environment is a 2-D space. Of course, the \nspace is bounded by upper and lower limits which describe the legitimate \nvalues our observations can take. \n \n• We can determine this using the high and low attributes of the observation \nspace. These correspond to the maximum and minimum positions/velocities in \nour environment, respectively. \n5. Spaces\n\n• The Discrete(n) box describes a discrete space with [0…..n-1] possible values. In \ncase n=3 meaning our actions can take values of either 0, 1, or 2. \n \n• Unlike Box, Discrete does not have high and low method. \n \n• If you try to input invalid values in the step function of our environment (in our \ncase, say, 4), it will lead to an error. \n5. Spaces",
+    "page_number": 33,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "33-34"
+  },
+  {
+    "text": "• The Discrete(n) box describes a discrete space with [0…..n-1] possible values. In \ncase n=3 meaning our actions can take values of either 0, 1, or 2. \n \n• Unlike Box, Discrete does not have high and low method. \n \n• If you try to input invalid values in the step function of our environment (in our \ncase, say, 4), it will lead to an error. \n5. Spaces",
+    "page_number": 34,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "• The Discrete(n) box describes a discrete space with [0…..n-1] possible values. In \ncase n=3 meaning our actions can take values of either 0, 1, or 2. \n \n• Unlike Box, Discrete does not have high and low method. \n \n• If you try to input invalid values in the step function of our environment (in our \ncase, say, 4), it will lead to an error. \n5. Spaces\n\n. Wrappers \n• The Wrapper class in OpenAI Gym provides you with the functionality to \nmodify various parts of an environment to suit your needs.",
+    "page_number": 34,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "34-35"
+  },
+  {
+    "text": ". Wrappers \n• The Wrapper class in OpenAI Gym provides you with the functionality to \nmodify various parts of an environment to suit your needs.",
+    "page_number": 35,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ". Wrappers \n• The Wrapper class in OpenAI Gym provides you with the functionality to \nmodify various parts of an environment to suit your needs.\n\nLet’s see a demo \n• OpenAI: Mountain Car Environment",
+    "page_number": 35,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "35-36"
+  },
+  {
+    "text": "Let’s see a demo \n• OpenAI: Mountain Car Environment",
+    "page_number": 36,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Let’s see a demo \n• OpenAI: Mountain Car Environment\n\nLet’s Write some code \nhttps://github.com/andrewekhalel/RL-Belarabi/tree/master/L04%20-%20Q-Learning/HW02%20-%20Q-Learning/Solution",
+    "page_number": 36,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "36-37"
+  },
+  {
+    "text": "Let’s Write some code \nhttps://github.com/andrewekhalel/RL-Belarabi/tree/master/L04%20-%20Q-Learning/HW02%20-%20Q-Learning/Solution",
+    "page_number": 37,
+    "source_file": "Chapter+7+-+Examples+on+RL (1)",
+    "total_pages": 42,
+    "extraction_method": "ocr_fallback"
+  }
+]

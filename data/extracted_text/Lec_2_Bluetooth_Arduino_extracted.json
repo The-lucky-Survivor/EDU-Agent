@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Bluetooth Module Programming \nwith Arduino\nBy\nProf. Dr. Tamer Medhat \ntmedhatm@eng.kfs.edu.eg\nwww.kfs.edu.eg/drtamer.html",
+    "page_number": 2,
+    "source_file": "Lec_2_Bluetooth_Arduino",
+    "total_pages": 12,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Bluetooth Module Programming \nwith Arduino\nBy\nProf. Dr. Tamer Medhat \ntmedhatm@eng.kfs.edu.eg\nwww.kfs.edu.eg/drtamer.html\n\nchar Incoming_value = 0;\n//Variable for storing Incoming_value\nvoid setup()\n{\nSerial.begin(9600);\n//Sets the data rate in bits per second (baud) for serial data transmission\npinMode(13, OUTPUT);\n//Sets digital pin 13 as output pin\n}\nvoid loop()\n{\nif(Serial.available() > 0)\n{\nIncoming_value = Serial.read();\n//Read the incoming data and store it into variable Incoming_value\nSerial.print(Incoming_value);\n//Print Value of Incoming_value in Serial monitor\nSerial.print(\"\\n\");\n//New line\nif(Incoming_value == '1')\n//Checks whether value of Incoming_value is equal to 1\ndigitalWrite(13, HIGH);\n//If value is 1 then LED turns ON\nelse if(Incoming_value == '0')\n//Checks whether value of Incoming_value is equal to 0\ndigitalWrite(13, LOW);\n//If value is 0 then LED turns OFF\n}\n}",
+    "page_number": 2,
+    "source_file": "Lec_2_Bluetooth_Arduino",
+    "total_pages": 12,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-4"
+  },
+  {
+    "text": "char Incoming_value = 0;\n//Variable for storing Incoming_value\nvoid setup()\n{\nSerial.begin(9600);\n//Sets the data rate in bits per second (baud) for serial data transmission\npinMode(13, OUTPUT);\n//Sets digital pin 13 as output pin\n}\nvoid loop()\n{\nif(Serial.available() > 0)\n{\nIncoming_value = Serial.read();\n//Read the incoming data and store it into variable Incoming_value\nSerial.print(Incoming_value);\n//Print Value of Incoming_value in Serial monitor\nSerial.print(\"\\n\");\n//New line\nif(Incoming_value == '1')\n//Checks whether value of Incoming_value is equal to 1\ndigitalWrite(13, HIGH);\n//If value is 1 then LED turns ON\nelse if(Incoming_value == '0')\n//Checks whether value of Incoming_value is equal to 0\ndigitalWrite(13, LOW);\n//If value is 0 then LED turns OFF\n}\n}",
+    "page_number": 4,
+    "source_file": "Lec_2_Bluetooth_Arduino",
+    "total_pages": 12,
+    "extraction_method": "ocr_fallback"
+  }
+]

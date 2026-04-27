@@ -1,0 +1,294 @@
+[
+  {
+    "text": "Multi-Agents \n \nChapter 6 \nReinforcement Learning (QLearning) \nDr. Fatma M. Talaat",
+    "page_number": 1,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Multi-Agents \n \nChapter 6 \nReinforcement Learning (QLearning) \nDr. Fatma M. Talaat\n\nContents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 1,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "1-2"
+  },
+  {
+    "text": "Contents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 2,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents \n1.\nChapter 1: Introduction to agents \n2.\nChapter 2: Introduction to Sensors & Actuators \n3.\nChapter 3: Types of intelligent agents \n4.\nChapter 4: Reinforcement Learning \n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Reinforcement Learning (Q-Learning) \n7.\nChapter 7: Examples on Reinforcement Learning \n8.\nChapter 8: Scaling Planning for Complex Tasks \n9.\nChapter 9: Acting in Uncertain (real world) Environments\n\nReinforcement Learning (Q-Learning) \n▪Still assume a Markov decision process (MDP): \n▪A set of states s ∈ S \n▪A set of actions (per state) A \n▪A model T(s,a,s’) \n▪A reward function R(s,a,s’) \n▪Still looking for a policy π(s) \n \n▪New twist: don’t know T or R \n▪I.e. we don’t know which states are good or what the actions do \n▪Must actually try actions and states out to learn \n في انـMDP\n \n بُكٌٕ عارفيٍ انـr, T\n \n عارف انـreward\n \n ٔعارف انـprobability\n \nٍنكم حانة ٔأكش \n في انـRL\n \n يابُكَٕص عارفيٍ انـR,T \n فانـagent\n \n عشاٌ يتعهى انـpolicy\n \n ْٕ يحتاج يتعهى قيًةT, R\n فٕٓ أكثر تعقيذا",
+    "page_number": 2,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-3"
+  },
+  {
+    "text": "Reinforcement Learning (Q-Learning) \n▪Still assume a Markov decision process (MDP): \n▪A set of states s ∈ S \n▪A set of actions (per state) A \n▪A model T(s,a,s’) \n▪A reward function R(s,a,s’) \n▪Still looking for a policy π(s) \n \n▪New twist: don’t know T or R \n▪I.e. we don’t know which states are good or what the actions do \n▪Must actually try actions and states out to learn \n في انـMDP\n \n بُكٌٕ عارفيٍ انـr, T\n \n عارف انـreward\n \n ٔعارف انـprobability\n \nٍنكم حانة ٔأكش \n في انـRL\n \n يابُكَٕص عارفيٍ انـR,T \n فانـagent\n \n عشاٌ يتعهى انـpolicy\n \n ْٕ يحتاج يتعهى قيًةT, R\n فٕٓ أكثر تعقيذا",
+    "page_number": 3,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning (Q-Learning) \n▪Still assume a Markov decision process (MDP): \n▪A set of states s ∈ S \n▪A set of actions (per state) A \n▪A model T(s,a,s’) \n▪A reward function R(s,a,s’) \n▪Still looking for a policy π(s) \n \n▪New twist: don’t know T or R \n▪I.e. we don’t know which states are good or what the actions do \n▪Must actually try actions and states out to learn \n في انـMDP\n \n بُكٌٕ عارفيٍ انـr, T\n \n عارف انـreward\n \n ٔعارف انـprobability\n \nٍنكم حانة ٔأكش \n في انـRL\n \n يابُكَٕص عارفيٍ انـR,T \n فانـagent\n \n عشاٌ يتعهى انـpolicy\n \n ْٕ يحتاج يتعهى قيًةT, R\n فٕٓ أكثر تعقيذا\n\nOffline (MDPs) vs. Online (RL) \nOffline Solution \nOnline Learning",
+    "page_number": 3,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "3-4"
+  },
+  {
+    "text": "Offline (MDPs) vs. Online (RL) \nOffline Solution \nOnline Learning",
+    "page_number": 4,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Offline (MDPs) vs. Online (RL) \nOffline Solution \nOnline Learning\n\nActive Reinforcement Learning \nانـ \nagent\n ُْا يايعرفص انـ \nT,R\n بس كم انهي \nّبيعًه \nَّا بيختار \nٍأكش \nٍيعي \nًّيتعه ٔيشٕف \nّاي انـ \nR\n انهي أخذْا بعذ يا عًم \nٍاألكش \nِد \nٍٔي ُْا بيعرف يٕصم نهـ \npolicy \n بالتالي هنا المفروض يجرب كل االحتماالت (بيكون فيه \nexploration\n بيحأل يكتشف كم \nاالحتًاالت انًتخهفة)",
+    "page_number": 4,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "4-5"
+  },
+  {
+    "text": "Active Reinforcement Learning \nانـ \nagent\n ُْا يايعرفص انـ \nT,R\n بس كم انهي \nّبيعًه \nَّا بيختار \nٍأكش \nٍيعي \nًّيتعه ٔيشٕف \nّاي انـ \nR\n انهي أخذْا بعذ يا عًم \nٍاألكش \nِد \nٍٔي ُْا بيعرف يٕصم نهـ \npolicy \n بالتالي هنا المفروض يجرب كل االحتماالت (بيكون فيه \nexploration\n بيحأل يكتشف كم \nاالحتًاالت انًتخهفة)",
+    "page_number": 5,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Active Reinforcement Learning \nانـ \nagent\n ُْا يايعرفص انـ \nT,R\n بس كم انهي \nّبيعًه \nَّا بيختار \nٍأكش \nٍيعي \nًّيتعه ٔيشٕف \nّاي انـ \nR\n انهي أخذْا بعذ يا عًم \nٍاألكش \nِد \nٍٔي ُْا بيعرف يٕصم نهـ \npolicy \n بالتالي هنا المفروض يجرب كل االحتماالت (بيكون فيه \nexploration\n بيحأل يكتشف كم \nاالحتًاالت انًتخهفة)\n\nActive Reinforcement Learning \n▪Full reinforcement learning: optimal policies (like value iteration) \n▪You don’t know the transitions T(s,a,s’) \n▪You don’t know the rewards R(s,a,s’) \n▪You choose the actions now \n▪Goal: learn the optimal policy / values \n \n▪In this case: \n▪Learner makes choices! \n▪Fundamental tradeoff: exploration vs. exploitation \n▪This is NOT offline planning! You actually take actions in the world and find \nout what happens…",
+    "page_number": 5,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "5-6"
+  },
+  {
+    "text": "Active Reinforcement Learning \n▪Full reinforcement learning: optimal policies (like value iteration) \n▪You don’t know the transitions T(s,a,s’) \n▪You don’t know the rewards R(s,a,s’) \n▪You choose the actions now \n▪Goal: learn the optimal policy / values \n \n▪In this case: \n▪Learner makes choices! \n▪Fundamental tradeoff: exploration vs. exploitation \n▪This is NOT offline planning! You actually take actions in the world and find \nout what happens…",
+    "page_number": 6,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Active Reinforcement Learning \n▪Full reinforcement learning: optimal policies (like value iteration) \n▪You don’t know the transitions T(s,a,s’) \n▪You don’t know the rewards R(s,a,s’) \n▪You choose the actions now \n▪Goal: learn the optimal policy / values \n \n▪In this case: \n▪Learner makes choices! \n▪Fundamental tradeoff: exploration vs. exploitation \n▪This is NOT offline planning! You actually take actions in the world and find \nout what happens…\n\nQ-Learning Algorithm \nmust explore in first episodes \nlearning rate \nQ(s,a) ← (1 - α) Q(s,a) + α *r + 𝛾 maxa’ Q(s’,a’)+ \n األنجٕريزو دِ دايًا بيٕصم نُتايح كٕيسة حتى نٕ يااختارش انـoptimal decision\n \n في األٔل َّأل بيختبر اختيارات يختهفة انى أٌ يصم نهـoptimal Q",
+    "page_number": 6,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "6-7"
+  },
+  {
+    "text": "Q-Learning Algorithm \nmust explore in first episodes \nlearning rate \nQ(s,a) ← (1 - α) Q(s,a) + α *r + 𝛾 maxa’ Q(s’,a’)+ \n األنجٕريزو دِ دايًا بيٕصم نُتايح كٕيسة حتى نٕ يااختارش انـoptimal decision\n \n في األٔل َّأل بيختبر اختيارات يختهفة انى أٌ يصم نهـoptimal Q",
+    "page_number": 7,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Q-Learning Algorithm \nmust explore in first episodes \nlearning rate \nQ(s,a) ← (1 - α) Q(s,a) + α *r + 𝛾 maxa’ Q(s’,a’)+ \n األنجٕريزو دِ دايًا بيٕصم نُتايح كٕيسة حتى نٕ يااختارش انـoptimal decision\n \n في األٔل َّأل بيختبر اختيارات يختهفة انى أٌ يصم نهـoptimal Q\n\nQ-Learning Properties \n▪Amazing result: Q-learning converges to optimal policy -- even \nif you’re acting suboptimally! \n \n▪This is called off-policy learning \n \n▪Caveats: \n▪You have to explore enough \n▪You have to eventually make the learning rate \n small enough",
+    "page_number": 7,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "7-8"
+  },
+  {
+    "text": "Q-Learning Properties \n▪Amazing result: Q-learning converges to optimal policy -- even \nif you’re acting suboptimally! \n \n▪This is called off-policy learning \n \n▪Caveats: \n▪You have to explore enough \n▪You have to eventually make the learning rate \n small enough",
+    "page_number": 8,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Q-Learning Properties \n▪Amazing result: Q-learning converges to optimal policy -- even \nif you’re acting suboptimally! \n \n▪This is called off-policy learning \n \n▪Caveats: \n▪You have to explore enough \n▪You have to eventually make the learning rate \n small enough\n\nReinforcement Learning \nQuestion.1 Choose the correct answer \n \n1) …………… is anything that can be viewed as perceiving its environment through sensors and \nacting upon that environment. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n2) …………… are the devices which affect the environment. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n3) …………… are the components of machines that convert the energy into motion. \n \na) Sensor b) Agent c) Effectors d) Actuators",
+    "page_number": 8,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "8-16"
+  },
+  {
+    "text": "Reinforcement Learning \nQuestion.1 Choose the correct answer \n \n1) …………… is anything that can be viewed as perceiving its environment through sensors and \nacting upon that environment. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n2) …………… are the devices which affect the environment. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n3) …………… are the components of machines that convert the energy into motion. \n \na) Sensor b) Agent c) Effectors d) Actuators",
+    "page_number": 16,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \nQuestion.1 Choose the correct answer \n \n1) …………… is anything that can be viewed as perceiving its environment through sensors and \nacting upon that environment. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n2) …………… are the devices which affect the environment. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n3) …………… are the components of machines that convert the energy into motion. \n \na) Sensor b) Agent c) Effectors d) Actuators\n\nReinforcement Learning \n4) …………… is a device which detects the change in the environment and sends the \ninformation to other electronic devices. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n5) All of the following is considered from actuators in robots except ………… \n \na) Motors b) Wheels c) Speakers d) Camera \n \n \n6) Types of intelligent agents based on their degree of perceived intelligence and capability \nare ………………………………… \na) Goal based agents b) Learning agents c) Simple reflex agents d) All of the previous",
+    "page_number": 16,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "16-17"
+  },
+  {
+    "text": "Reinforcement Learning \n4) …………… is a device which detects the change in the environment and sends the \ninformation to other electronic devices. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n5) All of the following is considered from actuators in robots except ………… \n \na) Motors b) Wheels c) Speakers d) Camera \n \n \n6) Types of intelligent agents based on their degree of perceived intelligence and capability \nare ………………………………… \na) Goal based agents b) Learning agents c) Simple reflex agents d) All of the previous",
+    "page_number": 17,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n4) …………… is a device which detects the change in the environment and sends the \ninformation to other electronic devices. \n \na) Sensor b) Agent c) Effectors d) Actuators \n \n5) All of the following is considered from actuators in robots except ………… \n \na) Motors b) Wheels c) Speakers d) Camera \n \n \n6) Types of intelligent agents based on their degree of perceived intelligence and capability \nare ………………………………… \na) Goal based agents b) Learning agents c) Simple reflex agents d) All of the previous\n\nReinforcement Learning \n7) ……………….considers the current situation returned by the environment. \na) Reward b) Policy c) Action d) State \n \n \n8) The strategy that the agent employs to determine next action based on the current state is \n……………. \na) Reward b) Policy c) Action d) State \n \n9) ………………………… are the approaches that we follow to implement RL. \na) Value-based b) Model-based c) Policy-based d) All of the \nprevious",
+    "page_number": 17,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "17-18"
+  },
+  {
+    "text": "Reinforcement Learning \n7) ……………….considers the current situation returned by the environment. \na) Reward b) Policy c) Action d) State \n \n \n8) The strategy that the agent employs to determine next action based on the current state is \n……………. \na) Reward b) Policy c) Action d) State \n \n9) ………………………… are the approaches that we follow to implement RL. \na) Value-based b) Model-based c) Policy-based d) All of the \nprevious",
+    "page_number": 18,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n7) ……………….considers the current situation returned by the environment. \na) Reward b) Policy c) Action d) State \n \n \n8) The strategy that the agent employs to determine next action based on the current state is \n……………. \na) Reward b) Policy c) Action d) State \n \n9) ………………………… are the approaches that we follow to implement RL. \na) Value-based b) Model-based c) Policy-based d) All of the \nprevious\n\nReinforcement Learning \n10) The ………………………. defines the structure as well as the legitimate values for the \nobservation of the state of the environment. \n \na) observation_space b) action_space c) a,b d) not of the above \n \n11) …… function is the function which resets the environment to its initial state and returns \nthe observation of the environment corresponding to the initial state. \n \na) observation_space b) action_space c) step d) reset \n \n12) The reset function returns ………………………………. \n \na) observation b) info c) reward d) All of the previous",
+    "page_number": 18,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "18-19"
+  },
+  {
+    "text": "Reinforcement Learning \n10) The ………………………. defines the structure as well as the legitimate values for the \nobservation of the state of the environment. \n \na) observation_space b) action_space c) a,b d) not of the above \n \n11) …… function is the function which resets the environment to its initial state and returns \nthe observation of the environment corresponding to the initial state. \n \na) observation_space b) action_space c) step d) reset \n \n12) The reset function returns ………………………………. \n \na) observation b) info c) reward d) All of the previous",
+    "page_number": 19,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n10) The ………………………. defines the structure as well as the legitimate values for the \nobservation of the state of the environment. \n \na) observation_space b) action_space c) a,b d) not of the above \n \n11) …… function is the function which resets the environment to its initial state and returns \nthe observation of the environment corresponding to the initial state. \n \na) observation_space b) action_space c) step d) reset \n \n12) The reset function returns ………………………………. \n \na) observation b) info c) reward d) All of the previous\n\nReinforcement Learning \n13) ……………………… is expected utility starting out having taken action a from state s and \n(thereafter) acting optimally \n \na) V*(s) b) π*(s) \nc) Q*(s,a) d) Not of the above \n \n14) T(s, a, s’) means the probability to arrive to ………. when action a implemented on state \n…….. \n \na) s, s’ \nb) s, a \nc) s’, s d) s’, a \n \n15) V*(s) = ………. Q*(s, a) \n \na) min b) avg c) sum d) max",
+    "page_number": 19,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "19-20"
+  },
+  {
+    "text": "Reinforcement Learning \n13) ……………………… is expected utility starting out having taken action a from state s and \n(thereafter) acting optimally \n \na) V*(s) b) π*(s) \nc) Q*(s,a) d) Not of the above \n \n14) T(s, a, s’) means the probability to arrive to ………. when action a implemented on state \n…….. \n \na) s, s’ \nb) s, a \nc) s’, s d) s’, a \n \n15) V*(s) = ………. Q*(s, a) \n \na) min b) avg c) sum d) max",
+    "page_number": 20,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n13) ……………………… is expected utility starting out having taken action a from state s and \n(thereafter) acting optimally \n \na) V*(s) b) π*(s) \nc) Q*(s,a) d) Not of the above \n \n14) T(s, a, s’) means the probability to arrive to ………. when action a implemented on state \n…….. \n \na) s, s’ \nb) s, a \nc) s’, s d) s’, a \n \n15) V*(s) = ………. Q*(s, a) \n \na) min b) avg c) sum d) max\n\nReinforcement Learning \n16) In Grid world, when living reward changed to ………… it will move quickly to -1 to end the \ngame. \n \na) 2 b) -1 c) -2 d) 0 \n \n17) In Grid world, when living reward changed to ………… it will move in loop without ending \nthe game. \n \na) 2 b) -1 c) -2 d)",
+    "page_number": 20,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "20-21"
+  },
+  {
+    "text": "Reinforcement Learning \n16) In Grid world, when living reward changed to ………… it will move quickly to -1 to end the \ngame. \n \na) 2 b) -1 c) -2 d) 0 \n \n17) In Grid world, when living reward changed to ………… it will move in loop without ending \nthe game. \n \na) 2 b) -1 c) -2 d)",
+    "page_number": 21,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n16) In Grid world, when living reward changed to ………… it will move quickly to -1 to end the \ngame. \n \na) 2 b) -1 c) -2 d) 0 \n \n17) In Grid world, when living reward changed to ………… it will move in loop without ending \nthe game. \n \na) 2 b) -1 c) -2 d)\n\nReinforcement Learning \n18) Discrete(n) box describes a discrete space with [0  …….+ possible values \n \na) n b) n+1 c) n+2 d) n-1 \n \n19) The Wrapper class in OpenAI Gym provides you with the functionality to ………………. \nvarious parts of an environment to suit your needs. \n \na) modify b) insert c) delete d) none",
+    "page_number": 21,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "21-22"
+  },
+  {
+    "text": "Reinforcement Learning \n18) Discrete(n) box describes a discrete space with [0  …….+ possible values \n \na) n b) n+1 c) n+2 d) n-1 \n \n19) The Wrapper class in OpenAI Gym provides you with the functionality to ………………. \nvarious parts of an environment to suit your needs. \n \na) modify b) insert c) delete d) none",
+    "page_number": 22,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n18) Discrete(n) box describes a discrete space with [0  …….+ possible values \n \na) n b) n+1 c) n+2 d) n-1 \n \n19) The Wrapper class in OpenAI Gym provides you with the functionality to ………………. \nvarious parts of an environment to suit your needs. \n \na) modify b) insert c) delete d) none\n\nReinforcement Learning \nQuestion.2 True or False \n \n \n1) The things that perceived from the environment through sensors are called Percepts \n \na) True b) False \n \n2) The things that act upon the environment through actuators are called signals. \n \na) True b) False \n \n3) Eyes, ears, skin in humans are considered as actuators \n \na) True b) False",
+    "page_number": 22,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "22-23"
+  },
+  {
+    "text": "Reinforcement Learning \nQuestion.2 True or False \n \n \n1) The things that perceived from the environment through sensors are called Percepts \n \na) True b) False \n \n2) The things that act upon the environment through actuators are called signals. \n \na) True b) False \n \n3) Eyes, ears, skin in humans are considered as actuators \n \na) True b) False",
+    "page_number": 23,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \nQuestion.2 True or False \n \n \n1) The things that perceived from the environment through sensors are called Percepts \n \na) True b) False \n \n2) The things that act upon the environment through actuators are called signals. \n \na) True b) False \n \n3) Eyes, ears, skin in humans are considered as actuators \n \na) True b) False\n\nReinforcement Learning \n4) F: A*-> P is the function that clarify the working way of the agent \n \na) True b) False \n \n5) A rational agent can be anything that makes decisions, typically a person, firm, machine, \nor software. \n \na) True b) False \n \n6) Perfect Rationality assumes that the rational agent knows all and will take the action that \nminimize the utility. \n \na) True b) False",
+    "page_number": 23,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "23-24"
+  },
+  {
+    "text": "Reinforcement Learning \n4) F: A*-> P is the function that clarify the working way of the agent \n \na) True b) False \n \n5) A rational agent can be anything that makes decisions, typically a person, firm, machine, \nor software. \n \na) True b) False \n \n6) Perfect Rationality assumes that the rational agent knows all and will take the action that \nminimize the utility. \n \na) True b) False",
+    "page_number": 24,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n4) F: A*-> P is the function that clarify the working way of the agent \n \na) True b) False \n \n5) A rational agent can be anything that makes decisions, typically a person, firm, machine, \nor software. \n \na) True b) False \n \n6) Perfect Rationality assumes that the rational agent knows all and will take the action that \nminimize the utility. \n \na) True b) False\n\nReinforcement Learning \n7) Intelligent Agents are applied as automated online assistants, as where they function to \nperceive the needs of customers in order to perform customer services. \n \n \na) True b) False \n \n8) Reinforcement learning means that agent learns to interact with environment to achieve \nreward. \n \n \na) True b) False \n \n9) Supervised learning involves classification and clustering \n \n \na) True b) False",
+    "page_number": 24,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "24-25"
+  },
+  {
+    "text": "Reinforcement Learning \n7) Intelligent Agents are applied as automated online assistants, as where they function to \nperceive the needs of customers in order to perform customer services. \n \n \na) True b) False \n \n8) Reinforcement learning means that agent learns to interact with environment to achieve \nreward. \n \n \na) True b) False \n \n9) Supervised learning involves classification and clustering \n \n \na) True b) False",
+    "page_number": 25,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n7) Intelligent Agents are applied as automated online assistants, as where they function to \nperceive the needs of customers in order to perform customer services. \n \n \na) True b) False \n \n8) Reinforcement learning means that agent learns to interact with environment to achieve \nreward. \n \n \na) True b) False \n \n9) Supervised learning involves classification and clustering \n \n \na) True b) False\n\nReinforcement Learning \n10) Unsupervised learning must have labels. \n \na) True b) False \n \n11) In Markov Decision Processes, the next action depends only on the current state. \n \na) True b) False \n \n12) OpenAI Gym is a toolkit for developing and comparing RL algorithms and supports \nteaching agents everything from walking to playing games. \n \na) True b) False",
+    "page_number": 25,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "25-26"
+  },
+  {
+    "text": "Reinforcement Learning \n10) Unsupervised learning must have labels. \n \na) True b) False \n \n11) In Markov Decision Processes, the next action depends only on the current state. \n \na) True b) False \n \n12) OpenAI Gym is a toolkit for developing and comparing RL algorithms and supports \nteaching agents everything from walking to playing games. \n \na) True b) False",
+    "page_number": 26,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Reinforcement Learning \n10) Unsupervised learning must have labels. \n \na) True b) False \n \n11) In Markov Decision Processes, the next action depends only on the current state. \n \na) True b) False \n \n12) OpenAI Gym is a toolkit for developing and comparing RL algorithms and supports \nteaching agents everything from walking to playing games. \n \na) True b) False\n\nReinforcement Learning \n13) The format of observation space is Discrete (n) \n \na) True b) False \n \n \n14) The format of action space is Discrete (n) \n \na) True b) False",
+    "page_number": 26,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "26-27"
+  },
+  {
+    "text": "Reinforcement Learning \n13) The format of observation space is Discrete (n) \n \na) True b) False \n \n \n14) The format of action space is Discrete (n) \n \na) True b) False",
+    "page_number": 27,
+    "source_file": "Chapter+6+-+Reinforcement+Learning+(Q-Learning)",
+    "total_pages": 28,
+    "extraction_method": "ocr_fallback"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "text": "بساحلا تايساسأ\nComputer Fundamentals\nArduino - Line Follower robot\nدادعا\nأ.م.د/ دمحم تحدم رمات\nمظنلاو تابساحلا ةسدنه دعاسم ذاتسأ\n \n–\n خيشلارفك\nبالطلاو ميلعتلا نوئشل يعانطصالا ءاكذلا ةيلك ليكو\ntmedhatm@eng.kfs.edu.eg\nwww.kfs.edu.eg/drtamer.html\nKafrelsheikh University\n جام ـ عة ك ـفر ال شــــ يخKafrelsheikh University\n جام ـ عة ك ـفر ال شــــ يخKafrelsheikh University\n جام ـ عة ك ـفر ال شــــ يخ",
+    "page_number": 2,
+    "source_file": "Emailing Lec_4_Line+Follower+robot_AI",
+    "total_pages": 25,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "بساحلا تايساسأ\nComputer Fundamentals\nArduino - Line Follower robot\nدادعا\nأ.م.د/ دمحم تحدم رمات\nمظنلاو تابساحلا ةسدنه دعاسم ذاتسأ\n \n–\n خيشلارفك\nبالطلاو ميلعتلا نوئشل يعانطصالا ءاكذلا ةيلك ليكو\ntmedhatm@eng.kfs.edu.eg\nwww.kfs.edu.eg/drtamer.html\nKafrelsheikh University\n جام ـ عة ك ـفر ال شــــ يخKafrelsheikh University\n جام ـ عة ك ـفر ال شــــ يخKafrelsheikh University\n جام ـ عة ك ـفر ال شــــ يخ\n\n•\nint LED = 13; // Use the onboard Uno LED\n•\nint isObstaclePin = 2; // This is our input pin\n•\nint isObstacle = HIGH; // HIGH MEANS NO OBSTACLE\n•\nvoid setup() {\n•\n pinMode(LED, OUTPUT);\n•\n pinMode(isObstaclePin, INPUT);\n•\n Serial.begin(9600); \n•\n}\n•\nvoid loop() {\n•\n isObstacle = digitalRead(isObstaclePin);\n•\n if (isObstacle == LOW)\n•\n { Serial.println(\"OBSTACLE!!, OBSTACLE!!\");\n•\n digitalWrite(LED, HIGH);\n•\n }\n•\n else\n•\n { Serial.println(\"clear\");\n•\n digitalWrite(LED, LOW);\n•\n }\n•\n delay(200);\n•\n}",
+    "page_number": 2,
+    "source_file": "Emailing Lec_4_Line+Follower+robot_AI",
+    "total_pages": 25,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-15"
+  },
+  {
+    "text": "•\nint LED = 13; // Use the onboard Uno LED\n•\nint isObstaclePin = 2; // This is our input pin\n•\nint isObstacle = HIGH; // HIGH MEANS NO OBSTACLE\n•\nvoid setup() {\n•\n pinMode(LED, OUTPUT);\n•\n pinMode(isObstaclePin, INPUT);\n•\n Serial.begin(9600); \n•\n}\n•\nvoid loop() {\n•\n isObstacle = digitalRead(isObstaclePin);\n•\n if (isObstacle == LOW)\n•\n { Serial.println(\"OBSTACLE!!, OBSTACLE!!\");\n•\n digitalWrite(LED, HIGH);\n•\n }\n•\n else\n•\n { Serial.println(\"clear\");\n•\n digitalWrite(LED, LOW);\n•\n }\n•\n delay(200);\n•\n}",
+    "page_number": 15,
+    "source_file": "Emailing Lec_4_Line+Follower+robot_AI",
+    "total_pages": 25,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "•\nint LED = 13; // Use the onboard Uno LED\n•\nint isObstaclePin = 2; // This is our input pin\n•\nint isObstacle = HIGH; // HIGH MEANS NO OBSTACLE\n•\nvoid setup() {\n•\n pinMode(LED, OUTPUT);\n•\n pinMode(isObstaclePin, INPUT);\n•\n Serial.begin(9600); \n•\n}\n•\nvoid loop() {\n•\n isObstacle = digitalRead(isObstaclePin);\n•\n if (isObstacle == LOW)\n•\n { Serial.println(\"OBSTACLE!!, OBSTACLE!!\");\n•\n digitalWrite(LED, HIGH);\n•\n }\n•\n else\n•\n { Serial.println(\"clear\");\n•\n digitalWrite(LED, LOW);\n•\n }\n•\n delay(200);\n•\n}\n\n#define LS 2 // left sensor\n#define RS 3 // right sensor\n#define LM1 5 // left motor M1a\n#define LM2 4 // left motor M2a\n#define RM1 7 // right motor M2a\n#define RM2 6 // right motor M2b\nvoid setup()\n{\npinMode(LS, INPUT);\npinMode(RS, INPUT);\npinMode(LM1, OUTPUT);\npinMode(LM2, OUTPUT);\npinMode(RM1, OUTPUT);\npinMode(RM2, OUTPUT);\npinMode(10,OUTPUT);\npinMode(11,OUTPUT);\nanalogWrite(10,100);// control the spead of left motor\nanalogWrite(11,100);// control the speed of right motor\n}",
+    "page_number": 15,
+    "source_file": "Emailing Lec_4_Line+Follower+robot_AI",
+    "total_pages": 25,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "15-18"
+  },
+  {
+    "text": "#define LS 2 // left sensor\n#define RS 3 // right sensor\n#define LM1 5 // left motor M1a\n#define LM2 4 // left motor M2a\n#define RM1 7 // right motor M2a\n#define RM2 6 // right motor M2b\nvoid setup()\n{\npinMode(LS, INPUT);\npinMode(RS, INPUT);\npinMode(LM1, OUTPUT);\npinMode(LM2, OUTPUT);\npinMode(RM1, OUTPUT);\npinMode(RM2, OUTPUT);\npinMode(10,OUTPUT);\npinMode(11,OUTPUT);\nanalogWrite(10,100);// control the spead of left motor\nanalogWrite(11,100);// control the speed of right motor\n}",
+    "page_number": 18,
+    "source_file": "Emailing Lec_4_Line+Follower+robot_AI",
+    "total_pages": 25,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "#define LS 2 // left sensor\n#define RS 3 // right sensor\n#define LM1 5 // left motor M1a\n#define LM2 4 // left motor M2a\n#define RM1 7 // right motor M2a\n#define RM2 6 // right motor M2b\nvoid setup()\n{\npinMode(LS, INPUT);\npinMode(RS, INPUT);\npinMode(LM1, OUTPUT);\npinMode(LM2, OUTPUT);\npinMode(RM1, OUTPUT);\npinMode(RM2, OUTPUT);\npinMode(10,OUTPUT);\npinMode(11,OUTPUT);\nanalogWrite(10,100);// control the spead of left motor\nanalogWrite(11,100);// control the speed of right motor\n}\n\nvoid loop()\n{// Move Forward on line\nif(!digitalRead(LS) && !digitalRead(RS))\n{\ndigitalWrite(LM1, HIGH);\ndigitalWrite(LM2, LOW);\ndigitalWrite(RM1, HIGH);\ndigitalWrite(RM2, LOW);\n}\n/* turn left by rotationg left motors in \nforward and right ones in backward \ndirection*/\nif(digitalRead(LS) && !(digitalRead(RS))) {\ndigitalWrite(LM1, HIGH);\ndigitalWrite(LM2, LOW);\ndigitalWrite(RM1, LOW);\ndigitalWrite(RM2, HIGH);\n}\n/* Turn right by rotating right motors in \nforward and left ones in backward \ndirection*/\nif(!(digitalRead(LS)) && digitalRead(RS))\n{\ndigitalWrite(LM1, LOW);\ndigitalWrite(LM2, HIGH);\ndigitalWrite(RM1, HIGH);\ndigitalWrite(RM2, LOW);\n}\n// Finish line, stop both the motors\nif((digitalRead(LS)) && (digitalRead(RS))) {\ndigitalWrite(LM1, LOW);\ndigitalWrite(LM2, LOW);\ndigitalWrite(RM1, LOW);\ndigitalWrite(RM2, LOW);\n}\n}",
+    "page_number": 18,
+    "source_file": "Emailing Lec_4_Line+Follower+robot_AI",
+    "total_pages": 25,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "18-19"
+  },
+  {
+    "text": "void loop()\n{// Move Forward on line\nif(!digitalRead(LS) && !digitalRead(RS))\n{\ndigitalWrite(LM1, HIGH);\ndigitalWrite(LM2, LOW);\ndigitalWrite(RM1, HIGH);\ndigitalWrite(RM2, LOW);\n}\n/* turn left by rotationg left motors in \nforward and right ones in backward \ndirection*/\nif(digitalRead(LS) && !(digitalRead(RS))) {\ndigitalWrite(LM1, HIGH);\ndigitalWrite(LM2, LOW);\ndigitalWrite(RM1, LOW);\ndigitalWrite(RM2, HIGH);\n}\n/* Turn right by rotating right motors in \nforward and left ones in backward \ndirection*/\nif(!(digitalRead(LS)) && digitalRead(RS))\n{\ndigitalWrite(LM1, LOW);\ndigitalWrite(LM2, HIGH);\ndigitalWrite(RM1, HIGH);\ndigitalWrite(RM2, LOW);\n}\n// Finish line, stop both the motors\nif((digitalRead(LS)) && (digitalRead(RS))) {\ndigitalWrite(LM1, LOW);\ndigitalWrite(LM2, LOW);\ndigitalWrite(RM1, LOW);\ndigitalWrite(RM2, LOW);\n}\n}",
+    "page_number": 19,
+    "source_file": "Emailing Lec_4_Line+Follower+robot_AI",
+    "total_pages": 25,
+    "extraction_method": "ocr_fallback"
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "text": "Multi-Agents\nChapter 2\nIntroduction to Sensors \n& Actuators\nDr. Fatma M. Talaat",
+    "page_number": 1,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Multi-Agents\nChapter 2\nIntroduction to Sensors \n& Actuators\nDr. Fatma M. Talaat\n\nContents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 1,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "1-2"
+  },
+  {
+    "text": "Contents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments",
+    "page_number": 2,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Contents\n1.\nChapter 1: Introduction to agents\n2.\nChapter 2: Introduction to Sensors & Actuators\n3.\nChapter 3: Types of intelligent agents\n4.\nChapter 4: Reinforcement Learning\n5.\nChapter 5: Markov Decision Processes (MDPs) \n6.\nChapter 6: Examples on Reinforcement Learning\n7.\nChapter 7: Reinforcement Learning (Q-Learning)\n8.\nChapter 8: Scaling Planning for Complex Tasks\n9.\nChapter 9: Acting in Uncertain (real world) Environments\n\nBasic Principle of Sensor \nMeasuring\nParameter\nUseful Signal\nConversion Device\nVoltage, current, \ncapacitance\nDisplacement, Temperature, Pressure \netc….\nSensor\nis\na\ndevice\nthat\nwhen\nexposed\nto\na\nphysical\nphenomenon (temperature, displacement, force, etc.) produces a\nproportional\noutput\nsignal\n(electrical,\nmechanical,\nmagnetic,\netc.).",
+    "page_number": 2,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "2-4"
+  },
+  {
+    "text": "Basic Principle of Sensor \nMeasuring\nParameter\nUseful Signal\nConversion Device\nVoltage, current, \ncapacitance\nDisplacement, Temperature, Pressure \netc….\nSensor\nis\na\ndevice\nthat\nwhen\nexposed\nto\na\nphysical\nphenomenon (temperature, displacement, force, etc.) produces a\nproportional\noutput\nsignal\n(electrical,\nmechanical,\nmagnetic,\netc.).",
+    "page_number": 4,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Basic Principle of Sensor \nMeasuring\nParameter\nUseful Signal\nConversion Device\nVoltage, current, \ncapacitance\nDisplacement, Temperature, Pressure \netc….\nSensor\nis\na\ndevice\nthat\nwhen\nexposed\nto\na\nphysical\nphenomenon (temperature, displacement, force, etc.) produces a\nproportional\noutput\nsignal\n(electrical,\nmechanical,\nmagnetic,\netc.).\n\nHuman beings are equipped with 5 different types of \nsensors.",
+    "page_number": 4,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "4-5"
+  },
+  {
+    "text": "Human beings are equipped with 5 different types of \nsensors.",
+    "page_number": 5,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Human beings are equipped with 5 different types of \nsensors.\n\nTransducer\nTransducer: a device that converts variations in a physical\nquantity,\nsuch\nas\npressure\nor\nbrightness,\ninto\nan\nelectrical\nsignal, or vice versa.\nA device which converts one form of energy to another",
+    "page_number": 5,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "5-8"
+  },
+  {
+    "text": "Transducer\nTransducer: a device that converts variations in a physical\nquantity,\nsuch\nas\npressure\nor\nbrightness,\ninto\nan\nelectrical\nsignal, or vice versa.\nA device which converts one form of energy to another",
+    "page_number": 8,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Transducer\nTransducer: a device that converts variations in a physical\nquantity,\nsuch\nas\npressure\nor\nbrightness,\ninto\nan\nelectrical\nsignal, or vice versa.\nA device which converts one form of energy to another\n\nTransducer\nWhen input is a physical quantity and output electrical →Sensor\nWhen input is electrical and output a physical quantity →Actuator\nActuators\nSensors\nPhysical \nparameter\nElectrical \nOutput\nElectrical \nInput\nPhysical \nOutput\ne.g. Piezoelectric:\nForce -> voltage\nVoltage-> Force",
+    "page_number": 8,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "8-9"
+  },
+  {
+    "text": "Transducer\nWhen input is a physical quantity and output electrical →Sensor\nWhen input is electrical and output a physical quantity →Actuator\nActuators\nSensors\nPhysical \nparameter\nElectrical \nOutput\nElectrical \nInput\nPhysical \nOutput\ne.g. Piezoelectric:\nForce -> voltage\nVoltage-> Force",
+    "page_number": 9,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Transducer\nWhen input is a physical quantity and output electrical →Sensor\nWhen input is electrical and output a physical quantity →Actuator\nActuators\nSensors\nPhysical \nparameter\nElectrical \nOutput\nElectrical \nInput\nPhysical \nOutput\ne.g. Piezoelectric:\nForce -> voltage\nVoltage-> Force\n\n.Position Sensors\nPosition \nSensors\nPotentio-meter\nEncoders\nLVDT",
+    "page_number": 9,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "9-11"
+  },
+  {
+    "text": ".Position Sensors\nPosition \nSensors\nPotentio-meter\nEncoders\nLVDT",
+    "page_number": 11,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": ".Position Sensors\nPosition \nSensors\nPotentio-meter\nEncoders\nLVDT\n\nA three-terminal resistor with a sliding contact that\nforms an adjustable voltage divider\nUsed to convert rotary or linear displacement to a\nvoltage\nResistance value can also be converted to a voltage\nUsed to detect angular position (i.e. of a robot arm,\netc.)\nPotentiometer",
+    "page_number": 11,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "11-12"
+  },
+  {
+    "text": "A three-terminal resistor with a sliding contact that\nforms an adjustable voltage divider\nUsed to convert rotary or linear displacement to a\nvoltage\nResistance value can also be converted to a voltage\nUsed to detect angular position (i.e. of a robot arm,\netc.)\nPotentiometer",
+    "page_number": 12,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "A three-terminal resistor with a sliding contact that\nforms an adjustable voltage divider\nUsed to convert rotary or linear displacement to a\nvoltage\nResistance value can also be converted to a voltage\nUsed to detect angular position (i.e. of a robot arm,\netc.)\nPotentiometer\n\nPotentiometer\nA rotary and linear potentiometer is a variable resistance device that can\nbe used to measure angular position and linear position.\nThrough voltage division the change in resistance can be used to create an\noutput voltage that is directly proportional to the input displacement.\nRotary potentiometer\nLinear potentiometer \nFig. Linear potentiometer \nFig. Rotary potentiometer",
+    "page_number": 12,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "12-13"
+  },
+  {
+    "text": "Potentiometer\nA rotary and linear potentiometer is a variable resistance device that can\nbe used to measure angular position and linear position.\nThrough voltage division the change in resistance can be used to create an\noutput voltage that is directly proportional to the input displacement.\nRotary potentiometer\nLinear potentiometer \nFig. Linear potentiometer \nFig. Rotary potentiometer",
+    "page_number": 13,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Potentiometer\nA rotary and linear potentiometer is a variable resistance device that can\nbe used to measure angular position and linear position.\nThrough voltage division the change in resistance can be used to create an\noutput voltage that is directly proportional to the input displacement.\nRotary potentiometer\nLinear potentiometer \nFig. Linear potentiometer \nFig. Rotary potentiometer\n\nRotary Potentiometer\nResistive material has a uniform resistivity so that the ohmsper-inch value along its length is constant.",
+    "page_number": 13,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "13-14"
+  },
+  {
+    "text": "Rotary Potentiometer\nResistive material has a uniform resistivity so that the ohmsper-inch value along its length is constant.",
+    "page_number": 14,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Rotary Potentiometer\nResistive material has a uniform resistivity so that the ohmsper-inch value along its length is constant.\n\nEgThe wiper can be used to control the voltage along an\nelement.\nThe wiper taps off the voltage drop between its contact\npoint and ground",
+    "page_number": 14,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "14-15"
+  },
+  {
+    "text": "EgThe wiper can be used to control the voltage along an\nelement.\nThe wiper taps off the voltage drop between its contact\npoint and ground",
+    "page_number": 15,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "EgThe wiper can be used to control the voltage along an\nelement.\nThe wiper taps off the voltage drop between its contact\npoint and ground\n\nAdvantages of the potentiometer are:\nEasy to use\nLow cost\nHigh amplitude output\nEasily available \nCan be used for measuring even large displacements. \nCan produce a high electrical efficiency\nDisadvantages\nSince the wiper is sliding across the resistive element there is a possibility of \nfriction and wear. Hence the number of operating cycles are limited.",
+    "page_number": 15,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "15-16"
+  },
+  {
+    "text": "Advantages of the potentiometer are:\nEasy to use\nLow cost\nHigh amplitude output\nEasily available \nCan be used for measuring even large displacements. \nCan produce a high electrical efficiency\nDisadvantages\nSince the wiper is sliding across the resistive element there is a possibility of \nfriction and wear. Hence the number of operating cycles are limited.",
+    "page_number": 16,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Advantages of the potentiometer are:\nEasy to use\nLow cost\nHigh amplitude output\nEasily available \nCan be used for measuring even large displacements. \nCan produce a high electrical efficiency\nDisadvantages\nSince the wiper is sliding across the resistive element there is a possibility of \nfriction and wear. Hence the number of operating cycles are limited.\n\nLinear Variable Differential Transformer\n‘LVDT’ is a transducer for measuring linear displacement.\nIt must be excited by an AC signal to induce AC response on\nsecondary.\nThe core position can be determined by measuring secondary\nresponse.",
+    "page_number": 16,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "16-17"
+  },
+  {
+    "text": "Linear Variable Differential Transformer\n‘LVDT’ is a transducer for measuring linear displacement.\nIt must be excited by an AC signal to induce AC response on\nsecondary.\nThe core position can be determined by measuring secondary\nresponse.",
+    "page_number": 17,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Linear Variable Differential Transformer\n‘LVDT’ is a transducer for measuring linear displacement.\nIt must be excited by an AC signal to induce AC response on\nsecondary.\nThe core position can be determined by measuring secondary\nresponse.\n\nAdvantages of LVDT1.High Range\n2.No Frictional Losses\n3.High Input and High Sensitivity\n4.Low Hysteresis\n5.Low Power Consumption\n6.Direct Conversion to Electrical Signals",
+    "page_number": 17,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "17-18"
+  },
+  {
+    "text": "Advantages of LVDT1.High Range\n2.No Frictional Losses\n3.High Input and High Sensitivity\n4.Low Hysteresis\n5.Low Power Consumption\n6.Direct Conversion to Electrical Signals",
+    "page_number": 18,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Advantages of LVDT1.High Range\n2.No Frictional Losses\n3.High Input and High Sensitivity\n4.Low Hysteresis\n5.Low Power Consumption\n6.Direct Conversion to Electrical Signals\n\nDisadvantages of LVDT1. LVDT is sensitive to stray magnetic fields so they always\nrequire a setup to protect them from stray magnetic fields.\n2. They are affected by vibrations and temperature.",
+    "page_number": 18,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "18-19"
+  },
+  {
+    "text": "Disadvantages of LVDT1. LVDT is sensitive to stray magnetic fields so they always\nrequire a setup to protect them from stray magnetic fields.\n2. They are affected by vibrations and temperature.",
+    "page_number": 19,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Disadvantages of LVDT1. LVDT is sensitive to stray magnetic fields so they always\nrequire a setup to protect them from stray magnetic fields.\n2. They are affected by vibrations and temperature.\n\nApplications of LVDT1.They\nare\nused\nin\napplications\nwhere\ndisplacements\nranging\nfrom\nfraction of mm to few cm are to be measured.\n2.The LVDT acting as a primary transducer converts the displacement to\nelectrical signal directly.\n3.They can also acts as the secondary transducers.\nE.g. the Bourbon tube which acts as a primary transducer and covert\npressure into linear displacement. Then LVDT coverts this displacement\ninto electrical signal which after calibration gives the ideas of the pressure\nof fluid.",
+    "page_number": 19,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "19-20"
+  },
+  {
+    "text": "Applications of LVDT1.They\nare\nused\nin\napplications\nwhere\ndisplacements\nranging\nfrom\nfraction of mm to few cm are to be measured.\n2.The LVDT acting as a primary transducer converts the displacement to\nelectrical signal directly.\n3.They can also acts as the secondary transducers.\nE.g. the Bourbon tube which acts as a primary transducer and covert\npressure into linear displacement. Then LVDT coverts this displacement\ninto electrical signal which after calibration gives the ideas of the pressure\nof fluid.",
+    "page_number": 20,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Applications of LVDT1.They\nare\nused\nin\napplications\nwhere\ndisplacements\nranging\nfrom\nfraction of mm to few cm are to be measured.\n2.The LVDT acting as a primary transducer converts the displacement to\nelectrical signal directly.\n3.They can also acts as the secondary transducers.\nE.g. the Bourbon tube which acts as a primary transducer and covert\npressure into linear displacement. Then LVDT coverts this displacement\ninto electrical signal which after calibration gives the ideas of the pressure\nof fluid.\n\nEncoders\nDigital Optical Encoders types\n1. Absolute Digital Optical Encoders\n2. Incremental Digital Optical Encoders",
+    "page_number": 20,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "20-21"
+  },
+  {
+    "text": "Encoders\nDigital Optical Encoders types\n1. Absolute Digital Optical Encoders\n2. Incremental Digital Optical Encoders",
+    "page_number": 21,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Encoders\nDigital Optical Encoders types\n1. Absolute Digital Optical Encoders\n2. Incremental Digital Optical Encoders\n\nDigital Optical Encoders\nProduces angular position data directly in digital form, eliminating\nany need for ADC.\nThe angle of the shaft is deduced from the output of the photocell.",
+    "page_number": 21,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "21-22"
+  },
+  {
+    "text": "Digital Optical Encoders\nProduces angular position data directly in digital form, eliminating\nany need for ADC.\nThe angle of the shaft is deduced from the output of the photocell.",
+    "page_number": 22,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Digital Optical Encoders\nProduces angular position data directly in digital form, eliminating\nany need for ADC.\nThe angle of the shaft is deduced from the output of the photocell.\n\nProximity sensors\n• Proximity sensors types: \n– Optical\n– Inductive\n– Capacitive\nﺑﯾﺣول اﻟﻣﺳﺎﻓﮫ ﻟﺟﮭد",
+    "page_number": 22,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "22-23"
+  },
+  {
+    "text": "Proximity sensors\n• Proximity sensors types: \n– Optical\n– Inductive\n– Capacitive\nﺑﯾﺣول اﻟﻣﺳﺎﻓﮫ ﻟﺟﮭد",
+    "page_number": 23,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Proximity sensors\n• Proximity sensors types: \n– Optical\n– Inductive\n– Capacitive\nﺑﯾﺣول اﻟﻣﺳﺎﻓﮫ ﻟﺟﮭد\n\nA magnet in the sensor creates a magnetic field\nAs a ferrous object moves by the sensor, the resulting change\nin the magnetic flux induces an emf in the pickup coil\n1. Motion SensorsVariable Reluctance",
+    "page_number": 23,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "23-26"
+  },
+  {
+    "text": "A magnet in the sensor creates a magnetic field\nAs a ferrous object moves by the sensor, the resulting change\nin the magnetic flux induces an emf in the pickup coil\n1. Motion SensorsVariable Reluctance",
+    "page_number": 26,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "A magnet in the sensor creates a magnetic field\nAs a ferrous object moves by the sensor, the resulting change\nin the magnetic flux induces an emf in the pickup coil\n1. Motion SensorsVariable Reluctance\n\nTemperature measurement\n1. EMF based\negThermocouple\n2.Resistance based \negResistance Temperature Detectors (RTD)",
+    "page_number": 26,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "26-27"
+  },
+  {
+    "text": "Temperature measurement\n1. EMF based\negThermocouple\n2.Resistance based \negResistance Temperature Detectors (RTD)",
+    "page_number": 27,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Temperature measurement\n1. EMF based\negThermocouple\n2.Resistance based \negResistance Temperature Detectors (RTD)\n\nProperties of Thermocouple:\n1 The\ntemp\nand\ne.m.f\nrelation\nshould\nbe\nlinear\nand\nreproducible.\n2 It should be strong for withstand high temp.\n3 It should maintain its calibration without drift for long\nperiod of time.\n4 Cost should be reasonable.\n5 It should have long life.",
+    "page_number": 27,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "27-28"
+  },
+  {
+    "text": "Properties of Thermocouple:\n1 The\ntemp\nand\ne.m.f\nrelation\nshould\nbe\nlinear\nand\nreproducible.\n2 It should be strong for withstand high temp.\n3 It should maintain its calibration without drift for long\nperiod of time.\n4 Cost should be reasonable.\n5 It should have long life.",
+    "page_number": 28,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Properties of Thermocouple:\n1 The\ntemp\nand\ne.m.f\nrelation\nshould\nbe\nlinear\nand\nreproducible.\n2 It should be strong for withstand high temp.\n3 It should maintain its calibration without drift for long\nperiod of time.\n4 Cost should be reasonable.\n5 It should have long life.\n\nAdvantages of Thermocouple:\n1. Better response\n2.Higher range of temp .measurements\n3. Sensing element can be easily installed\n4. Cheap\n5.Very convenient for measuring the temp. at one particular\npoint in a piece of appratus.\nDisadvantages of Thermocouple:\n1. Low accuracy\n2. Circuit is very complex\n3. For long life they need to be amply protected.",
+    "page_number": 28,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "28-29"
+  },
+  {
+    "text": "Advantages of Thermocouple:\n1. Better response\n2.Higher range of temp .measurements\n3. Sensing element can be easily installed\n4. Cheap\n5.Very convenient for measuring the temp. at one particular\npoint in a piece of appratus.\nDisadvantages of Thermocouple:\n1. Low accuracy\n2. Circuit is very complex\n3. For long life they need to be amply protected.",
+    "page_number": 29,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Advantages of Thermocouple:\n1. Better response\n2.Higher range of temp .measurements\n3. Sensing element can be easily installed\n4. Cheap\n5.Very convenient for measuring the temp. at one particular\npoint in a piece of appratus.\nDisadvantages of Thermocouple:\n1. Low accuracy\n2. Circuit is very complex\n3. For long life they need to be amply protected.\n\nResistance Temperature Detectors (RTD)\nThe RTDs use the phenomenon that the resistance of a metal changes with\ntemperature. They are, however, linear over a wide range and most stable.\nTypically, a wire (usually a platinum wire) is wrapped around a ceramic or\nglass rod",
+    "page_number": 29,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "29-30"
+  },
+  {
+    "text": "Resistance Temperature Detectors (RTD)\nThe RTDs use the phenomenon that the resistance of a metal changes with\ntemperature. They are, however, linear over a wide range and most stable.\nTypically, a wire (usually a platinum wire) is wrapped around a ceramic or\nglass rod",
+    "page_number": 30,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Resistance Temperature Detectors (RTD)\nThe RTDs use the phenomenon that the resistance of a metal changes with\ntemperature. They are, however, linear over a wide range and most stable.\nTypically, a wire (usually a platinum wire) is wrapped around a ceramic or\nglass rod\n\nAdvantages of platinum as RTD\n1. The temperature-resistance characteristics of pure platinum\nare stable over a wide range of temperatures.\n2. It has high resistance to chemical attack and contamination\n3. Linearity over a wide operating range",
+    "page_number": 30,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "30-32"
+  },
+  {
+    "text": "Advantages of platinum as RTD\n1. The temperature-resistance characteristics of pure platinum\nare stable over a wide range of temperatures.\n2. It has high resistance to chemical attack and contamination\n3. Linearity over a wide operating range",
+    "page_number": 32,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Advantages of platinum as RTD\n1. The temperature-resistance characteristics of pure platinum\nare stable over a wide range of temperatures.\n2. It has high resistance to chemical attack and contamination\n3. Linearity over a wide operating range\n\nLimitations of RTD\n1.Low sensitivity\n2.It can be affected by contact resistance, shock and vibration\n3.No point sensing\n4.Higher cost than other temperature transducers",
+    "page_number": 32,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "32-33"
+  },
+  {
+    "text": "Limitations of RTD\n1.Low sensitivity\n2.It can be affected by contact resistance, shock and vibration\n3.No point sensing\n4.Higher cost than other temperature transducers",
+    "page_number": 33,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Limitations of RTD\n1.Low sensitivity\n2.It can be affected by contact resistance, shock and vibration\n3.No point sensing\n4.Higher cost than other temperature transducers\n\nApplications of Resistance Temperature Detectors\n1.Air conditioning and refrigeration servicing\n2.Food Processing\n3.Stoves and grills\n4.Textile production\n5.Plastics processing\n6.Petrochemical processing\n7.Micro electronics\n8.Air, gas and liquid temperature measurement\n9.Exhaust gas temperature measurement",
+    "page_number": 33,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "33-34"
+  },
+  {
+    "text": "Applications of Resistance Temperature Detectors\n1.Air conditioning and refrigeration servicing\n2.Food Processing\n3.Stoves and grills\n4.Textile production\n5.Plastics processing\n6.Petrochemical processing\n7.Micro electronics\n8.Air, gas and liquid temperature measurement\n9.Exhaust gas temperature measurement",
+    "page_number": 34,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Applications of Resistance Temperature Detectors\n1.Air conditioning and refrigeration servicing\n2.Food Processing\n3.Stoves and grills\n4.Textile production\n5.Plastics processing\n6.Petrochemical processing\n7.Micro electronics\n8.Air, gas and liquid temperature measurement\n9.Exhaust gas temperature measurement\n\nForce/Pressure Sensor\nStress measurement using strain.\nStrain is change in length (dl) per unit length (l).\nStrain gauge is primary sensing element used in pressure,\nforce and position sensors.",
+    "page_number": 34,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "34-36"
+  },
+  {
+    "text": "Force/Pressure Sensor\nStress measurement using strain.\nStrain is change in length (dl) per unit length (l).\nStrain gauge is primary sensing element used in pressure,\nforce and position sensors.",
+    "page_number": 36,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Force/Pressure Sensor\nStress measurement using strain.\nStrain is change in length (dl) per unit length (l).\nStrain gauge is primary sensing element used in pressure,\nforce and position sensors.\n\nActuator Types\n• converts an information signal from the control, into energy \nacting on the basic system.\nFORCE / \nMOVEMENT\nACOUSTIC\nOPTICAL\nHEAT\nELECTRICAL AND \nMAGNETIC",
+    "page_number": 36,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "36-37"
+  },
+  {
+    "text": "Actuator Types\n• converts an information signal from the control, into energy \nacting on the basic system.\nFORCE / \nMOVEMENT\nACOUSTIC\nOPTICAL\nHEAT\nELECTRICAL AND \nMAGNETIC",
+    "page_number": 37,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Actuator Types\n• converts an information signal from the control, into energy \nacting on the basic system.\nFORCE / \nMOVEMENT\nACOUSTIC\nOPTICAL\nHEAT\nELECTRICAL AND \nMAGNETIC\n\nStepper Motor\nDiscrete Positioning device.\nMoves one step at a time for each input.\nAppropriate\nexcitation\nin\nwinding/s,\nmakes\nthe\nrotor\nattract\ntowards the stator.\nﺣرﻛﮫ ﻣﺗﻘطﻌﮫ",
+    "page_number": 37,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "37-39"
+  },
+  {
+    "text": "Stepper Motor\nDiscrete Positioning device.\nMoves one step at a time for each input.\nAppropriate\nexcitation\nin\nwinding/s,\nmakes\nthe\nrotor\nattract\ntowards the stator.\nﺣرﻛﮫ ﻣﺗﻘطﻌﮫ",
+    "page_number": 39,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Stepper Motor\nDiscrete Positioning device.\nMoves one step at a time for each input.\nAppropriate\nexcitation\nin\nwinding/s,\nmakes\nthe\nrotor\nattract\ntowards the stator.\nﺣرﻛﮫ ﻣﺗﻘطﻌﮫ\n\nAdvantages\n1. The rotation angle of the motor is proportional to the input pulse.\n2. The motor has full torque at standstill.\n3. High Accuracy.\n4. Excellent response to starting/stopping/reversing.\nDisadvantages\n1. Resonances can occur if not properly controlled.\n2. Not easy to operate at extremely high speeds.",
+    "page_number": 39,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "39-41"
+  },
+  {
+    "text": "Advantages\n1. The rotation angle of the motor is proportional to the input pulse.\n2. The motor has full torque at standstill.\n3. High Accuracy.\n4. Excellent response to starting/stopping/reversing.\nDisadvantages\n1. Resonances can occur if not properly controlled.\n2. Not easy to operate at extremely high speeds.",
+    "page_number": 41,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Advantages\n1. The rotation angle of the motor is proportional to the input pulse.\n2. The motor has full torque at standstill.\n3. High Accuracy.\n4. Excellent response to starting/stopping/reversing.\nDisadvantages\n1. Resonances can occur if not properly controlled.\n2. Not easy to operate at extremely high speeds.\n\nServo Motor\nPrecise control of angular position, velocity and acceleration\nElectric (DC/AC) motor driven using Pulse Width Modulation (PWM)\nClosed looped control system\nBasically DC motor (in some special cases it is AC motor)\nServo\nunit\nconsists\n-\nsmall\nDC\nmotor,\npotentiometer,\ngear\narrangement, an intelligent circuitry\nﺣرﻛﮫ ﻣﺳﺗﻣره",
+    "page_number": 41,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "41-42"
+  },
+  {
+    "text": "Servo Motor\nPrecise control of angular position, velocity and acceleration\nElectric (DC/AC) motor driven using Pulse Width Modulation (PWM)\nClosed looped control system\nBasically DC motor (in some special cases it is AC motor)\nServo\nunit\nconsists\n-\nsmall\nDC\nmotor,\npotentiometer,\ngear\narrangement, an intelligent circuitry\nﺣرﻛﮫ ﻣﺳﺗﻣره",
+    "page_number": 42,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Servo Motor\nPrecise control of angular position, velocity and acceleration\nElectric (DC/AC) motor driven using Pulse Width Modulation (PWM)\nClosed looped control system\nBasically DC motor (in some special cases it is AC motor)\nServo\nunit\nconsists\n-\nsmall\nDC\nmotor,\npotentiometer,\ngear\narrangement, an intelligent circuitry\nﺣرﻛﮫ ﻣﺳﺗﻣره\n\nServo Motor\n• Servo\nmechanism\nconsists\nof\nposition\nsensor\n(potentiometer/encoder), gear mechanism and intelligent circuitry",
+    "page_number": 42,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "42-43"
+  },
+  {
+    "text": "Servo Motor\n• Servo\nmechanism\nconsists\nof\nposition\nsensor\n(potentiometer/encoder), gear mechanism and intelligent circuitry",
+    "page_number": 43,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  },
+  {
+    "text": "Servo Motor\n• Servo\nmechanism\nconsists\nof\nposition\nsensor\n(potentiometer/encoder), gear mechanism and intelligent circuitry\n\nAdvantages:\n1.If a heavy load is placed on the motor, the driver will increase the\ncurrent to the motor coil as it attempts to rotate the motor. Basically,\nthere is no out-of-step condition.\n2.High-speed operation is possible.\nDisadvantages:\n1.It is not suitable for precision control of rotation.\n2.Higher cost.\n3.When stopped, the motor’s rotor continues to move back and forth\none pulse, so that it is not suitable if you need to prevent vibration",
+    "page_number": 43,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback",
+    "merged_pages": "43-44"
+  },
+  {
+    "text": "Advantages:\n1.If a heavy load is placed on the motor, the driver will increase the\ncurrent to the motor coil as it attempts to rotate the motor. Basically,\nthere is no out-of-step condition.\n2.High-speed operation is possible.\nDisadvantages:\n1.It is not suitable for precision control of rotation.\n2.Higher cost.\n3.When stopped, the motor’s rotor continues to move back and forth\none pulse, so that it is not suitable if you need to prevent vibration",
+    "page_number": 44,
+    "source_file": "L.2",
+    "total_pages": 45,
+    "extraction_method": "ocr_fallback"
+  }
+]
