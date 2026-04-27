@@ -99,7 +99,16 @@ def migrate_default():
             "pdfs_dir": str(RAW_PDFS_DIR),
             "use_legacy_path": True,
         }
-        save_subjects(subjects)
+    else:
+        # Create a blank default subject so the UI is never empty
+        subjects["general_subject"] = {
+            "name": "General Subject",
+            "icon": "📚",
+            "db_dir": str(get_subject_db_dir("general_subject")),
+            "pdfs_dir": str(get_subject_pdfs_dir("general_subject")),
+            "use_legacy_path": False,
+        }
+    save_subjects(subjects)
 
 # =============================================================================
 # FASTAPI APP
