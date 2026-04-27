@@ -130,12 +130,15 @@ async function loadSubject(key) {
     try {
         const resp = await fetch(`${API}/api/subjects/${key}/load`, { method: 'POST' });
         const data = await resp.json();
+        
+        // Always set the current subject so we can upload files to it even if it's empty
+        currentSubject = key;
+        const subjects = await (await fetch(`${API}/api/subjects`)).json();
+        const subj = subjects[key];
+        els.currentSubjectIcon.textContent = subj.icon;
+        els.currentSubjectName.textContent = subj.name;
+
         if (data.loaded) {
-            currentSubject = key;
-            const subjects = await (await fetch(`${API}/api/subjects`)).json();
-            const subj = subjects[key];
-            els.currentSubjectIcon.textContent = subj.icon;
-            els.currentSubjectName.textContent = subj.name;
             els.statVectors.textContent = data.vectors;
             els.statsSection.style.display = 'block';
             els.welcomeScreen.style.display = 'none';
