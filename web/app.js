@@ -125,18 +125,29 @@ async function loadSubjects() {
 }
 
 async function loadSubject(key) {
-    showLoading('Loading knowledge base...');
-    setStatus('loading', 'Loading...');
+    // ALWAYS set the current subject first, so upload/process can work
+    currentSubject = key;
+    console.log('[EDU] loadSubject called, currentSubject =', currentSubject);
+
     try {
+        // Update header with subject info
+        const subjectsResp = await fetch(`${API}/api/subjects`);
+        const subjects = await subjectsResp.json();
+        const subj = subjects[key];
+        if (subj) {
+            els.currentSubjectIcon.textContent = subj.icon;
+            els.currentSubjectName.textContent = subj.name;
+        }
+    } catch (e) {
+        console.error('[EDU] Failed to fetch subject info:', e);
+    }
+
+    // Try to load the knowledge base (may not exist yet — that's OK)
+    try {
+        setStatus('loading', 'Loading...');
         const resp = await fetch(`${API}/api/subjects/${key}/load`, { method: 'POST' });
         const data = await resp.json();
-        
-        // Always set the current subject so we can upload files to it even if it's empty
-        currentSubject = key;
-        const subjects = await (await fetch(`${API}/api/subjects`)).json();
-        const subj = subjects[key];
-        els.currentSubjectIcon.textContent = subj.icon;
-        els.currentSubjectName.textContent = subj.name;
+        console.log('[EDU] load response:', data);
 
         if (data.loaded) {
             els.statVectors.textContent = data.vectors;
@@ -146,15 +157,12 @@ async function loadSubject(key) {
             setStatus('online', `${data.vectors} vectors`);
             loadLectures();
         } else {
-            setStatus('offline', data.message || 'Not loaded');
-            els.welcomeScreen.style.display = 'flex';
-            els.chatInputArea.style.display = 'none';
+            setStatus('offline', data.message || 'No database yet — upload & process lectures');
         }
     } catch (e) {
-        setStatus('offline', 'Error');
-        console.error(e);
+        setStatus('offline', 'No database yet');
+        console.error('[EDU] Load error (non-critical):', e);
     }
-    hideLoading();
 }
 
 async function createSubject() {
@@ -451,7 +459,18 @@ function renderFileList() {
 }
 
 async function processLectures() {
-    if (!currentSubject || selectedFiles.length === 0) return;
+    console.log('[EDU] processLectures called');
+    console.log('[EDU] currentSubject =', currentSubject);
+    console.log('[EDU] selectedFiles =', selectedFiles.length);
+
+    if (!currentSubject) {
+        alert('⚠️ No subject selected! Please select or create a subject first.');
+        return;
+    }
+    if (selectedFiles.length === 0) {
+        alert('⚠️ No files selected! Please upload PDF files first.');
+        return;
+    }
 
     els.processLog.style.display = 'block';
     els.processBtn.disabled = true;
@@ -462,11 +481,21 @@ async function processLectures() {
     try {
         const formData = new FormData();
         selectedFiles.forEach(f => formData.append('files', f));
-        await fetch(`${API}/api/subjects/${currentSubject}/upload`, {
+        console.log('[EDU] Uploading to:', `${API}/api/subjects/${currentSubject}/upload`);
+        const uploadResp = await fetch(`${API}/api/subjects/${currentSubject}/upload`, {
             method: 'POST',
             body: formData,
         });
+        const uploadData = await uploadResp.json();
+        console.log('[EDU] Upload response:', uploadData);
+        if (!uploadResp.ok) {
+            els.logEntry.textContent = '❌ Upload failed: ' + (uploadData.detail || 'Server error');
+            els.processBtn.disabled = false;
+            return;
+        }
+        els.logEntry.textContent = `✅ Uploaded ${uploadData.uploaded.length} files. Now processing...`;
     } catch (e) {
+        console.error('[EDU] Upload error:', e);
         els.logEntry.textContent = '❌ Upload failed: ' + e.message;
         els.processBtn.disabled = false;
         return;
@@ -476,8 +505,10 @@ async function processLectures() {
     els.progressFill.style.width = '50%';
 
     try {
+        console.log('[EDU] Processing:', `${API}/api/subjects/${currentSubject}/process`);
         const resp = await fetch(`${API}/api/subjects/${currentSubject}/process`, { method: 'POST' });
         const data = await resp.json();
+        console.log('[EDU] Process response:', data);
 
         if (resp.ok) {
             els.logEntry.textContent = `✅ Done! ${data.pages} pages → ${data.chunks} chunks → ${data.vectors} vectors`;
@@ -493,6 +524,7 @@ async function processLectures() {
             els.logEntry.textContent = '❌ Error: ' + (data.detail || 'Processing failed');
         }
     } catch (e) {
+        console.error('[EDU] Process error:', e);
         els.logEntry.textContent = '❌ Error: ' + e.message;
     }
 
