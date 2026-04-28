@@ -27,6 +27,7 @@ data/raw_pdfs/*.pdf
 # Vector DB and large files
 vector_db/
 subjects/*/vector_db/
+subjects/*/pdfs/
 *.sqlite3
 *.bin
 
