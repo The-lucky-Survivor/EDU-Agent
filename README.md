@@ -7,101 +7,181 @@ sdk: docker
 pinned: false
 ---
 
-# 🎓 Educational AI Agent (المساعد التعليمي الذكي)
+# 🎓 EDU Agent — AI-Powered Educational Assistant
 
-تطبيق ويب ذكي مبني على **RAG (Retrieval-Augmented Generation)** مخصص لمساعدة الطلاب على فهم المحاضرات وتوليد أسئلة امتحانات مقترحة (MCQ). يقوم هذا المساعد بقراءة ملفات الـ PDF، أرشفة المعلومات، والإجابة على أي سؤال حصرياً من المحتوى الذي تم دراسته.
+An intelligent web application built on **RAG (Retrieval-Augmented Generation)** that helps students understand their lecture materials and generate practice exam questions (MCQ). The agent reads PDF files, indexes their content, and answers questions exclusively from the studied material.
 
----
-
-## ✨ المميزات الرئيسية (Features)
-
-1. **الاستمرارية (Auto-load DB):** قاعدة البيانات (Vector DB) تُحفظ محلياً. لا داعي لإعادة رفع ومعالجة المحاضرات في كل مرة تفتح فيها التطبيق.
-2. **تعدد المواد الدراسية (Multi-Subject Support):** يمكنك إنشاء أكثر من مادة دراسية. كل مادة لها ملفاتها الخاصة وقاعدة بياناتها المنفصلة لضمان عدم اختلاط المعلومات.
-3. **مولّد أسئلة الامتحانات (MCQ Generator):** توليد بنك أسئلة أكاديمية ذكية بواقع 4 اختيارات للسؤال. الأسئلة تركز على المفاهيم، الخوارزميات، والتعاريف بدلاً من الأسئلة السطحية.
-4. **التفكير المتقدم (Reasoning Models):** مدعوم بموديلات التفكير المتقدم عبر **Groq API** (مثل `openai/gpt-oss-120b` و `llama-3`) لتقديم إجابات تحليلية دقيقة.
-5. **معالجة متقدمة لملفات الـ PDF:** التعامل مع الصفحات المتتالية للحفاظ على ترابط المعلومات، وتفعيل استخلاص الصور (OCR Fallback) لقراءة النصوص المدمجة كصور في المحاضرات.
+🔗 **[Live Demo](https://tinyurl.com/edu-agent-ap)** · 💻 **[Source Code](https://github.com/The-lucky-Survivor/EDU-Agent)**
 
 ---
 
-## 🏗️ كيف يعمل النظام؟ (Architecture)
+## ✨ Key Features
 
-```text
-[ملفات PDF] → [استخراج النصوص ودمج الصفحات] → [تقطيع النصوص Chunks] → [Embedding (HuggingFace)] → [ChromaDB]
-                                                                        ↑
-[سؤال الطالب] → [Embedding للمطالبة] → [بحث عن أقرب نصوص مشابهة Similarity Search]
-                                                                        |
-                       [Groq LLM + System Prompt] ← (السؤال + النصوص المستخرجة) → [إجابة دقيقة للطالب]
+- 🔄 **Persistent Knowledge Base** — Vector database is saved between sessions. No need to re-upload lectures.
+- 📚 **Multi-Subject Support** — Create separate subjects, each with its own files and isolated database.
+- 📝 **Smart MCQ Generator** — Generates 5–20 academic MCQ questions per lecture focusing on concepts, algorithms, and definitions.
+- 🧠 **Advanced Reasoning** — Powered by Groq's reasoning models (`openai/gpt-oss-120b`) for analytical, in-depth answers.
+- 📄 **Robust PDF Processing** — Handles multi-page continuity, text cleaning, and OCR fallback for scanned documents.
+- 🌐 **Cloud Deployed** — Fully hosted on Hugging Face Spaces — accessible from any device.
+
+---
+
+## 🏗️ Architecture
+
+```
+[PDF Files] → [Text Extraction] → [Smart Chunking] → [Embedding (HuggingFace)] → [ChromaDB]
+                                                                    ↑
+[Student Question] → [Query Embedding] → [Similarity Search] → [Top-K Chunks]
+                                                                    |
+                     [Groq LLM + System Prompt] ← (Question + Context) → [Accurate Answer]
 ```
 
-**التقنيات المستخدمة (Tech Stack):**
-- **الواجهة الأمامية (Frontend):** HTML5, CSS3 (Glassmorphism UI), Vanilla JavaScript.
-- **الخادم (Backend):** FastAPI (Python).
-- **الذكاء الاصطناعي (AI):** LangChain, Groq API (Llama3/GPT-OSS), HuggingFace Embeddings.
-- **قاعدة البيانات:** ChromaDB (Vector Database).
+### Tech Stack
+
+| Layer | Technology |
+|---|---|
+| **Frontend** | HTML5, CSS3 (Glassmorphism Dark Mode), Vanilla JavaScript |
+| **Backend** | FastAPI (Python) |
+| **AI Framework** | LangChain |
+| **LLM** | Groq API (`openai/gpt-oss-120b` reasoning model) |
+| **Embeddings** | HuggingFace (`BAAI/bge-large-en`) |
+| **Vector DB** | ChromaDB |
+| **PDF Processing** | PyMuPDF (fitz) |
+| **Deployment** | Docker → Hugging Face Spaces |
 
 ---
 
-## 🚀 كيفية تجربة التطبيق لفريق العمل والدكتور
+## 🚀 Quick Start (Local Development)
 
-أسهل طريقة لتشغيل المشروع هي عبر استخدام ملف `start.bat` المرفق، والذي يقوم بإعداد كل شيء تلقائياً بضغطة زر.
+### Prerequisites
+- Python 3.10+
+- A free Groq API key from [console.groq.com](https://console.groq.com)
 
-### الخطوة 1: تحميل المشروع
-قم بتحميل المشروع (Clone) أو تنزيله كملف ZIP وفك ضغطه:
+### Windows (One-Click)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/The-lucky-Survivor/EDU-Agent.git
+cd EDU-Agent
+
+# 2. Create .env file
+echo GROQ_API_KEY=gsk_your_api_key_here > .env
+
+# 3. Double-click start.bat — it handles everything!
+```
+
+The `start.bat` script automatically:
+1. Creates a Python virtual environment
+2. Installs all dependencies
+3. Launches the FastAPI server at **http://localhost:8000**
+
+### Mac / Linux
+
 ```bash
 git clone https://github.com/The-lucky-Survivor/EDU-Agent.git
+cd EDU-Agent
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+echo "GROQ_API_KEY=gsk_your_api_key_here" > .env
+python -m uvicorn api.server:app --host 0.0.0.0 --port 8000
 ```
 
-### الخطوة 2: إعداد مفتاح API (مرة واحدة فقط)
-التطبيق يستخدم **Groq API** الذكي والمجاني.
-1. اذهب إلى [console.groq.com](https://console.groq.com) وسجل دخول.
-2. أنشئ مفتاح API جديد وانسخه.
-3. انسخ ملف `.env.example` وسمّه `.env` في المجلد الرئيسي للمشروع.
-4. افتح ملف `.env` وضع المفتاح كالتالي:
-   ```env
-   GROQ_API_KEY=gsk_your_api_key_here
-   ```
-
-### الخطوة 3: التشغيل بضغطة زر ⚡
-- في الويندوز، انقر مرتين على ملف **`start.bat`**.
-- سيقوم الملف تلقائياً بـ:
-  1. إنشاء بيئة وهمية (Virtual Environment).
-  2. تثبيت جميع المكتبات المطلوبة.
-  3. تشغيل سيرفر الـ FastAPI.
-- سيظهر لك رابط **http://localhost:8000**، افتحه في المتصفح وابدأ الاستخدام!
-
-*(ملاحظة لمستخدمي الماك/لينكس: يمكنك استخدام الأوامر التقليدية لإنشاء الـ venv وتثبيت الـ requirements ثم تشغيل `python -m uvicorn api.server:app --host 0.0.0.0 --port 8000`)*
-
 ---
 
-## 📁 هيكل المشروع
+## 📁 Project Structure
 
-```text
+```
 EDU-Agent/
-├── api/                    # الخادم (Backend)
-│   └── server.py           # سيرفر FastAPI وجميع نقاط النهاية (Endpoints)
-├── web/                    # الواجهة الأمامية (Frontend)
-│   ├── index.html          # الصفحة الرئيسية
-│   ├── style.css           # تصميم الموقع (UI/UX)
-│   └── app.js              # المنطق وتفاعلات المستخدم
-├── src/                    # محرك الذكاء الاصطناعي الأساسي
-│   ├── config.py           # الإعدادات ومسارات الملفات
-│   ├── extraction.py       # معالجة ودمج نصوص الـ PDF
-│   ├── chunking.py         # تقسيم النصوص إلى أجزاء ذكية
-│   ├── embedding.py        # تحويل النصوص والتعامل مع ChromaDB
-│   ├── retrieval.py        # جلب المعلومات المتعلقة بالسؤال
-│   └── llm_chain.py        # الاتصال بـ Groq وتقديم الـ Prompts
-├── subjects/               # قواعد البيانات (Vector DB) وملفات PDF لكل مادة (يتم إنشاؤها تلقائياً)
-├── requirements.txt        # المكتبات المطلوبة (FastAPI, Langchain, الخ)
-├── start.bat               # سكريبت تشغيل سريع للويندوز
-└── .env                    # (غير مرفوع) مفاتيح الـ API السرية
+├── api/
+│   └── server.py              # FastAPI server & all REST endpoints
+├── web/
+│   ├── index.html             # Main page structure
+│   ├── style.css              # Glassmorphism dark-mode design
+│   └── app.js                 # Frontend logic & API interactions
+├── src/
+│   ├── config.py              # Centralized settings & constants
+│   ├── extraction.py          # PDF text extraction & cleaning
+│   ├── chunking.py            # Text splitting into semantic chunks
+│   ├── embedding.py           # Vector embedding & ChromaDB storage
+│   ├── retrieval.py           # Similarity search & prompt engineering
+│   ├── llm_chain.py           # LLM connection & response processing
+│   └── testing.py             # Automated testing & quality metrics
+├── subjects/                  # Per-subject data (auto-generated)
+├── Dockerfile                 # Docker container definition
+├── docker-compose.yml         # Docker Compose config
+├── requirements.txt           # Python dependencies
+├── start.bat                  # One-click Windows startup script
+└── .env                       # API keys (not tracked by Git)
+```
 
 ---
 
-## ⚠️ مشاكل شائعة (Troubleshooting)
+## 🔌 API Endpoints
 
-- **خطأ في قاعدة بيانات ChromaDB عند النشر:** هذا الخطأ يحدث بسبب إصدار الـ `sqlite3` القديم على سيرفرات النشر. تم حله برمجياً في `app.py` عن طريق تحويل المكتبة إلى `pysqlite3-binary`.
-- **خطأ `Descriptors cannot be created directly`:** يحدث غالباً بسبب مكتبة `protobuf`. تأكد أن إصدار المكتبة في `requirements.txt` هو `protobuf<=3.20.3`.
-- **بطء في الرد:** موديلات التفكير (Reasoning Models) تأخذ من 10 إلى 30 ثانية للتفكير في الإجابة لضمان أدق نتيجة أكاديمية، وهذا طبيعي تماماً.
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/subjects` | List all subjects |
+| `POST` | `/api/subjects` | Create a new subject |
+| `POST` | `/api/subjects/{key}/load` | Load a subject's knowledge base |
+| `POST` | `/api/subjects/{key}/upload` | Upload PDF files |
+| `POST` | `/api/subjects/{key}/process` | Process PDFs into vector database |
+| `POST` | `/api/chat` | Ask a question |
+| `GET` | `/api/lectures` | List lectures in current subject |
+| `POST` | `/api/quiz/generate` | Generate MCQ quiz from a lecture |
 
 ---
-**تم التطوير باستخدام ❤️ | Streamlit + LangChain + ChromaDB + Groq**
+
+## ⚙️ Configuration
+
+All settings are in `src/config.py`:
+
+| Setting | Default | Description |
+|---|---|---|
+| `EMBEDDING_MODEL` | `BAAI/bge-large-en` | HuggingFace embedding model |
+| `LLM_MODEL` | `openai/gpt-oss-120b` | Groq reasoning model |
+| `CHUNK_SIZE` | 700 | Characters per text chunk |
+| `CHUNK_OVERLAP` | 150 | Overlap between chunks |
+| `GROQ_REASONING_EFFORT` | `medium` | Reasoning depth (low/medium/high) |
+
+---
+
+## 🐳 Docker Deployment
+
+```bash
+# Build and run locally
+docker build -t edu-agent .
+docker run -p 7860:7860 -e GROQ_API_KEY=gsk_your_key edu-agent
+
+# Or use Docker Compose
+docker-compose up
+```
+
+For Hugging Face Spaces deployment, push to the `hf` remote — it auto-builds from the Dockerfile.
+
+---
+
+## ⚠️ Troubleshooting
+
+| Issue | Solution |
+|---|---|
+| ChromaDB SQLite error | Automatically fixed via `pysqlite3-binary` in the codebase |
+| `protobuf` descriptor error | Pinned to `protobuf<=3.20.3` in requirements |
+| Slow responses (10–30s) | Normal — reasoning model analyzes context deeply before answering |
+| Process button not responding | Hard refresh with `Ctrl+F5` to clear browser cache |
+
+---
+
+## 📜 License & Credits
+
+| Component | Provider |
+|---|---|
+| LLM Inference | [Groq](https://groq.com) (Free tier) |
+| Embeddings | [BAAI/bge-large-en](https://huggingface.co/BAAI/bge-large-en) |
+| Vector DB | [ChromaDB](https://www.trychroma.com/) |
+| AI Framework | [LangChain](https://langchain.com/) |
+| Hosting | [Hugging Face Spaces](https://huggingface.co/spaces) |
+
+---
+
+**Built with ❤️ for students** | EDU Agent © 2026
