@@ -11,7 +11,7 @@ pinned: false
 
 An intelligent web application built on **RAG (Retrieval-Augmented Generation)** that helps students understand their lecture materials and generate practice exam questions (MCQ). The agent reads PDF files, indexes their content, and answers questions exclusively from the studied material.
 
-🔗 **[Live Demo](https://tinyurl.com/edu-agent-ap)** · 💻 **[Source Code](https://github.com/The-lucky-Survivor/EDU-Agent)**
+🔗 **[Live Demo](https://tinyurl.com/edu-agent-ap)** · 💻 **[Source Code](https://github.com/The-lucky-Survivor/EDU-Agent)** · 📥 **[Presentation (PPTX)](docs/EDU_Agent_Presentation.pptx)** · 📄 **[Full Documentation](EDU_Agent_Documentation.md)**
 
 ---
 
